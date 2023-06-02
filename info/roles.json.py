@@ -1,6 +1,9 @@
 
 import json
 
+# roles.json is from https://admin.microsoft.com/admin/api/rbac/roles
+# seems to be an internal API - extract via https://admin.microsoft.com/#/rbac/directory
+
 with open("roles.json") as of:
     roles = json.load(of)
 

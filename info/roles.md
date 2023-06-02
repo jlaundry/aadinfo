@@ -1,5 +1,7 @@
 # AAD Built-In Role Permissions
 
+| Role | Permission |
+| ---- | ---------- |
 | Global Administrator | microsoft.azure.advancedThreatProtection/allEntities/allTasks |
 | Global Administrator | microsoft.azure.informationProtection/allEntities/allTasks |
 | Global Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |

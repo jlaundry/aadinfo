@@ -28,7 +28,7 @@ for role in roles["Roles"]:
 outfile.write("\n\n## Roles by Permission\n\n")
 outfile.write("| Permission | Roles |\n| ---------- | ----- |\n")
 
-for action in permissions.keys():
+for action in sorted(permissions.keys()):
     roles = ", ".join(sorted(permissions[action]))
     outfile.write(f"| {action} | {roles} |\n")
 

@@ -155,6 +155,8 @@ onedriveclucprodbn20045.blob.core.windows.net
 onedriveclucprodbn20046.blob.core.windows.net
 onedriveclucprodbn20047.blob.core.windows.net
 onedriveclucprodbn20048.blob.core.windows.net
+onedriveclucprodbn20049.blob.core.windows.net
+onedriveclucprodbn20050.blob.core.windows.net
 onedriveclucproddm20001.blob.core.windows.net
 onedriveclucproddm20002.blob.core.windows.net
 onedriveclucproddm20003.blob.core.windows.net

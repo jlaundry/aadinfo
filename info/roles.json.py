@@ -15,7 +15,7 @@ outfile.write("| Role | Permission |\n| ---- | ---------- |\n")
 
 permissions = {}
 
-for role in roles["Roles"]:
+for role in sorted(roles["Roles"], key=lambda r: r['DisplayName']):
     display_name = role['DisplayName']
     for perm in role["RolePermissions"]:
         for action in sorted(perm["ResourceActions"]["AllowedResourceActions"]):

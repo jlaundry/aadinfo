@@ -4,6 +4,300 @@
 
 | Role | Permission |
 | ---- | ---------- |
+| Application Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Application Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Application Administrator | microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks |
+| Application Administrator | microsoft.directory/appConsent/appConsentRequests/allProperties/read |
+| Application Administrator | microsoft.directory/applicationPolicies/basic/update |
+| Application Administrator | microsoft.directory/applicationPolicies/create |
+| Application Administrator | microsoft.directory/applicationPolicies/delete |
+| Application Administrator | microsoft.directory/applicationPolicies/owners/read |
+| Application Administrator | microsoft.directory/applicationPolicies/owners/update |
+| Application Administrator | microsoft.directory/applicationPolicies/policyAppliedTo/read |
+| Application Administrator | microsoft.directory/applicationPolicies/standard/read |
+| Application Administrator | microsoft.directory/applicationTemplates/instantiate |
+| Application Administrator | microsoft.directory/applications/appRoles/update |
+| Application Administrator | microsoft.directory/applications/applicationProxy/read |
+| Application Administrator | microsoft.directory/applications/applicationProxy/update |
+| Application Administrator | microsoft.directory/applications/applicationProxyAuthentication/update |
+| Application Administrator | microsoft.directory/applications/applicationProxySslCertificate/update |
+| Application Administrator | microsoft.directory/applications/applicationProxyUrlSettings/update |
+| Application Administrator | microsoft.directory/applications/audience/update |
+| Application Administrator | microsoft.directory/applications/authentication/update |
+| Application Administrator | microsoft.directory/applications/basic/update |
+| Application Administrator | microsoft.directory/applications/create |
+| Application Administrator | microsoft.directory/applications/credentials/update |
+| Application Administrator | microsoft.directory/applications/delete |
+| Application Administrator | microsoft.directory/applications/extensionProperties/update |
+| Application Administrator | microsoft.directory/applications/notes/update |
+| Application Administrator | microsoft.directory/applications/owners/update |
+| Application Administrator | microsoft.directory/applications/permissions/update |
+| Application Administrator | microsoft.directory/applications/policies/update |
+| Application Administrator | microsoft.directory/applications/synchronization/standard/read |
+| Application Administrator | microsoft.directory/applications/tag/update |
+| Application Administrator | microsoft.directory/applications/verification/update |
+| Application Administrator | microsoft.directory/auditLogs/allProperties/read |
+| Application Administrator | microsoft.directory/connectorGroups/allProperties/read |
+| Application Administrator | microsoft.directory/connectorGroups/allProperties/update |
+| Application Administrator | microsoft.directory/connectorGroups/create |
+| Application Administrator | microsoft.directory/connectorGroups/delete |
+| Application Administrator | microsoft.directory/connectors/allProperties/read |
+| Application Administrator | microsoft.directory/connectors/create |
+| Application Administrator | microsoft.directory/customAuthenticationExtensions/allProperties/allTasks |
+| Application Administrator | microsoft.directory/deletedItems.applications/delete |
+| Application Administrator | microsoft.directory/deletedItems.applications/restore |
+| Application Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
+| Application Administrator | microsoft.directory/provisioningLogs/allProperties/read |
+| Application Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
+| Application Administrator | microsoft.directory/servicePrincipals/audience/update |
+| Application Administrator | microsoft.directory/servicePrincipals/authentication/update |
+| Application Administrator | microsoft.directory/servicePrincipals/basic/update |
+| Application Administrator | microsoft.directory/servicePrincipals/create |
+| Application Administrator | microsoft.directory/servicePrincipals/credentials/update |
+| Application Administrator | microsoft.directory/servicePrincipals/delete |
+| Application Administrator | microsoft.directory/servicePrincipals/disable |
+| Application Administrator | microsoft.directory/servicePrincipals/enable |
+| Application Administrator | microsoft.directory/servicePrincipals/getPasswordSingleSignOnCredentials |
+| Application Administrator | microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials |
+| Application Administrator | microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin |
+| Application Administrator | microsoft.directory/servicePrincipals/notes/update |
+| Application Administrator | microsoft.directory/servicePrincipals/owners/update |
+| Application Administrator | microsoft.directory/servicePrincipals/permissions/update |
+| Application Administrator | microsoft.directory/servicePrincipals/policies/update |
+| Application Administrator | microsoft.directory/servicePrincipals/synchronization/standard/read |
+| Application Administrator | microsoft.directory/servicePrincipals/synchronizationCredentials/manage |
+| Application Administrator | microsoft.directory/servicePrincipals/synchronizationJobs/manage |
+| Application Administrator | microsoft.directory/servicePrincipals/synchronizationSchema/manage |
+| Application Administrator | microsoft.directory/servicePrincipals/tag/update |
+| Application Administrator | microsoft.directory/signInReports/allProperties/read |
+| Application Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Application Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Application Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Application Developer | microsoft.directory/applications/createAsOwner |
+| Application Developer | microsoft.directory/oAuth2PermissionGrants/createAsOwner |
+| Application Developer | microsoft.directory/servicePrincipals/createAsOwner |
+| Attack Payload Author | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/allTasks |
+| Attack Payload Author | microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read |
+| Attack Simulation Administrator | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/allTasks |
+| Attack Simulation Administrator | microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read |
+| Attack Simulation Administrator | microsoft.office365.protectionCenter/attackSimulator/simulation/allProperties/allTasks |
+| Attribute Assignment Administrator | microsoft.directory/attributeSets/allProperties/read |
+| Attribute Assignment Administrator | microsoft.directory/customSecurityAttributeDefinitions/allProperties/read |
+| Attribute Assignment Administrator | microsoft.directory/devices/customSecurityAttributes/read |
+| Attribute Assignment Administrator | microsoft.directory/devices/customSecurityAttributes/update |
+| Attribute Assignment Administrator | microsoft.directory/servicePrincipals/customSecurityAttributes/read |
+| Attribute Assignment Administrator | microsoft.directory/servicePrincipals/customSecurityAttributes/update |
+| Attribute Assignment Administrator | microsoft.directory/users/customSecurityAttributes/read |
+| Attribute Assignment Administrator | microsoft.directory/users/customSecurityAttributes/update |
+| Attribute Assignment Reader | microsoft.directory/attributeSets/allProperties/read |
+| Attribute Assignment Reader | microsoft.directory/customSecurityAttributeDefinitions/allProperties/read |
+| Attribute Assignment Reader | microsoft.directory/devices/customSecurityAttributes/read |
+| Attribute Assignment Reader | microsoft.directory/servicePrincipals/customSecurityAttributes/read |
+| Attribute Assignment Reader | microsoft.directory/users/customSecurityAttributes/read |
+| Attribute Definition Administrator | microsoft.directory/attributeSets/allProperties/allTasks |
+| Attribute Definition Administrator | microsoft.directory/customSecurityAttributeDefinitions/allProperties/allTasks |
+| Attribute Definition Reader | microsoft.directory/attributeSets/allProperties/read |
+| Attribute Definition Reader | microsoft.directory/customSecurityAttributeDefinitions/allProperties/read |
+| Authentication Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Authentication Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Authentication Administrator | microsoft.directory/deletedItems.users/restore |
+| Authentication Administrator | microsoft.directory/users/authenticationMethods/basic/update |
+| Authentication Administrator | microsoft.directory/users/authenticationMethods/create |
+| Authentication Administrator | microsoft.directory/users/authenticationMethods/delete |
+| Authentication Administrator | microsoft.directory/users/authenticationMethods/standard/restrictedRead |
+| Authentication Administrator | microsoft.directory/users/basic/update |
+| Authentication Administrator | microsoft.directory/users/delete |
+| Authentication Administrator | microsoft.directory/users/disable |
+| Authentication Administrator | microsoft.directory/users/enable |
+| Authentication Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
+| Authentication Administrator | microsoft.directory/users/manager/update |
+| Authentication Administrator | microsoft.directory/users/password/update |
+| Authentication Administrator | microsoft.directory/users/restore |
+| Authentication Administrator | microsoft.directory/users/userPrincipalName/update |
+| Authentication Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Authentication Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Authentication Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Authentication Extensibility Administrator | microsoft.directory/customAuthenticationExtensions/allProperties/allTasks |
+| Authentication Policy Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Authentication Policy Administrator | microsoft.directory/organization/strongAuthentication/allTasks |
+| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/basic/update |
+| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/create |
+| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/delete |
+| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/owners/read |
+| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/owners/update |
+| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/policyAppliedTo/read |
+| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/standard/read |
+| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/tenantDefault/update |
+| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/allProperties/read |
+| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/allProperties/update |
+| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/allProperties/read |
+| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/allProperties/update |
+| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/cards/allProperties/read |
+| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/cards/revoke |
+| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/create |
+| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/create |
+| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/delete |
+| Azure Information Protection Administrator | microsoft.azure.informationProtection/allEntities/allTasks |
+| Azure Information Protection Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Azure Information Protection Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Azure Information Protection Administrator | microsoft.directory/authorizationPolicy/standard/read |
+| Azure Information Protection Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Azure Information Protection Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Azure Information Protection Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Billing Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Billing Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Billing Administrator | microsoft.commerce.billing/allEntities/allProperties/allTasks |
+| Billing Administrator | microsoft.directory/organization/basic/update |
+| Billing Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Billing Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Billing Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Cloud App Security Administrator | microsoft.directory/cloudAppSecurity/allProperties/allTasks |
+| Cloud App Security Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Cloud Application Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Cloud Application Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Cloud Application Administrator | microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks |
+| Cloud Application Administrator | microsoft.directory/appConsent/appConsentRequests/allProperties/read |
+| Cloud Application Administrator | microsoft.directory/applicationPolicies/basic/update |
+| Cloud Application Administrator | microsoft.directory/applicationPolicies/create |
+| Cloud Application Administrator | microsoft.directory/applicationPolicies/delete |
+| Cloud Application Administrator | microsoft.directory/applicationPolicies/owners/read |
+| Cloud Application Administrator | microsoft.directory/applicationPolicies/owners/update |
+| Cloud Application Administrator | microsoft.directory/applicationPolicies/policyAppliedTo/read |
+| Cloud Application Administrator | microsoft.directory/applicationPolicies/standard/read |
+| Cloud Application Administrator | microsoft.directory/applicationTemplates/instantiate |
+| Cloud Application Administrator | microsoft.directory/applications/appRoles/update |
+| Cloud Application Administrator | microsoft.directory/applications/audience/update |
+| Cloud Application Administrator | microsoft.directory/applications/authentication/update |
+| Cloud Application Administrator | microsoft.directory/applications/basic/update |
+| Cloud Application Administrator | microsoft.directory/applications/create |
+| Cloud Application Administrator | microsoft.directory/applications/credentials/update |
+| Cloud Application Administrator | microsoft.directory/applications/delete |
+| Cloud Application Administrator | microsoft.directory/applications/extensionProperties/update |
+| Cloud Application Administrator | microsoft.directory/applications/notes/update |
+| Cloud Application Administrator | microsoft.directory/applications/owners/update |
+| Cloud Application Administrator | microsoft.directory/applications/permissions/update |
+| Cloud Application Administrator | microsoft.directory/applications/policies/update |
+| Cloud Application Administrator | microsoft.directory/applications/synchronization/standard/read |
+| Cloud Application Administrator | microsoft.directory/applications/tag/update |
+| Cloud Application Administrator | microsoft.directory/applications/verification/update |
+| Cloud Application Administrator | microsoft.directory/auditLogs/allProperties/read |
+| Cloud Application Administrator | microsoft.directory/deletedItems.applications/delete |
+| Cloud Application Administrator | microsoft.directory/deletedItems.applications/restore |
+| Cloud Application Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
+| Cloud Application Administrator | microsoft.directory/provisioningLogs/allProperties/read |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/audience/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/authentication/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/basic/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/create |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/credentials/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/delete |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/disable |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/enable |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/getPasswordSingleSignOnCredentials |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/notes/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/owners/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/permissions/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/policies/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronization/standard/read |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronizationCredentials/manage |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronizationJobs/manage |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronizationSchema/manage |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/tag/update |
+| Cloud Application Administrator | microsoft.directory/signInReports/allProperties/read |
+| Cloud Application Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Cloud Application Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Cloud Application Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Cloud Device Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Cloud Device Administrator | microsoft.directory/auditLogs/allProperties/read |
+| Cloud Device Administrator | microsoft.directory/authorizationPolicy/standard/read |
+| Cloud Device Administrator | microsoft.directory/bitlockerKeys/key/read |
+| Cloud Device Administrator | microsoft.directory/deletedItems.devices/delete |
+| Cloud Device Administrator | microsoft.directory/deletedItems.devices/restore |
+| Cloud Device Administrator | microsoft.directory/deviceLocalCredentials/password/read |
+| Cloud Device Administrator | microsoft.directory/deviceManagementPolicies/basic/update |
+| Cloud Device Administrator | microsoft.directory/deviceManagementPolicies/standard/read |
+| Cloud Device Administrator | microsoft.directory/deviceRegistrationPolicy/basic/update |
+| Cloud Device Administrator | microsoft.directory/deviceRegistrationPolicy/standard/read |
+| Cloud Device Administrator | microsoft.directory/devices/delete |
+| Cloud Device Administrator | microsoft.directory/devices/disable |
+| Cloud Device Administrator | microsoft.directory/devices/enable |
+| Cloud Device Administrator | microsoft.directory/signInReports/allProperties/read |
+| Cloud Device Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Compliance Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Compliance Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Compliance Administrator | microsoft.directory/entitlementManagement/allProperties/read |
+| Compliance Administrator | microsoft.office365.complianceManager/allEntities/allTasks |
+| Compliance Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Compliance Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Compliance Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Compliance Data Administrator | microsoft.azure.informationProtection/allEntities/allTasks |
+| Compliance Data Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Compliance Data Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Compliance Data Administrator | microsoft.directory/authorizationPolicy/standard/read |
+| Compliance Data Administrator | microsoft.directory/cloudAppSecurity/allProperties/allTasks |
+| Compliance Data Administrator | microsoft.office365.complianceManager/allEntities/allTasks |
+| Compliance Data Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Compliance Data Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Compliance Data Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/basic/update |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/create |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/delete |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/owners/read |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/owners/update |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/standard/read |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/tenantDefault/update |
+| Conditional Access Administrator | microsoft.directory/namedLocations/basic/update |
+| Conditional Access Administrator | microsoft.directory/namedLocations/create |
+| Conditional Access Administrator | microsoft.directory/namedLocations/delete |
+| Conditional Access Administrator | microsoft.directory/namedLocations/standard/read |
+| Conditional Access Administrator | microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update |
+| Customer Lockbox Access Approver | microsoft.office365.lockbox/allEntities/allTasks |
+| Customer Lockbox Access Approver | microsoft.office365.webPortal/allEntities/standard/read |
+| Desktop Analytics Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Desktop Analytics Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Desktop Analytics Administrator | microsoft.directory/authorizationPolicy/standard/read |
+| Desktop Analytics Administrator | microsoft.office365.desktopAnalytics/allEntities/allTasks |
+| Domain Name Administrator | microsoft.directory/domains/allProperties/allTasks |
+| Domain Name Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Domain Name Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Dynamics 365 Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Dynamics 365 Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Dynamics 365 Administrator | microsoft.dynamics365/allEntities/allTasks |
+| Dynamics 365 Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Dynamics 365 Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Dynamics 365 Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Edge Administrator | microsoft.edge/allEntities/allProperties/allTasks |
+| Edge Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Edge Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Exchange Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Exchange Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Exchange Administrator | microsoft.directory/groups.unified/basic/update |
+| Exchange Administrator | microsoft.directory/groups.unified/create |
+| Exchange Administrator | microsoft.directory/groups.unified/delete |
+| Exchange Administrator | microsoft.directory/groups.unified/members/update |
+| Exchange Administrator | microsoft.directory/groups.unified/owners/update |
+| Exchange Administrator | microsoft.directory/groups.unified/restore |
+| Exchange Administrator | microsoft.directory/groups/hiddenMembers/read |
+| Exchange Administrator | microsoft.office365.exchange/allEntities/basic/allTasks |
+| Exchange Administrator | microsoft.office365.network/performance/allProperties/read |
+| Exchange Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Exchange Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Exchange Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
+| Exchange Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Exchange Recipient Administrator | microsoft.office365.exchange/migration/allProperties/allTasks |
+| Exchange Recipient Administrator | microsoft.office365.exchange/recipients/allProperties/allTasks |
+| External Identity Provider Administrator | microsoft.directory/domains/federation/update |
+| External Identity Provider Administrator | microsoft.directory/identityProviders/allProperties/allTasks |
+| Fabric Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Fabric Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Fabric Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Fabric Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Fabric Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Fabric Administrator | microsoft.powerApps.powerBI/allEntities/allTasks |
 | Global Administrator | microsoft.azure.advancedThreatProtection/allEntities/allTasks |
 | Global Administrator | microsoft.azure.informationProtection/allEntities/allTasks |
 | Global Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
@@ -189,641 +483,6 @@
 | Global Administrator | microsoft.viva.pulse/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.windows.defenderAdvancedThreatProtection/allEntities/allTasks |
 | Global Administrator | microsoft.windows.updatesDeployments/allEntities/allProperties/allTasks |
-| Guest Inviter | microsoft.directory/users/appRoleAssignments/read |
-| Guest Inviter | microsoft.directory/users/deviceForResourceAccount/read |
-| Guest Inviter | microsoft.directory/users/directReports/read |
-| Guest Inviter | microsoft.directory/users/inviteGuest |
-| Guest Inviter | microsoft.directory/users/licenseDetails/read |
-| Guest Inviter | microsoft.directory/users/manager/read |
-| Guest Inviter | microsoft.directory/users/memberOf/read |
-| Guest Inviter | microsoft.directory/users/oAuth2PermissionGrants/read |
-| Guest Inviter | microsoft.directory/users/ownedDevices/read |
-| Guest Inviter | microsoft.directory/users/ownedObjects/read |
-| Guest Inviter | microsoft.directory/users/photo/read |
-| Guest Inviter | microsoft.directory/users/registeredDevices/read |
-| Guest Inviter | microsoft.directory/users/scopedRoleMemberOf/read |
-| Guest Inviter | microsoft.directory/users/sponsors/read |
-| Guest Inviter | microsoft.directory/users/standard/read |
-| User Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| User Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| User Administrator | microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks |
-| User Administrator | microsoft.directory/accessReviews/definitions.directoryRoles/allProperties/read |
-| User Administrator | microsoft.directory/accessReviews/definitions.entitlementManagement/allProperties/allTasks |
-| User Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/read |
-| User Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/update |
-| User Administrator | microsoft.directory/accessReviews/definitions.groups/create |
-| User Administrator | microsoft.directory/accessReviews/definitions.groups/delete |
-| User Administrator | microsoft.directory/contacts/basic/update |
-| User Administrator | microsoft.directory/contacts/create |
-| User Administrator | microsoft.directory/contacts/delete |
-| User Administrator | microsoft.directory/deletedItems.groups/restore |
-| User Administrator | microsoft.directory/deletedItems.users/restore |
-| User Administrator | microsoft.directory/entitlementManagement/allProperties/allTasks |
-| User Administrator | microsoft.directory/groups/assignLicense |
-| User Administrator | microsoft.directory/groups/basic/update |
-| User Administrator | microsoft.directory/groups/classification/update |
-| User Administrator | microsoft.directory/groups/create |
-| User Administrator | microsoft.directory/groups/delete |
-| User Administrator | microsoft.directory/groups/dynamicMembershipRule/update |
-| User Administrator | microsoft.directory/groups/groupType/update |
-| User Administrator | microsoft.directory/groups/hiddenMembers/read |
-| User Administrator | microsoft.directory/groups/members/update |
-| User Administrator | microsoft.directory/groups/onPremWriteBack/update |
-| User Administrator | microsoft.directory/groups/owners/update |
-| User Administrator | microsoft.directory/groups/reprocessLicenseAssignment |
-| User Administrator | microsoft.directory/groups/restore |
-| User Administrator | microsoft.directory/groups/settings/update |
-| User Administrator | microsoft.directory/groups/visibility/update |
-| User Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
-| User Administrator | microsoft.directory/policies/standard/read |
-| User Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
-| User Administrator | microsoft.directory/users/assignLicense |
-| User Administrator | microsoft.directory/users/basic/update |
-| User Administrator | microsoft.directory/users/create |
-| User Administrator | microsoft.directory/users/delete |
-| User Administrator | microsoft.directory/users/disable |
-| User Administrator | microsoft.directory/users/enable |
-| User Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
-| User Administrator | microsoft.directory/users/inviteGuest |
-| User Administrator | microsoft.directory/users/manager/update |
-| User Administrator | microsoft.directory/users/password/update |
-| User Administrator | microsoft.directory/users/photo/update |
-| User Administrator | microsoft.directory/users/reprocessLicenseAssignment |
-| User Administrator | microsoft.directory/users/restore |
-| User Administrator | microsoft.directory/users/sponsors/update |
-| User Administrator | microsoft.directory/users/usageLocation/update |
-| User Administrator | microsoft.directory/users/userPrincipalName/update |
-| User Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| User Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| User Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Helpdesk Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Helpdesk Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Helpdesk Administrator | microsoft.directory/bitlockerKeys/key/read |
-| Helpdesk Administrator | microsoft.directory/deviceLocalCredentials/standard/read |
-| Helpdesk Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
-| Helpdesk Administrator | microsoft.directory/users/password/update |
-| Helpdesk Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Helpdesk Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Helpdesk Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Service Support Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Service Support Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Service Support Administrator | microsoft.office365.network/performance/allProperties/read |
-| Service Support Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Service Support Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Service Support Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Billing Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Billing Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Billing Administrator | microsoft.commerce.billing/allEntities/allProperties/allTasks |
-| Billing Administrator | microsoft.directory/organization/basic/update |
-| Billing Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Billing Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Billing Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Exchange Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Exchange Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Exchange Administrator | microsoft.directory/groups.unified/basic/update |
-| Exchange Administrator | microsoft.directory/groups.unified/create |
-| Exchange Administrator | microsoft.directory/groups.unified/delete |
-| Exchange Administrator | microsoft.directory/groups.unified/members/update |
-| Exchange Administrator | microsoft.directory/groups.unified/owners/update |
-| Exchange Administrator | microsoft.directory/groups.unified/restore |
-| Exchange Administrator | microsoft.directory/groups/hiddenMembers/read |
-| Exchange Administrator | microsoft.office365.exchange/allEntities/basic/allTasks |
-| Exchange Administrator | microsoft.office365.network/performance/allProperties/read |
-| Exchange Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Exchange Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Exchange Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
-| Exchange Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| SharePoint Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| SharePoint Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| SharePoint Administrator | microsoft.directory/groups.unified/basic/update |
-| SharePoint Administrator | microsoft.directory/groups.unified/create |
-| SharePoint Administrator | microsoft.directory/groups.unified/delete |
-| SharePoint Administrator | microsoft.directory/groups.unified/members/update |
-| SharePoint Administrator | microsoft.directory/groups.unified/owners/update |
-| SharePoint Administrator | microsoft.directory/groups.unified/restore |
-| SharePoint Administrator | microsoft.directory/groups/hiddenMembers/read |
-| SharePoint Administrator | microsoft.office365.network/performance/allProperties/read |
-| SharePoint Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| SharePoint Administrator | microsoft.office365.sharePoint/allEntities/allTasks |
-| SharePoint Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| SharePoint Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
-| SharePoint Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Skype for Business Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Skype for Business Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Skype for Business Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Skype for Business Administrator | microsoft.office365.skypeForBusiness/allEntities/allTasks |
-| Skype for Business Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Skype for Business Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
-| Skype for Business Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Compliance Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Compliance Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Compliance Administrator | microsoft.directory/entitlementManagement/allProperties/read |
-| Compliance Administrator | microsoft.office365.complianceManager/allEntities/allTasks |
-| Compliance Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Compliance Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Compliance Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Application Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Application Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Application Administrator | microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks |
-| Application Administrator | microsoft.directory/appConsent/appConsentRequests/allProperties/read |
-| Application Administrator | microsoft.directory/applicationPolicies/basic/update |
-| Application Administrator | microsoft.directory/applicationPolicies/create |
-| Application Administrator | microsoft.directory/applicationPolicies/delete |
-| Application Administrator | microsoft.directory/applicationPolicies/owners/read |
-| Application Administrator | microsoft.directory/applicationPolicies/owners/update |
-| Application Administrator | microsoft.directory/applicationPolicies/policyAppliedTo/read |
-| Application Administrator | microsoft.directory/applicationPolicies/standard/read |
-| Application Administrator | microsoft.directory/applicationTemplates/instantiate |
-| Application Administrator | microsoft.directory/applications/appRoles/update |
-| Application Administrator | microsoft.directory/applications/applicationProxy/read |
-| Application Administrator | microsoft.directory/applications/applicationProxy/update |
-| Application Administrator | microsoft.directory/applications/applicationProxyAuthentication/update |
-| Application Administrator | microsoft.directory/applications/applicationProxySslCertificate/update |
-| Application Administrator | microsoft.directory/applications/applicationProxyUrlSettings/update |
-| Application Administrator | microsoft.directory/applications/audience/update |
-| Application Administrator | microsoft.directory/applications/authentication/update |
-| Application Administrator | microsoft.directory/applications/basic/update |
-| Application Administrator | microsoft.directory/applications/create |
-| Application Administrator | microsoft.directory/applications/credentials/update |
-| Application Administrator | microsoft.directory/applications/delete |
-| Application Administrator | microsoft.directory/applications/extensionProperties/update |
-| Application Administrator | microsoft.directory/applications/notes/update |
-| Application Administrator | microsoft.directory/applications/owners/update |
-| Application Administrator | microsoft.directory/applications/permissions/update |
-| Application Administrator | microsoft.directory/applications/policies/update |
-| Application Administrator | microsoft.directory/applications/synchronization/standard/read |
-| Application Administrator | microsoft.directory/applications/tag/update |
-| Application Administrator | microsoft.directory/applications/verification/update |
-| Application Administrator | microsoft.directory/auditLogs/allProperties/read |
-| Application Administrator | microsoft.directory/connectorGroups/allProperties/read |
-| Application Administrator | microsoft.directory/connectorGroups/allProperties/update |
-| Application Administrator | microsoft.directory/connectorGroups/create |
-| Application Administrator | microsoft.directory/connectorGroups/delete |
-| Application Administrator | microsoft.directory/connectors/allProperties/read |
-| Application Administrator | microsoft.directory/connectors/create |
-| Application Administrator | microsoft.directory/customAuthenticationExtensions/allProperties/allTasks |
-| Application Administrator | microsoft.directory/deletedItems.applications/delete |
-| Application Administrator | microsoft.directory/deletedItems.applications/restore |
-| Application Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
-| Application Administrator | microsoft.directory/provisioningLogs/allProperties/read |
-| Application Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
-| Application Administrator | microsoft.directory/servicePrincipals/audience/update |
-| Application Administrator | microsoft.directory/servicePrincipals/authentication/update |
-| Application Administrator | microsoft.directory/servicePrincipals/basic/update |
-| Application Administrator | microsoft.directory/servicePrincipals/create |
-| Application Administrator | microsoft.directory/servicePrincipals/credentials/update |
-| Application Administrator | microsoft.directory/servicePrincipals/delete |
-| Application Administrator | microsoft.directory/servicePrincipals/disable |
-| Application Administrator | microsoft.directory/servicePrincipals/enable |
-| Application Administrator | microsoft.directory/servicePrincipals/getPasswordSingleSignOnCredentials |
-| Application Administrator | microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials |
-| Application Administrator | microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin |
-| Application Administrator | microsoft.directory/servicePrincipals/notes/update |
-| Application Administrator | microsoft.directory/servicePrincipals/owners/update |
-| Application Administrator | microsoft.directory/servicePrincipals/permissions/update |
-| Application Administrator | microsoft.directory/servicePrincipals/policies/update |
-| Application Administrator | microsoft.directory/servicePrincipals/synchronization/standard/read |
-| Application Administrator | microsoft.directory/servicePrincipals/synchronizationCredentials/manage |
-| Application Administrator | microsoft.directory/servicePrincipals/synchronizationJobs/manage |
-| Application Administrator | microsoft.directory/servicePrincipals/synchronizationSchema/manage |
-| Application Administrator | microsoft.directory/servicePrincipals/tag/update |
-| Application Administrator | microsoft.directory/signInReports/allProperties/read |
-| Application Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Application Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Application Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Application Developer | microsoft.directory/applications/createAsOwner |
-| Application Developer | microsoft.directory/oAuth2PermissionGrants/createAsOwner |
-| Application Developer | microsoft.directory/servicePrincipals/createAsOwner |
-| Security Reader | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Security Reader | microsoft.directory/accessReviews/definitions/allProperties/read |
-| Security Reader | microsoft.directory/auditLogs/allProperties/read |
-| Security Reader | microsoft.directory/authorizationPolicy/standard/read |
-| Security Reader | microsoft.directory/bitlockerKeys/key/read |
-| Security Reader | microsoft.directory/conditionalAccessPolicies/owners/read |
-| Security Reader | microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read |
-| Security Reader | microsoft.directory/conditionalAccessPolicies/standard/read |
-| Security Reader | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read |
-| Security Reader | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read |
-| Security Reader | microsoft.directory/deviceLocalCredentials/standard/read |
-| Security Reader | microsoft.directory/domains/federationConfiguration/standard/read |
-| Security Reader | microsoft.directory/entitlementManagement/allProperties/read |
-| Security Reader | microsoft.directory/identityProtection/allProperties/read |
-| Security Reader | microsoft.directory/multiTenantOrganization/joinRequest/standard/read |
-| Security Reader | microsoft.directory/multiTenantOrganization/standard/read |
-| Security Reader | microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read |
-| Security Reader | microsoft.directory/multiTenantOrganization/tenants/standard/read |
-| Security Reader | microsoft.directory/namedLocations/standard/read |
-| Security Reader | microsoft.directory/policies/owners/read |
-| Security Reader | microsoft.directory/policies/policyAppliedTo/read |
-| Security Reader | microsoft.directory/policies/standard/read |
-| Security Reader | microsoft.directory/privilegedIdentityManagement/allProperties/read |
-| Security Reader | microsoft.directory/provisioningLogs/allProperties/read |
-| Security Reader | microsoft.directory/signInReports/allProperties/read |
-| Security Reader | microsoft.networkAccess/allEntities/allProperties/read |
-| Security Reader | microsoft.office365.protectionCenter/allEntities/standard/read |
-| Security Reader | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/read |
-| Security Reader | microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read |
-| Security Reader | microsoft.office365.protectionCenter/attackSimulator/simulation/allProperties/read |
-| Security Reader | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Security Reader | microsoft.office365.webPortal/allEntities/standard/read |
-| Security Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Security Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Security Administrator | microsoft.directory/applications/policies/update |
-| Security Administrator | microsoft.directory/auditLogs/allProperties/read |
-| Security Administrator | microsoft.directory/authorizationPolicy/standard/read |
-| Security Administrator | microsoft.directory/bitlockerKeys/key/read |
-| Security Administrator | microsoft.directory/conditionalAccessPolicies/basic/update |
-| Security Administrator | microsoft.directory/conditionalAccessPolicies/create |
-| Security Administrator | microsoft.directory/conditionalAccessPolicies/delete |
-| Security Administrator | microsoft.directory/conditionalAccessPolicies/owners/read |
-| Security Administrator | microsoft.directory/conditionalAccessPolicies/owners/update |
-| Security Administrator | microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read |
-| Security Administrator | microsoft.directory/conditionalAccessPolicies/standard/read |
-| Security Administrator | microsoft.directory/conditionalAccessPolicies/tenantDefault/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/allowedCloudEndpoints/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/basic/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/b2bCollaboration/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/b2bDirectConnect/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/crossCloudMeetings/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/standard/read |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/tenantRestrictions/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/b2bCollaboration/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/b2bDirectConnect/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/create |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/crossCloudMeetings/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/delete |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/basic/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/create |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/standard/read |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/standard/read |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/basic/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/resetToDefaultSettings |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/basic/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/resetToDefaultSettings |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/tenantRestrictions/update |
-| Security Administrator | microsoft.directory/crossTenantAccessPolicy/standard/read |
-| Security Administrator | microsoft.directory/deviceLocalCredentials/standard/read |
-| Security Administrator | microsoft.directory/domains/federation/update |
-| Security Administrator | microsoft.directory/domains/federationConfiguration/basic/update |
-| Security Administrator | microsoft.directory/domains/federationConfiguration/create |
-| Security Administrator | microsoft.directory/domains/federationConfiguration/delete |
-| Security Administrator | microsoft.directory/domains/federationConfiguration/standard/read |
-| Security Administrator | microsoft.directory/entitlementManagement/allProperties/read |
-| Security Administrator | microsoft.directory/identityProtection/allProperties/read |
-| Security Administrator | microsoft.directory/identityProtection/allProperties/update |
-| Security Administrator | microsoft.directory/multiTenantOrganization/basic/update |
-| Security Administrator | microsoft.directory/multiTenantOrganization/create |
-| Security Administrator | microsoft.directory/multiTenantOrganization/joinRequest/organizationDetails/update |
-| Security Administrator | microsoft.directory/multiTenantOrganization/joinRequest/standard/read |
-| Security Administrator | microsoft.directory/multiTenantOrganization/standard/read |
-| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/create |
-| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/delete |
-| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read |
-| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/organizationDetails/update |
-| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/standard/read |
-| Security Administrator | microsoft.directory/namedLocations/basic/update |
-| Security Administrator | microsoft.directory/namedLocations/create |
-| Security Administrator | microsoft.directory/namedLocations/delete |
-| Security Administrator | microsoft.directory/namedLocations/standard/read |
-| Security Administrator | microsoft.directory/policies/basic/update |
-| Security Administrator | microsoft.directory/policies/create |
-| Security Administrator | microsoft.directory/policies/delete |
-| Security Administrator | microsoft.directory/policies/owners/update |
-| Security Administrator | microsoft.directory/policies/tenantDefault/update |
-| Security Administrator | microsoft.directory/privilegedIdentityManagement/allProperties/read |
-| Security Administrator | microsoft.directory/provisioningLogs/allProperties/read |
-| Security Administrator | microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update |
-| Security Administrator | microsoft.directory/servicePrincipals/policies/update |
-| Security Administrator | microsoft.directory/signInReports/allProperties/read |
-| Security Administrator | microsoft.networkAccess/allEntities/allProperties/allTasks |
-| Security Administrator | microsoft.office365.protectionCenter/allEntities/basic/update |
-| Security Administrator | microsoft.office365.protectionCenter/allEntities/standard/read |
-| Security Administrator | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/allTasks |
-| Security Administrator | microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read |
-| Security Administrator | microsoft.office365.protectionCenter/attackSimulator/simulation/allProperties/allTasks |
-| Security Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Security Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Security Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.applications/allProperties/read |
-| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.directoryRoles/allProperties/allTasks |
-| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/read |
-| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.groupsAssignableToRoles/allProperties/update |
-| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.groupsAssignableToRoles/create |
-| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.groupsAssignableToRoles/delete |
-| Privileged Role Administrator | microsoft.directory/administrativeUnits/allProperties/allTasks |
-| Privileged Role Administrator | microsoft.directory/authorizationPolicy/allProperties/allTasks |
-| Privileged Role Administrator | microsoft.directory/directoryRoles/allProperties/allTasks |
-| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/allProperties/update |
-| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/create |
-| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/delete |
-| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/restore |
-| Privileged Role Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
-| Privileged Role Administrator | microsoft.directory/privilegedIdentityManagement/allProperties/allTasks |
-| Privileged Role Administrator | microsoft.directory/roleAssignments/allProperties/allTasks |
-| Privileged Role Administrator | microsoft.directory/roleDefinitions/allProperties/allTasks |
-| Privileged Role Administrator | microsoft.directory/scopedRoleMemberships/allProperties/allTasks |
-| Privileged Role Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
-| Privileged Role Administrator | microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin |
-| Privileged Role Administrator | microsoft.directory/servicePrincipals/permissions/update |
-| Privileged Role Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Intune Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Intune Administrator | microsoft.cloudPC/allEntities/allProperties/allTasks |
-| Intune Administrator | microsoft.directory/bitlockerKeys/key/read |
-| Intune Administrator | microsoft.directory/contacts/basic/update |
-| Intune Administrator | microsoft.directory/contacts/create |
-| Intune Administrator | microsoft.directory/contacts/delete |
-| Intune Administrator | microsoft.directory/deletedItems.devices/delete |
-| Intune Administrator | microsoft.directory/deletedItems.devices/restore |
-| Intune Administrator | microsoft.directory/deviceLocalCredentials/password/read |
-| Intune Administrator | microsoft.directory/deviceManagementPolicies/standard/read |
-| Intune Administrator | microsoft.directory/deviceRegistrationPolicy/standard/read |
-| Intune Administrator | microsoft.directory/devices/basic/update |
-| Intune Administrator | microsoft.directory/devices/create |
-| Intune Administrator | microsoft.directory/devices/delete |
-| Intune Administrator | microsoft.directory/devices/disable |
-| Intune Administrator | microsoft.directory/devices/enable |
-| Intune Administrator | microsoft.directory/devices/extensionAttributeSet1/update |
-| Intune Administrator | microsoft.directory/devices/extensionAttributeSet2/update |
-| Intune Administrator | microsoft.directory/devices/extensionAttributeSet3/update |
-| Intune Administrator | microsoft.directory/devices/registeredOwners/update |
-| Intune Administrator | microsoft.directory/devices/registeredUsers/update |
-| Intune Administrator | microsoft.directory/groups.security/basic/update |
-| Intune Administrator | microsoft.directory/groups.security/classification/update |
-| Intune Administrator | microsoft.directory/groups.security/create |
-| Intune Administrator | microsoft.directory/groups.security/delete |
-| Intune Administrator | microsoft.directory/groups.security/dynamicMembershipRule/update |
-| Intune Administrator | microsoft.directory/groups.security/members/update |
-| Intune Administrator | microsoft.directory/groups.security/owners/update |
-| Intune Administrator | microsoft.directory/groups.security/visibility/update |
-| Intune Administrator | microsoft.directory/groups/hiddenMembers/read |
-| Intune Administrator | microsoft.directory/users/basic/update |
-| Intune Administrator | microsoft.directory/users/manager/update |
-| Intune Administrator | microsoft.directory/users/photo/update |
-| Intune Administrator | microsoft.intune/allEntities/allTasks |
-| Intune Administrator | microsoft.office365.organizationalMessages/allEntities/allProperties/read |
-| Intune Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Intune Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Cloud Application Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Cloud Application Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Cloud Application Administrator | microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks |
-| Cloud Application Administrator | microsoft.directory/appConsent/appConsentRequests/allProperties/read |
-| Cloud Application Administrator | microsoft.directory/applicationPolicies/basic/update |
-| Cloud Application Administrator | microsoft.directory/applicationPolicies/create |
-| Cloud Application Administrator | microsoft.directory/applicationPolicies/delete |
-| Cloud Application Administrator | microsoft.directory/applicationPolicies/owners/read |
-| Cloud Application Administrator | microsoft.directory/applicationPolicies/owners/update |
-| Cloud Application Administrator | microsoft.directory/applicationPolicies/policyAppliedTo/read |
-| Cloud Application Administrator | microsoft.directory/applicationPolicies/standard/read |
-| Cloud Application Administrator | microsoft.directory/applicationTemplates/instantiate |
-| Cloud Application Administrator | microsoft.directory/applications/appRoles/update |
-| Cloud Application Administrator | microsoft.directory/applications/audience/update |
-| Cloud Application Administrator | microsoft.directory/applications/authentication/update |
-| Cloud Application Administrator | microsoft.directory/applications/basic/update |
-| Cloud Application Administrator | microsoft.directory/applications/create |
-| Cloud Application Administrator | microsoft.directory/applications/credentials/update |
-| Cloud Application Administrator | microsoft.directory/applications/delete |
-| Cloud Application Administrator | microsoft.directory/applications/extensionProperties/update |
-| Cloud Application Administrator | microsoft.directory/applications/notes/update |
-| Cloud Application Administrator | microsoft.directory/applications/owners/update |
-| Cloud Application Administrator | microsoft.directory/applications/permissions/update |
-| Cloud Application Administrator | microsoft.directory/applications/policies/update |
-| Cloud Application Administrator | microsoft.directory/applications/synchronization/standard/read |
-| Cloud Application Administrator | microsoft.directory/applications/tag/update |
-| Cloud Application Administrator | microsoft.directory/applications/verification/update |
-| Cloud Application Administrator | microsoft.directory/auditLogs/allProperties/read |
-| Cloud Application Administrator | microsoft.directory/deletedItems.applications/delete |
-| Cloud Application Administrator | microsoft.directory/deletedItems.applications/restore |
-| Cloud Application Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
-| Cloud Application Administrator | microsoft.directory/provisioningLogs/allProperties/read |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/audience/update |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/authentication/update |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/basic/update |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/create |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/credentials/update |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/delete |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/disable |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/enable |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/getPasswordSingleSignOnCredentials |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/notes/update |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/owners/update |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/permissions/update |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/policies/update |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronization/standard/read |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronizationCredentials/manage |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronizationJobs/manage |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronizationSchema/manage |
-| Cloud Application Administrator | microsoft.directory/servicePrincipals/tag/update |
-| Cloud Application Administrator | microsoft.directory/signInReports/allProperties/read |
-| Cloud Application Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Cloud Application Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Cloud Application Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Customer Lockbox Access Approver | microsoft.office365.lockbox/allEntities/allTasks |
-| Customer Lockbox Access Approver | microsoft.office365.webPortal/allEntities/standard/read |
-| Dynamics 365 Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Dynamics 365 Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Dynamics 365 Administrator | microsoft.dynamics365/allEntities/allTasks |
-| Dynamics 365 Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Dynamics 365 Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Dynamics 365 Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Fabric Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Fabric Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Fabric Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Fabric Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Fabric Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Fabric Administrator | microsoft.powerApps.powerBI/allEntities/allTasks |
-| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/basic/update |
-| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/create |
-| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/delete |
-| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/owners/read |
-| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/owners/update |
-| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read |
-| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/standard/read |
-| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/tenantDefault/update |
-| Conditional Access Administrator | microsoft.directory/namedLocations/basic/update |
-| Conditional Access Administrator | microsoft.directory/namedLocations/create |
-| Conditional Access Administrator | microsoft.directory/namedLocations/delete |
-| Conditional Access Administrator | microsoft.directory/namedLocations/standard/read |
-| Conditional Access Administrator | microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update |
-| Reports Reader | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Reports Reader | microsoft.directory/auditLogs/allProperties/read |
-| Reports Reader | microsoft.directory/provisioningLogs/allProperties/read |
-| Reports Reader | microsoft.directory/signInReports/allProperties/read |
-| Reports Reader | microsoft.office365.network/performance/allProperties/read |
-| Reports Reader | microsoft.office365.usageReports/allEntities/allProperties/read |
-| Reports Reader | microsoft.office365.webPortal/allEntities/standard/read |
-| Message Center Reader | microsoft.office365.messageCenter/messages/read |
-| Message Center Reader | microsoft.office365.webPortal/allEntities/standard/read |
-| Azure Information Protection Administrator | microsoft.azure.informationProtection/allEntities/allTasks |
-| Azure Information Protection Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Azure Information Protection Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Azure Information Protection Administrator | microsoft.directory/authorizationPolicy/standard/read |
-| Azure Information Protection Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Azure Information Protection Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Azure Information Protection Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Desktop Analytics Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Desktop Analytics Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Desktop Analytics Administrator | microsoft.directory/authorizationPolicy/standard/read |
-| Desktop Analytics Administrator | microsoft.office365.desktopAnalytics/allEntities/allTasks |
-| License Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| License Administrator | microsoft.directory/authorizationPolicy/standard/read |
-| License Administrator | microsoft.directory/groups/assignLicense |
-| License Administrator | microsoft.directory/groups/reprocessLicenseAssignment |
-| License Administrator | microsoft.directory/users/assignLicense |
-| License Administrator | microsoft.directory/users/reprocessLicenseAssignment |
-| License Administrator | microsoft.directory/users/usageLocation/update |
-| License Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| License Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Cloud Device Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Cloud Device Administrator | microsoft.directory/auditLogs/allProperties/read |
-| Cloud Device Administrator | microsoft.directory/authorizationPolicy/standard/read |
-| Cloud Device Administrator | microsoft.directory/bitlockerKeys/key/read |
-| Cloud Device Administrator | microsoft.directory/deletedItems.devices/delete |
-| Cloud Device Administrator | microsoft.directory/deletedItems.devices/restore |
-| Cloud Device Administrator | microsoft.directory/deviceLocalCredentials/password/read |
-| Cloud Device Administrator | microsoft.directory/deviceManagementPolicies/basic/update |
-| Cloud Device Administrator | microsoft.directory/deviceManagementPolicies/standard/read |
-| Cloud Device Administrator | microsoft.directory/deviceRegistrationPolicy/basic/update |
-| Cloud Device Administrator | microsoft.directory/deviceRegistrationPolicy/standard/read |
-| Cloud Device Administrator | microsoft.directory/devices/delete |
-| Cloud Device Administrator | microsoft.directory/devices/disable |
-| Cloud Device Administrator | microsoft.directory/devices/enable |
-| Cloud Device Administrator | microsoft.directory/signInReports/allProperties/read |
-| Cloud Device Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Authentication Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Authentication Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Authentication Administrator | microsoft.directory/deletedItems.users/restore |
-| Authentication Administrator | microsoft.directory/users/authenticationMethods/basic/update |
-| Authentication Administrator | microsoft.directory/users/authenticationMethods/create |
-| Authentication Administrator | microsoft.directory/users/authenticationMethods/delete |
-| Authentication Administrator | microsoft.directory/users/authenticationMethods/standard/restrictedRead |
-| Authentication Administrator | microsoft.directory/users/basic/update |
-| Authentication Administrator | microsoft.directory/users/delete |
-| Authentication Administrator | microsoft.directory/users/disable |
-| Authentication Administrator | microsoft.directory/users/enable |
-| Authentication Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
-| Authentication Administrator | microsoft.directory/users/manager/update |
-| Authentication Administrator | microsoft.directory/users/password/update |
-| Authentication Administrator | microsoft.directory/users/restore |
-| Authentication Administrator | microsoft.directory/users/userPrincipalName/update |
-| Authentication Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Authentication Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Authentication Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Privileged Authentication Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Privileged Authentication Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Privileged Authentication Administrator | microsoft.directory/deletedItems.users/restore |
-| Privileged Authentication Administrator | microsoft.directory/users/authenticationMethods/basic/update |
-| Privileged Authentication Administrator | microsoft.directory/users/authenticationMethods/create |
-| Privileged Authentication Administrator | microsoft.directory/users/authenticationMethods/delete |
-| Privileged Authentication Administrator | microsoft.directory/users/authenticationMethods/standard/read |
-| Privileged Authentication Administrator | microsoft.directory/users/authorizationInfo/update |
-| Privileged Authentication Administrator | microsoft.directory/users/basic/update |
-| Privileged Authentication Administrator | microsoft.directory/users/delete |
-| Privileged Authentication Administrator | microsoft.directory/users/disable |
-| Privileged Authentication Administrator | microsoft.directory/users/enable |
-| Privileged Authentication Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
-| Privileged Authentication Administrator | microsoft.directory/users/manager/update |
-| Privileged Authentication Administrator | microsoft.directory/users/password/update |
-| Privileged Authentication Administrator | microsoft.directory/users/restore |
-| Privileged Authentication Administrator | microsoft.directory/users/userPrincipalName/update |
-| Privileged Authentication Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Privileged Authentication Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Privileged Authentication Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Teams Communication Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Teams Communication Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Teams Communication Administrator | microsoft.directory/authorizationPolicy/standard/read |
-| Teams Communication Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Teams Communication Administrator | microsoft.office365.skypeForBusiness/allEntities/allTasks |
-| Teams Communication Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Teams Communication Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
-| Teams Communication Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Teams Communication Administrator | microsoft.teams/callQuality/allProperties/read |
-| Teams Communication Administrator | microsoft.teams/meetings/allProperties/allTasks |
-| Teams Communication Administrator | microsoft.teams/voice/allProperties/allTasks |
-| Teams Communication Support Engineer | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Teams Communication Support Engineer | microsoft.directory/authorizationPolicy/standard/read |
-| Teams Communication Support Engineer | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Teams Communication Support Engineer | microsoft.office365.skypeForBusiness/allEntities/allTasks |
-| Teams Communication Support Engineer | microsoft.office365.webPortal/allEntities/standard/read |
-| Teams Communication Support Engineer | microsoft.teams/callQuality/allProperties/read |
-| Teams Communication Support Specialist | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Teams Communication Support Specialist | microsoft.directory/authorizationPolicy/standard/read |
-| Teams Communication Support Specialist | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Teams Communication Support Specialist | microsoft.office365.skypeForBusiness/allEntities/allTasks |
-| Teams Communication Support Specialist | microsoft.office365.webPortal/allEntities/standard/read |
-| Teams Communication Support Specialist | microsoft.teams/callQuality/standard/read |
-| Teams Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Teams Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Teams Administrator | microsoft.directory/authorizationPolicy/standard/read |
-| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/allowedCloudEndpoints/update |
-| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/default/crossCloudMeetings/update |
-| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/default/standard/read |
-| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/partners/create |
-| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/partners/crossCloudMeetings/update |
-| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/partners/standard/read |
-| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/standard/read |
-| Teams Administrator | microsoft.directory/externalUserProfiles/basic/update |
-| Teams Administrator | microsoft.directory/externalUserProfiles/delete |
-| Teams Administrator | microsoft.directory/externalUserProfiles/standard/read |
-| Teams Administrator | microsoft.directory/groups.unified/basic/update |
-| Teams Administrator | microsoft.directory/groups.unified/create |
-| Teams Administrator | microsoft.directory/groups.unified/delete |
-| Teams Administrator | microsoft.directory/groups.unified/members/update |
-| Teams Administrator | microsoft.directory/groups.unified/owners/update |
-| Teams Administrator | microsoft.directory/groups.unified/restore |
-| Teams Administrator | microsoft.directory/groups/hiddenMembers/read |
-| Teams Administrator | microsoft.directory/pendingExternalUserProfiles/basic/update |
-| Teams Administrator | microsoft.directory/pendingExternalUserProfiles/create |
-| Teams Administrator | microsoft.directory/pendingExternalUserProfiles/delete |
-| Teams Administrator | microsoft.directory/pendingExternalUserProfiles/standard/read |
-| Teams Administrator | microsoft.office365.network/performance/allProperties/read |
-| Teams Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Teams Administrator | microsoft.office365.skypeForBusiness/allEntities/allTasks |
-| Teams Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Teams Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
-| Teams Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Teams Administrator | microsoft.teams/allEntities/allProperties/allTasks |
-| Insights Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Insights Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Insights Administrator | microsoft.insights/allEntities/allProperties/allTasks |
-| Insights Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Insights Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Insights Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Message Center Privacy Reader | microsoft.office365.messageCenter/messages/read |
-| Message Center Privacy Reader | microsoft.office365.messageCenter/securityMessages/read |
-| Message Center Privacy Reader | microsoft.office365.webPortal/allEntities/standard/read |
-| External Identity Provider Administrator | microsoft.directory/domains/federation/update |
-| External Identity Provider Administrator | microsoft.directory/identityProviders/allProperties/allTasks |
-| Compliance Data Administrator | microsoft.azure.informationProtection/allEntities/allTasks |
-| Compliance Data Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Compliance Data Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Compliance Data Administrator | microsoft.directory/authorizationPolicy/standard/read |
-| Compliance Data Administrator | microsoft.directory/cloudAppSecurity/allProperties/allTasks |
-| Compliance Data Administrator | microsoft.office365.complianceManager/allEntities/allTasks |
-| Compliance Data Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Compliance Data Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Compliance Data Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Security Operator | microsoft.azure.advancedThreatProtection/allEntities/allTasks |
-| Security Operator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Security Operator | microsoft.directory/auditLogs/allProperties/read |
-| Security Operator | microsoft.directory/authorizationPolicy/standard/read |
-| Security Operator | microsoft.directory/cloudAppSecurity/allProperties/allTasks |
-| Security Operator | microsoft.directory/identityProtection/allProperties/allTasks |
-| Security Operator | microsoft.directory/privilegedIdentityManagement/allProperties/read |
-| Security Operator | microsoft.directory/provisioningLogs/allProperties/read |
-| Security Operator | microsoft.directory/signInReports/allProperties/read |
-| Security Operator | microsoft.intune/allEntities/read |
-| Security Operator | microsoft.office365.securityComplianceCenter/allEntities/allTasks |
-| Security Operator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Security Operator | microsoft.windows.defenderAdvancedThreatProtection/allEntities/allTasks |
-| Kaizala Administrator | microsoft.directory/authorizationPolicy/standard/read |
-| Kaizala Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Kaizala Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Kaizala Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Global Reader | microsoft.cloudPC/allEntities/allProperties/read |
 | Global Reader | microsoft.commerce.billing/allEntities/allProperties/read |
 | Global Reader | microsoft.commerce.billing/purchases/standard/read |
@@ -912,41 +571,6 @@
 | Global Reader | microsoft.viva.goals/allEntities/allProperties/read |
 | Global Reader | microsoft.viva.pulse/allEntities/allProperties/read |
 | Global Reader | microsoft.windows.updatesDeployments/allEntities/allProperties/read |
-| Search Administrator | microsoft.office365.messageCenter/messages/read |
-| Search Administrator | microsoft.office365.search/content/manage |
-| Search Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Search Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Search Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Search Editor | microsoft.office365.messageCenter/messages/read |
-| Search Editor | microsoft.office365.search/content/manage |
-| Search Editor | microsoft.office365.webPortal/allEntities/standard/read |
-| Password Administrator | microsoft.directory/users/password/update |
-| Password Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Printer Administrator | microsoft.azure.print/allEntities/allProperties/allTasks |
-| Printer Technician | microsoft.azure.print/connectors/allProperties/read |
-| Printer Technician | microsoft.azure.print/printers/allProperties/read |
-| Printer Technician | microsoft.azure.print/printers/basic/update |
-| Printer Technician | microsoft.azure.print/printers/register |
-| Printer Technician | microsoft.azure.print/printers/unregister |
-| Authentication Policy Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Authentication Policy Administrator | microsoft.directory/organization/strongAuthentication/allTasks |
-| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/basic/update |
-| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/create |
-| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/delete |
-| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/owners/read |
-| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/owners/update |
-| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/policyAppliedTo/read |
-| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/standard/read |
-| Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/tenantDefault/update |
-| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/allProperties/read |
-| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/allProperties/update |
-| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/allProperties/read |
-| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/allProperties/update |
-| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/cards/allProperties/read |
-| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/cards/revoke |
-| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/create |
-| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/create |
-| Authentication Policy Administrator | microsoft.directory/verifiableCredentials/configuration/delete |
 | Groups Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Groups Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Groups Administrator | microsoft.directory/deletedItems.groups/delete |
@@ -969,14 +593,30 @@
 | Groups Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Groups Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Groups Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Power Platform Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Power Platform Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Power Platform Administrator | microsoft.dynamics365/allEntities/allTasks |
-| Power Platform Administrator | microsoft.flow/allEntities/allTasks |
-| Power Platform Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Power Platform Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Power Platform Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Power Platform Administrator | microsoft.powerApps/allEntities/allTasks |
+| Guest Inviter | microsoft.directory/users/appRoleAssignments/read |
+| Guest Inviter | microsoft.directory/users/deviceForResourceAccount/read |
+| Guest Inviter | microsoft.directory/users/directReports/read |
+| Guest Inviter | microsoft.directory/users/inviteGuest |
+| Guest Inviter | microsoft.directory/users/licenseDetails/read |
+| Guest Inviter | microsoft.directory/users/manager/read |
+| Guest Inviter | microsoft.directory/users/memberOf/read |
+| Guest Inviter | microsoft.directory/users/oAuth2PermissionGrants/read |
+| Guest Inviter | microsoft.directory/users/ownedDevices/read |
+| Guest Inviter | microsoft.directory/users/ownedObjects/read |
+| Guest Inviter | microsoft.directory/users/photo/read |
+| Guest Inviter | microsoft.directory/users/registeredDevices/read |
+| Guest Inviter | microsoft.directory/users/scopedRoleMemberOf/read |
+| Guest Inviter | microsoft.directory/users/sponsors/read |
+| Guest Inviter | microsoft.directory/users/standard/read |
+| Helpdesk Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Helpdesk Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Helpdesk Administrator | microsoft.directory/bitlockerKeys/key/read |
+| Helpdesk Administrator | microsoft.directory/deviceLocalCredentials/standard/read |
+| Helpdesk Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
+| Helpdesk Administrator | microsoft.directory/users/password/update |
+| Helpdesk Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Helpdesk Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Helpdesk Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Hybrid Identity Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Hybrid Identity Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Hybrid Identity Administrator | microsoft.directory/applicationTemplates/instantiate |
@@ -1029,28 +669,68 @@
 | Hybrid Identity Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Hybrid Identity Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Hybrid Identity Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Office Apps Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
-| Office Apps Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Office Apps Administrator | microsoft.office365.messageCenter/messages/read |
-| Office Apps Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Office Apps Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Office Apps Administrator | microsoft.office365.userCommunication/allEntities/allTasks |
-| Office Apps Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Network Administrator | microsoft.office365.network/locations/allProperties/allTasks |
-| Network Administrator | microsoft.office365.network/performance/allProperties/read |
-| Network Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Identity Governance Administrator | microsoft.directory/accessReviews/allProperties/allTasks |
+| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks |
+| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.entitlementManagement/allProperties/allTasks |
+| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/read |
+| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/update |
+| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.groups/create |
+| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.groups/delete |
+| Identity Governance Administrator | microsoft.directory/entitlementManagement/allProperties/allTasks |
+| Identity Governance Administrator | microsoft.directory/groups/members/update |
+| Identity Governance Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
+| Insights Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Insights Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Insights Administrator | microsoft.insights/allEntities/allProperties/allTasks |
+| Insights Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Insights Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Insights Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Insights Analyst | microsoft.insights/queries/allProperties/allTasks |
+| Insights Analyst | microsoft.office365.supportTickets/allEntities/allTasks |
+| Insights Analyst | microsoft.office365.webPortal/allEntities/standard/read |
 | Insights Business Leader | microsoft.insights/programs/allProperties/update |
 | Insights Business Leader | microsoft.insights/reports/allProperties/read |
-| Teams Device Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Teams Device Administrator | microsoft.teams/devices/standard/read |
-| Attack Simulation Administrator | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/allTasks |
-| Attack Simulation Administrator | microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read |
-| Attack Simulation Administrator | microsoft.office365.protectionCenter/attackSimulator/simulation/allProperties/allTasks |
-| Attack Payload Author | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/allTasks |
-| Attack Payload Author | microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read |
-| Usage Summary Reports Reader | microsoft.office365.network/performance/allProperties/read |
-| Usage Summary Reports Reader | microsoft.office365.usageReports/allEntities/standard/read |
-| Usage Summary Reports Reader | microsoft.office365.webPortal/allEntities/standard/read |
+| Intune Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Intune Administrator | microsoft.cloudPC/allEntities/allProperties/allTasks |
+| Intune Administrator | microsoft.directory/bitlockerKeys/key/read |
+| Intune Administrator | microsoft.directory/contacts/basic/update |
+| Intune Administrator | microsoft.directory/contacts/create |
+| Intune Administrator | microsoft.directory/contacts/delete |
+| Intune Administrator | microsoft.directory/deletedItems.devices/delete |
+| Intune Administrator | microsoft.directory/deletedItems.devices/restore |
+| Intune Administrator | microsoft.directory/deviceLocalCredentials/password/read |
+| Intune Administrator | microsoft.directory/deviceManagementPolicies/standard/read |
+| Intune Administrator | microsoft.directory/deviceRegistrationPolicy/standard/read |
+| Intune Administrator | microsoft.directory/devices/basic/update |
+| Intune Administrator | microsoft.directory/devices/create |
+| Intune Administrator | microsoft.directory/devices/delete |
+| Intune Administrator | microsoft.directory/devices/disable |
+| Intune Administrator | microsoft.directory/devices/enable |
+| Intune Administrator | microsoft.directory/devices/extensionAttributeSet1/update |
+| Intune Administrator | microsoft.directory/devices/extensionAttributeSet2/update |
+| Intune Administrator | microsoft.directory/devices/extensionAttributeSet3/update |
+| Intune Administrator | microsoft.directory/devices/registeredOwners/update |
+| Intune Administrator | microsoft.directory/devices/registeredUsers/update |
+| Intune Administrator | microsoft.directory/groups.security/basic/update |
+| Intune Administrator | microsoft.directory/groups.security/classification/update |
+| Intune Administrator | microsoft.directory/groups.security/create |
+| Intune Administrator | microsoft.directory/groups.security/delete |
+| Intune Administrator | microsoft.directory/groups.security/dynamicMembershipRule/update |
+| Intune Administrator | microsoft.directory/groups.security/members/update |
+| Intune Administrator | microsoft.directory/groups.security/owners/update |
+| Intune Administrator | microsoft.directory/groups.security/visibility/update |
+| Intune Administrator | microsoft.directory/groups/hiddenMembers/read |
+| Intune Administrator | microsoft.directory/users/basic/update |
+| Intune Administrator | microsoft.directory/users/manager/update |
+| Intune Administrator | microsoft.directory/users/photo/update |
+| Intune Administrator | microsoft.intune/allEntities/allTasks |
+| Intune Administrator | microsoft.office365.organizationalMessages/allEntities/allProperties/read |
+| Intune Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Intune Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Kaizala Administrator | microsoft.directory/authorizationPolicy/standard/read |
+| Kaizala Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Kaizala Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Kaizala Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Knowledge Administrator | microsoft.directory/groups.security/basic/update |
 | Knowledge Administrator | microsoft.directory/groups.security/create |
 | Knowledge Administrator | microsoft.directory/groups.security/createAsOwner |
@@ -1075,41 +755,400 @@
 | Knowledge Manager | microsoft.office365.sharePoint/allEntities/allTasks |
 | Knowledge Manager | microsoft.office365.supportTickets/allEntities/allTasks |
 | Knowledge Manager | microsoft.office365.webPortal/allEntities/standard/read |
-| Domain Name Administrator | microsoft.directory/domains/allProperties/allTasks |
-| Domain Name Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Domain Name Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Attribute Definition Administrator | microsoft.directory/attributeSets/allProperties/allTasks |
-| Attribute Definition Administrator | microsoft.directory/customSecurityAttributeDefinitions/allProperties/allTasks |
-| Attribute Assignment Administrator | microsoft.directory/attributeSets/allProperties/read |
-| Attribute Assignment Administrator | microsoft.directory/customSecurityAttributeDefinitions/allProperties/read |
-| Attribute Assignment Administrator | microsoft.directory/devices/customSecurityAttributes/read |
-| Attribute Assignment Administrator | microsoft.directory/devices/customSecurityAttributes/update |
-| Attribute Assignment Administrator | microsoft.directory/servicePrincipals/customSecurityAttributes/read |
-| Attribute Assignment Administrator | microsoft.directory/servicePrincipals/customSecurityAttributes/update |
-| Attribute Assignment Administrator | microsoft.directory/users/customSecurityAttributes/read |
-| Attribute Assignment Administrator | microsoft.directory/users/customSecurityAttributes/update |
-| Attribute Definition Reader | microsoft.directory/attributeSets/allProperties/read |
-| Attribute Definition Reader | microsoft.directory/customSecurityAttributeDefinitions/allProperties/read |
-| Attribute Assignment Reader | microsoft.directory/attributeSets/allProperties/read |
-| Attribute Assignment Reader | microsoft.directory/customSecurityAttributeDefinitions/allProperties/read |
-| Attribute Assignment Reader | microsoft.directory/devices/customSecurityAttributes/read |
-| Attribute Assignment Reader | microsoft.directory/servicePrincipals/customSecurityAttributes/read |
-| Attribute Assignment Reader | microsoft.directory/users/customSecurityAttributes/read |
-| Exchange Recipient Administrator | microsoft.office365.exchange/migration/allProperties/allTasks |
-| Exchange Recipient Administrator | microsoft.office365.exchange/recipients/allProperties/allTasks |
-| Identity Governance Administrator | microsoft.directory/accessReviews/allProperties/allTasks |
-| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks |
-| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.entitlementManagement/allProperties/allTasks |
-| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/read |
-| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/update |
-| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.groups/create |
-| Identity Governance Administrator | microsoft.directory/accessReviews/definitions.groups/delete |
-| Identity Governance Administrator | microsoft.directory/entitlementManagement/allProperties/allTasks |
-| Identity Governance Administrator | microsoft.directory/groups/members/update |
-| Identity Governance Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
-| Cloud App Security Administrator | microsoft.directory/cloudAppSecurity/allProperties/allTasks |
-| Cloud App Security Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Windows Update Deployment Administrator | microsoft.windows.updatesDeployments/allEntities/allProperties/allTasks |
+| License Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| License Administrator | microsoft.directory/authorizationPolicy/standard/read |
+| License Administrator | microsoft.directory/groups/assignLicense |
+| License Administrator | microsoft.directory/groups/reprocessLicenseAssignment |
+| License Administrator | microsoft.directory/users/assignLicense |
+| License Administrator | microsoft.directory/users/reprocessLicenseAssignment |
+| License Administrator | microsoft.directory/users/usageLocation/update |
+| License Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| License Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Message Center Privacy Reader | microsoft.office365.messageCenter/messages/read |
+| Message Center Privacy Reader | microsoft.office365.messageCenter/securityMessages/read |
+| Message Center Privacy Reader | microsoft.office365.webPortal/allEntities/standard/read |
+| Message Center Reader | microsoft.office365.messageCenter/messages/read |
+| Message Center Reader | microsoft.office365.webPortal/allEntities/standard/read |
+| Microsoft Hardware Warranty Administrator | microsoft.hardware.support/shippingAddress/allProperties/allTasks |
+| Microsoft Hardware Warranty Administrator | microsoft.hardware.support/shippingStatus/allProperties/read |
+| Microsoft Hardware Warranty Administrator | microsoft.hardware.support/warrantyClaims/allProperties/allTasks |
+| Microsoft Hardware Warranty Administrator | microsoft.office365.messageCenter/messages/read |
+| Microsoft Hardware Warranty Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Microsoft Hardware Warranty Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Microsoft Hardware Warranty Specialist | microsoft.hardware.support/shippingAddress/allProperties/read |
+| Microsoft Hardware Warranty Specialist | microsoft.hardware.support/warrantyClaims/createAsOwner |
+| Microsoft Hardware Warranty Specialist | microsoft.office365.supportTickets/allEntities/allTasks |
+| Microsoft Hardware Warranty Specialist | microsoft.office365.webPortal/allEntities/standard/read |
+| Microsoft Hardware Warranty Specialist | microsoft.hardware.support/shippingStatus/allProperties/read |
+| Microsoft Hardware Warranty Specialist | microsoft.hardware.support/warrantyClaims/allProperties/read |
+| Network Administrator | microsoft.office365.network/locations/allProperties/allTasks |
+| Network Administrator | microsoft.office365.network/performance/allProperties/read |
+| Network Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Office Apps Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Office Apps Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Office Apps Administrator | microsoft.office365.messageCenter/messages/read |
+| Office Apps Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Office Apps Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Office Apps Administrator | microsoft.office365.userCommunication/allEntities/allTasks |
+| Office Apps Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Organizational Messages Writer | microsoft.office365.organizationalMessages/allEntities/allProperties/allTasks |
+| Organizational Messages Writer | microsoft.office365.usageReports/allEntities/standard/read |
+| Organizational Messages Writer | microsoft.office365.webPortal/allEntities/standard/read |
+| Password Administrator | microsoft.directory/users/password/update |
+| Password Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Power Platform Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Power Platform Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Power Platform Administrator | microsoft.dynamics365/allEntities/allTasks |
+| Power Platform Administrator | microsoft.flow/allEntities/allTasks |
+| Power Platform Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Power Platform Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Power Platform Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Power Platform Administrator | microsoft.powerApps/allEntities/allTasks |
+| Printer Administrator | microsoft.azure.print/allEntities/allProperties/allTasks |
+| Printer Technician | microsoft.azure.print/connectors/allProperties/read |
+| Printer Technician | microsoft.azure.print/printers/allProperties/read |
+| Printer Technician | microsoft.azure.print/printers/basic/update |
+| Printer Technician | microsoft.azure.print/printers/register |
+| Printer Technician | microsoft.azure.print/printers/unregister |
+| Privileged Authentication Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Privileged Authentication Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Privileged Authentication Administrator | microsoft.directory/deletedItems.users/restore |
+| Privileged Authentication Administrator | microsoft.directory/users/authenticationMethods/basic/update |
+| Privileged Authentication Administrator | microsoft.directory/users/authenticationMethods/create |
+| Privileged Authentication Administrator | microsoft.directory/users/authenticationMethods/delete |
+| Privileged Authentication Administrator | microsoft.directory/users/authenticationMethods/standard/read |
+| Privileged Authentication Administrator | microsoft.directory/users/authorizationInfo/update |
+| Privileged Authentication Administrator | microsoft.directory/users/basic/update |
+| Privileged Authentication Administrator | microsoft.directory/users/delete |
+| Privileged Authentication Administrator | microsoft.directory/users/disable |
+| Privileged Authentication Administrator | microsoft.directory/users/enable |
+| Privileged Authentication Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
+| Privileged Authentication Administrator | microsoft.directory/users/manager/update |
+| Privileged Authentication Administrator | microsoft.directory/users/password/update |
+| Privileged Authentication Administrator | microsoft.directory/users/restore |
+| Privileged Authentication Administrator | microsoft.directory/users/userPrincipalName/update |
+| Privileged Authentication Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Privileged Authentication Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Privileged Authentication Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.applications/allProperties/read |
+| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.directoryRoles/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/read |
+| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.groupsAssignableToRoles/allProperties/update |
+| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.groupsAssignableToRoles/create |
+| Privileged Role Administrator | microsoft.directory/accessReviews/definitions.groupsAssignableToRoles/delete |
+| Privileged Role Administrator | microsoft.directory/administrativeUnits/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/authorizationPolicy/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/directoryRoles/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/allProperties/update |
+| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/create |
+| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/delete |
+| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/restore |
+| Privileged Role Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/privilegedIdentityManagement/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/roleAssignments/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/roleDefinitions/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/scopedRoleMemberships/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
+| Privileged Role Administrator | microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin |
+| Privileged Role Administrator | microsoft.directory/servicePrincipals/permissions/update |
+| Privileged Role Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Reports Reader | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Reports Reader | microsoft.directory/auditLogs/allProperties/read |
+| Reports Reader | microsoft.directory/provisioningLogs/allProperties/read |
+| Reports Reader | microsoft.directory/signInReports/allProperties/read |
+| Reports Reader | microsoft.office365.network/performance/allProperties/read |
+| Reports Reader | microsoft.office365.usageReports/allEntities/allProperties/read |
+| Reports Reader | microsoft.office365.webPortal/allEntities/standard/read |
+| Search Administrator | microsoft.office365.messageCenter/messages/read |
+| Search Administrator | microsoft.office365.search/content/manage |
+| Search Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Search Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Search Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Search Editor | microsoft.office365.messageCenter/messages/read |
+| Search Editor | microsoft.office365.search/content/manage |
+| Search Editor | microsoft.office365.webPortal/allEntities/standard/read |
+| Security Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Security Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Security Administrator | microsoft.directory/applications/policies/update |
+| Security Administrator | microsoft.directory/auditLogs/allProperties/read |
+| Security Administrator | microsoft.directory/authorizationPolicy/standard/read |
+| Security Administrator | microsoft.directory/bitlockerKeys/key/read |
+| Security Administrator | microsoft.directory/conditionalAccessPolicies/basic/update |
+| Security Administrator | microsoft.directory/conditionalAccessPolicies/create |
+| Security Administrator | microsoft.directory/conditionalAccessPolicies/delete |
+| Security Administrator | microsoft.directory/conditionalAccessPolicies/owners/read |
+| Security Administrator | microsoft.directory/conditionalAccessPolicies/owners/update |
+| Security Administrator | microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read |
+| Security Administrator | microsoft.directory/conditionalAccessPolicies/standard/read |
+| Security Administrator | microsoft.directory/conditionalAccessPolicies/tenantDefault/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/allowedCloudEndpoints/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/basic/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/b2bCollaboration/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/b2bDirectConnect/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/crossCloudMeetings/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/standard/read |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/tenantRestrictions/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/b2bCollaboration/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/b2bDirectConnect/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/create |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/crossCloudMeetings/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/delete |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/basic/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/create |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/standard/read |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/standard/read |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/basic/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/resetToDefaultSettings |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/basic/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/resetToDefaultSettings |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/partners/tenantRestrictions/update |
+| Security Administrator | microsoft.directory/crossTenantAccessPolicy/standard/read |
+| Security Administrator | microsoft.directory/deviceLocalCredentials/standard/read |
+| Security Administrator | microsoft.directory/domains/federation/update |
+| Security Administrator | microsoft.directory/domains/federationConfiguration/basic/update |
+| Security Administrator | microsoft.directory/domains/federationConfiguration/create |
+| Security Administrator | microsoft.directory/domains/federationConfiguration/delete |
+| Security Administrator | microsoft.directory/domains/federationConfiguration/standard/read |
+| Security Administrator | microsoft.directory/entitlementManagement/allProperties/read |
+| Security Administrator | microsoft.directory/identityProtection/allProperties/read |
+| Security Administrator | microsoft.directory/identityProtection/allProperties/update |
+| Security Administrator | microsoft.directory/multiTenantOrganization/basic/update |
+| Security Administrator | microsoft.directory/multiTenantOrganization/create |
+| Security Administrator | microsoft.directory/multiTenantOrganization/joinRequest/organizationDetails/update |
+| Security Administrator | microsoft.directory/multiTenantOrganization/joinRequest/standard/read |
+| Security Administrator | microsoft.directory/multiTenantOrganization/standard/read |
+| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/create |
+| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/delete |
+| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read |
+| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/organizationDetails/update |
+| Security Administrator | microsoft.directory/multiTenantOrganization/tenants/standard/read |
+| Security Administrator | microsoft.directory/namedLocations/basic/update |
+| Security Administrator | microsoft.directory/namedLocations/create |
+| Security Administrator | microsoft.directory/namedLocations/delete |
+| Security Administrator | microsoft.directory/namedLocations/standard/read |
+| Security Administrator | microsoft.directory/policies/basic/update |
+| Security Administrator | microsoft.directory/policies/create |
+| Security Administrator | microsoft.directory/policies/delete |
+| Security Administrator | microsoft.directory/policies/owners/update |
+| Security Administrator | microsoft.directory/policies/tenantDefault/update |
+| Security Administrator | microsoft.directory/privilegedIdentityManagement/allProperties/read |
+| Security Administrator | microsoft.directory/provisioningLogs/allProperties/read |
+| Security Administrator | microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update |
+| Security Administrator | microsoft.directory/servicePrincipals/policies/update |
+| Security Administrator | microsoft.directory/signInReports/allProperties/read |
+| Security Administrator | microsoft.networkAccess/allEntities/allProperties/allTasks |
+| Security Administrator | microsoft.office365.protectionCenter/allEntities/basic/update |
+| Security Administrator | microsoft.office365.protectionCenter/allEntities/standard/read |
+| Security Administrator | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/allTasks |
+| Security Administrator | microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read |
+| Security Administrator | microsoft.office365.protectionCenter/attackSimulator/simulation/allProperties/allTasks |
+| Security Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Security Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Security Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Security Operator | microsoft.azure.advancedThreatProtection/allEntities/allTasks |
+| Security Operator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Security Operator | microsoft.directory/auditLogs/allProperties/read |
+| Security Operator | microsoft.directory/authorizationPolicy/standard/read |
+| Security Operator | microsoft.directory/cloudAppSecurity/allProperties/allTasks |
+| Security Operator | microsoft.directory/identityProtection/allProperties/allTasks |
+| Security Operator | microsoft.directory/privilegedIdentityManagement/allProperties/read |
+| Security Operator | microsoft.directory/provisioningLogs/allProperties/read |
+| Security Operator | microsoft.directory/signInReports/allProperties/read |
+| Security Operator | microsoft.intune/allEntities/read |
+| Security Operator | microsoft.office365.securityComplianceCenter/allEntities/allTasks |
+| Security Operator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Security Operator | microsoft.windows.defenderAdvancedThreatProtection/allEntities/allTasks |
+| Security Reader | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Security Reader | microsoft.directory/accessReviews/definitions/allProperties/read |
+| Security Reader | microsoft.directory/auditLogs/allProperties/read |
+| Security Reader | microsoft.directory/authorizationPolicy/standard/read |
+| Security Reader | microsoft.directory/bitlockerKeys/key/read |
+| Security Reader | microsoft.directory/conditionalAccessPolicies/owners/read |
+| Security Reader | microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read |
+| Security Reader | microsoft.directory/conditionalAccessPolicies/standard/read |
+| Security Reader | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read |
+| Security Reader | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read |
+| Security Reader | microsoft.directory/deviceLocalCredentials/standard/read |
+| Security Reader | microsoft.directory/domains/federationConfiguration/standard/read |
+| Security Reader | microsoft.directory/entitlementManagement/allProperties/read |
+| Security Reader | microsoft.directory/identityProtection/allProperties/read |
+| Security Reader | microsoft.directory/multiTenantOrganization/joinRequest/standard/read |
+| Security Reader | microsoft.directory/multiTenantOrganization/standard/read |
+| Security Reader | microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read |
+| Security Reader | microsoft.directory/multiTenantOrganization/tenants/standard/read |
+| Security Reader | microsoft.directory/namedLocations/standard/read |
+| Security Reader | microsoft.directory/policies/owners/read |
+| Security Reader | microsoft.directory/policies/policyAppliedTo/read |
+| Security Reader | microsoft.directory/policies/standard/read |
+| Security Reader | microsoft.directory/privilegedIdentityManagement/allProperties/read |
+| Security Reader | microsoft.directory/provisioningLogs/allProperties/read |
+| Security Reader | microsoft.directory/signInReports/allProperties/read |
+| Security Reader | microsoft.networkAccess/allEntities/allProperties/read |
+| Security Reader | microsoft.office365.protectionCenter/allEntities/standard/read |
+| Security Reader | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/read |
+| Security Reader | microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read |
+| Security Reader | microsoft.office365.protectionCenter/attackSimulator/simulation/allProperties/read |
+| Security Reader | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Security Reader | microsoft.office365.webPortal/allEntities/standard/read |
+| Service Support Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Service Support Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Service Support Administrator | microsoft.office365.network/performance/allProperties/read |
+| Service Support Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Service Support Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Service Support Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| SharePoint Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| SharePoint Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| SharePoint Administrator | microsoft.directory/groups.unified/basic/update |
+| SharePoint Administrator | microsoft.directory/groups.unified/create |
+| SharePoint Administrator | microsoft.directory/groups.unified/delete |
+| SharePoint Administrator | microsoft.directory/groups.unified/members/update |
+| SharePoint Administrator | microsoft.directory/groups.unified/owners/update |
+| SharePoint Administrator | microsoft.directory/groups.unified/restore |
+| SharePoint Administrator | microsoft.directory/groups/hiddenMembers/read |
+| SharePoint Administrator | microsoft.office365.network/performance/allProperties/read |
+| SharePoint Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| SharePoint Administrator | microsoft.office365.sharePoint/allEntities/allTasks |
+| SharePoint Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| SharePoint Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
+| SharePoint Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Skype for Business Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Skype for Business Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Skype for Business Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Skype for Business Administrator | microsoft.office365.skypeForBusiness/allEntities/allTasks |
+| Skype for Business Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Skype for Business Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
+| Skype for Business Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Teams Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Teams Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Teams Administrator | microsoft.directory/authorizationPolicy/standard/read |
+| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/allowedCloudEndpoints/update |
+| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/default/crossCloudMeetings/update |
+| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/default/standard/read |
+| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/partners/create |
+| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/partners/crossCloudMeetings/update |
+| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/partners/standard/read |
+| Teams Administrator | microsoft.directory/crossTenantAccessPolicy/standard/read |
+| Teams Administrator | microsoft.directory/externalUserProfiles/basic/update |
+| Teams Administrator | microsoft.directory/externalUserProfiles/delete |
+| Teams Administrator | microsoft.directory/externalUserProfiles/standard/read |
+| Teams Administrator | microsoft.directory/groups.unified/basic/update |
+| Teams Administrator | microsoft.directory/groups.unified/create |
+| Teams Administrator | microsoft.directory/groups.unified/delete |
+| Teams Administrator | microsoft.directory/groups.unified/members/update |
+| Teams Administrator | microsoft.directory/groups.unified/owners/update |
+| Teams Administrator | microsoft.directory/groups.unified/restore |
+| Teams Administrator | microsoft.directory/groups/hiddenMembers/read |
+| Teams Administrator | microsoft.directory/pendingExternalUserProfiles/basic/update |
+| Teams Administrator | microsoft.directory/pendingExternalUserProfiles/create |
+| Teams Administrator | microsoft.directory/pendingExternalUserProfiles/delete |
+| Teams Administrator | microsoft.directory/pendingExternalUserProfiles/standard/read |
+| Teams Administrator | microsoft.office365.network/performance/allProperties/read |
+| Teams Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Teams Administrator | microsoft.office365.skypeForBusiness/allEntities/allTasks |
+| Teams Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Teams Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
+| Teams Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Teams Administrator | microsoft.teams/allEntities/allProperties/allTasks |
+| Teams Communication Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Teams Communication Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Teams Communication Administrator | microsoft.directory/authorizationPolicy/standard/read |
+| Teams Communication Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Teams Communication Administrator | microsoft.office365.skypeForBusiness/allEntities/allTasks |
+| Teams Communication Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Teams Communication Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
+| Teams Communication Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Teams Communication Administrator | microsoft.teams/callQuality/allProperties/read |
+| Teams Communication Administrator | microsoft.teams/meetings/allProperties/allTasks |
+| Teams Communication Administrator | microsoft.teams/voice/allProperties/allTasks |
+| Teams Communication Support Engineer | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Teams Communication Support Engineer | microsoft.directory/authorizationPolicy/standard/read |
+| Teams Communication Support Engineer | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Teams Communication Support Engineer | microsoft.office365.skypeForBusiness/allEntities/allTasks |
+| Teams Communication Support Engineer | microsoft.office365.webPortal/allEntities/standard/read |
+| Teams Communication Support Engineer | microsoft.teams/callQuality/allProperties/read |
+| Teams Communication Support Specialist | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Teams Communication Support Specialist | microsoft.directory/authorizationPolicy/standard/read |
+| Teams Communication Support Specialist | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Teams Communication Support Specialist | microsoft.office365.skypeForBusiness/allEntities/allTasks |
+| Teams Communication Support Specialist | microsoft.office365.webPortal/allEntities/standard/read |
+| Teams Communication Support Specialist | microsoft.teams/callQuality/standard/read |
+| Teams Device Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Teams Device Administrator | microsoft.teams/devices/standard/read |
+| Usage Summary Reports Reader | microsoft.office365.network/performance/allProperties/read |
+| Usage Summary Reports Reader | microsoft.office365.usageReports/allEntities/standard/read |
+| Usage Summary Reports Reader | microsoft.office365.webPortal/allEntities/standard/read |
+| User Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| User Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| User Administrator | microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks |
+| User Administrator | microsoft.directory/accessReviews/definitions.directoryRoles/allProperties/read |
+| User Administrator | microsoft.directory/accessReviews/definitions.entitlementManagement/allProperties/allTasks |
+| User Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/read |
+| User Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/update |
+| User Administrator | microsoft.directory/accessReviews/definitions.groups/create |
+| User Administrator | microsoft.directory/accessReviews/definitions.groups/delete |
+| User Administrator | microsoft.directory/contacts/basic/update |
+| User Administrator | microsoft.directory/contacts/create |
+| User Administrator | microsoft.directory/contacts/delete |
+| User Administrator | microsoft.directory/deletedItems.groups/restore |
+| User Administrator | microsoft.directory/deletedItems.users/restore |
+| User Administrator | microsoft.directory/entitlementManagement/allProperties/allTasks |
+| User Administrator | microsoft.directory/groups/assignLicense |
+| User Administrator | microsoft.directory/groups/basic/update |
+| User Administrator | microsoft.directory/groups/classification/update |
+| User Administrator | microsoft.directory/groups/create |
+| User Administrator | microsoft.directory/groups/delete |
+| User Administrator | microsoft.directory/groups/dynamicMembershipRule/update |
+| User Administrator | microsoft.directory/groups/groupType/update |
+| User Administrator | microsoft.directory/groups/hiddenMembers/read |
+| User Administrator | microsoft.directory/groups/members/update |
+| User Administrator | microsoft.directory/groups/onPremWriteBack/update |
+| User Administrator | microsoft.directory/groups/owners/update |
+| User Administrator | microsoft.directory/groups/reprocessLicenseAssignment |
+| User Administrator | microsoft.directory/groups/restore |
+| User Administrator | microsoft.directory/groups/settings/update |
+| User Administrator | microsoft.directory/groups/visibility/update |
+| User Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
+| User Administrator | microsoft.directory/policies/standard/read |
+| User Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
+| User Administrator | microsoft.directory/users/assignLicense |
+| User Administrator | microsoft.directory/users/basic/update |
+| User Administrator | microsoft.directory/users/create |
+| User Administrator | microsoft.directory/users/delete |
+| User Administrator | microsoft.directory/users/disable |
+| User Administrator | microsoft.directory/users/enable |
+| User Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
+| User Administrator | microsoft.directory/users/inviteGuest |
+| User Administrator | microsoft.directory/users/manager/update |
+| User Administrator | microsoft.directory/users/password/update |
+| User Administrator | microsoft.directory/users/photo/update |
+| User Administrator | microsoft.directory/users/reprocessLicenseAssignment |
+| User Administrator | microsoft.directory/users/restore |
+| User Administrator | microsoft.directory/users/sponsors/update |
+| User Administrator | microsoft.directory/users/usageLocation/update |
+| User Administrator | microsoft.directory/users/userPrincipalName/update |
+| User Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| User Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| User Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| User Experience Success Manager | microsoft.commerce.billing/purchases/standard/read |
+| User Experience Success Manager | microsoft.office365.messageCenter/messages/read |
+| User Experience Success Manager | microsoft.office365.network/performance/allProperties/read |
+| User Experience Success Manager | microsoft.office365.organizationalMessages/allEntities/allProperties/read |
+| User Experience Success Manager | microsoft.office365.serviceHealth/allEntities/allTasks |
+| User Experience Success Manager | microsoft.office365.usageReports/allEntities/standard/read |
+| User Experience Success Manager | microsoft.office365.webPortal/allEntities/standard/read |
+| Virtual Visits Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Virtual Visits Administrator | microsoft.virtualVisits/allEntities/allProperties/allTasks |
+| Viva Goals Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Viva Goals Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Viva Goals Administrator | microsoft.viva.goals/allEntities/allProperties/allTasks |
+| Viva Pulse Administrator | microsoft.office365.messageCenter/messages/read |
+| Viva Pulse Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Viva Pulse Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Viva Pulse Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
+| Viva Pulse Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Viva Pulse Administrator | microsoft.viva.pulse/allEntities/allProperties/allTasks |
 | Windows 365 Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Windows 365 Administrator | microsoft.cloudPC/allEntities/allProperties/allTasks |
 | Windows 365 Administrator | microsoft.directory/deletedItems.devices/delete |
@@ -1137,9 +1176,7 @@
 | Windows 365 Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Windows 365 Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
 | Windows 365 Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Edge Administrator | microsoft.edge/allEntities/allProperties/allTasks |
-| Edge Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Edge Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Windows Update Deployment Administrator | microsoft.windows.updatesDeployments/allEntities/allProperties/allTasks |
 | Yammer Administrator | microsoft.directory/groups.unified/basic/update |
 | Yammer Administrator | microsoft.directory/groups.unified/create |
 | Yammer Administrator | microsoft.directory/groups.unified/delete |
@@ -1154,43 +1191,6 @@
 | Yammer Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
 | Yammer Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Yammer Administrator | microsoft.office365.yammer/allEntities/allProperties/allTasks |
-| Authentication Extensibility Administrator | microsoft.directory/customAuthenticationExtensions/allProperties/allTasks |
-| Virtual Visits Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Virtual Visits Administrator | microsoft.virtualVisits/allEntities/allProperties/allTasks |
-| Insights Analyst | microsoft.insights/queries/allProperties/allTasks |
-| Insights Analyst | microsoft.office365.supportTickets/allEntities/allTasks |
-| Insights Analyst | microsoft.office365.webPortal/allEntities/standard/read |
-| Microsoft Hardware Warranty Administrator | microsoft.hardware.support/shippingAddress/allProperties/allTasks |
-| Microsoft Hardware Warranty Administrator | microsoft.hardware.support/shippingStatus/allProperties/read |
-| Microsoft Hardware Warranty Administrator | microsoft.hardware.support/warrantyClaims/allProperties/allTasks |
-| Microsoft Hardware Warranty Administrator | microsoft.office365.messageCenter/messages/read |
-| Microsoft Hardware Warranty Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Microsoft Hardware Warranty Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Microsoft Hardware Warranty Specialist | microsoft.hardware.support/shippingAddress/allProperties/read |
-| Microsoft Hardware Warranty Specialist | microsoft.hardware.support/warrantyClaims/createAsOwner |
-| Microsoft Hardware Warranty Specialist | microsoft.office365.supportTickets/allEntities/allTasks |
-| Microsoft Hardware Warranty Specialist | microsoft.office365.webPortal/allEntities/standard/read |
-| Microsoft Hardware Warranty Specialist | microsoft.hardware.support/shippingStatus/allProperties/read |
-| Microsoft Hardware Warranty Specialist | microsoft.hardware.support/warrantyClaims/allProperties/read |
-| Viva Goals Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Viva Goals Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Viva Goals Administrator | microsoft.viva.goals/allEntities/allProperties/allTasks |
-| User Experience Success Manager | microsoft.commerce.billing/purchases/standard/read |
-| User Experience Success Manager | microsoft.office365.messageCenter/messages/read |
-| User Experience Success Manager | microsoft.office365.network/performance/allProperties/read |
-| User Experience Success Manager | microsoft.office365.organizationalMessages/allEntities/allProperties/read |
-| User Experience Success Manager | microsoft.office365.serviceHealth/allEntities/allTasks |
-| User Experience Success Manager | microsoft.office365.usageReports/allEntities/standard/read |
-| User Experience Success Manager | microsoft.office365.webPortal/allEntities/standard/read |
-| Organizational Messages Writer | microsoft.office365.organizationalMessages/allEntities/allProperties/allTasks |
-| Organizational Messages Writer | microsoft.office365.usageReports/allEntities/standard/read |
-| Organizational Messages Writer | microsoft.office365.webPortal/allEntities/standard/read |
-| Viva Pulse Administrator | microsoft.office365.messageCenter/messages/read |
-| Viva Pulse Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
-| Viva Pulse Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
-| Viva Pulse Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
-| Viva Pulse Administrator | microsoft.office365.webPortal/allEntities/standard/read |
-| Viva Pulse Administrator | microsoft.viva.pulse/allEntities/allProperties/allTasks |
 
 
 ## Roles by Permission

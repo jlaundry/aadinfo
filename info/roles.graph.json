@@ -1,5 +1,6 @@
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions",
+    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET roleManagement/directory/roleDefinitions?$select=allowedPrincipalTypes,description",
     "value": [
         {
             "id": "62e90394-69f5-4237-9190-012177145e10",
@@ -44,6 +45,16 @@
                         "microsoft.directory/deletedItems/delete",
                         "microsoft.directory/deletedItems/restore",
                         "microsoft.directory/devices/allProperties/allTasks",
+                        "microsoft.directory/multiTenantOrganization/basic/update",
+                        "microsoft.directory/multiTenantOrganization/create",
+                        "microsoft.directory/multiTenantOrganization/joinRequest/organizationDetails/update",
+                        "microsoft.directory/multiTenantOrganization/joinRequest/standard/read",
+                        "microsoft.directory/multiTenantOrganization/standard/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/organizationDetails/update",
+                        "microsoft.directory/multiTenantOrganization/tenants/create",
+                        "microsoft.directory/multiTenantOrganization/tenants/delete",
+                        "microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/standard/read",
                         "microsoft.directory/namedLocations/create",
                         "microsoft.directory/namedLocations/delete",
                         "microsoft.directory/namedLocations/standard/read",
@@ -87,10 +98,19 @@
                         "microsoft.directory/crossTenantAccessPolicy/partners/create",
                         "microsoft.directory/crossTenantAccessPolicy/partners/delete",
                         "microsoft.directory/crossTenantAccessPolicy/partners/standard/read",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/basic/update",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/resetToDefaultSettings",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/basic/update",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/resetToDefaultSettings",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read",
                         "microsoft.directory/crossTenantAccessPolicy/partners/b2bCollaboration/update",
                         "microsoft.directory/crossTenantAccessPolicy/partners/b2bDirectConnect/update",
                         "microsoft.directory/crossTenantAccessPolicy/partners/crossCloudMeetings/update",
                         "microsoft.directory/crossTenantAccessPolicy/partners/tenantRestrictions/update",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/create",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/basic/update",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/standard/read",
                         "microsoft.directory/privilegedIdentityManagement/allProperties/read",
                         "microsoft.directory/provisioningLogs/allProperties/read",
                         "microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update",
@@ -178,6 +198,8 @@
                         "microsoft.powerApps.powerBI/allEntities/allTasks",
                         "microsoft.teams/allEntities/allProperties/allTasks",
                         "microsoft.virtualVisits/allEntities/allProperties/allTasks",
+                        "microsoft.viva.goals/allEntities/allProperties/allTasks",
+                        "microsoft.viva.pulse/allEntities/allProperties/allTasks",
                         "microsoft.windows.defenderAdvancedThreatProtection/allEntities/allTasks",
                         "microsoft.windows.updatesDeployments/allEntities/allProperties/allTasks"
                     ],
@@ -216,6 +238,8 @@
                         "microsoft.directory/groups/members/limitedRead",
                         "microsoft.directory/groups/owners/limitedRead",
                         "microsoft.directory/groups/settings/limitedRead",
+                        "microsoft.directory/multiTenantOrganization/standard/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/standard/read",
                         "microsoft.directory/organization/basicProfile/read",
                         "microsoft.directory/servicePrincipals/appRoleAssignedTo/limitedRead",
                         "microsoft.directory/servicePrincipals/appRoleAssignments/limitedRead",
@@ -250,7 +274,7 @@
                         "microsoft.directory/users/sponsors/read",
                         "microsoft.directory/users/password/update"
                     ],
-                    "condition": "@Subject.objectId == @Resource.objectId"
+                    "condition": "$ResourceIsSelf"
                 }
             ],
             "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('10dae51f-b6af-4016-8d66-8c2a99b929b3')/inheritsPermissionsFrom",
@@ -307,7 +331,7 @@
                         "microsoft.directory/users/sponsors/read",
                         "microsoft.directory/users/password/update"
                     ],
-                    "condition": "@Subject.objectId == @Resource.objectId"
+                    "condition": "$ResourceIsSelf"
                 }
             ],
             "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('2af84b1e-32c8-42b7-82bc-daa82404023b')/inheritsPermissionsFrom",
@@ -571,6 +595,8 @@
                         "microsoft.directory/groups/memberOf/read",
                         "microsoft.directory/groups/members/read",
                         "microsoft.directory/groups/owners/read",
+                        "microsoft.directory/multiTenantOrganization/standard/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/standard/read",
                         "microsoft.directory/oAuth2PermissionGrants/standard/read",
                         "microsoft.directory/organization/standard/read",
                         "microsoft.directory/policies/standard/read",
@@ -664,7 +690,7 @@
                         "microsoft.directory/servicePrincipals/tag/update",
                         "microsoft.directory/signInReports/allProperties/read"
                     ],
-                    "condition": "@Subject.objectId Any_of @Resource.owners"
+                    "condition": "$SubjectIsOwner"
                 },
                 {
                     "allowedResourceActions": [
@@ -680,7 +706,7 @@
                         "microsoft.directory/userInfos/phone/read",
                         "microsoft.directory/userInfos/profile/read"
                     ],
-                    "condition": "@Subject.objectId == @Resource.objectId"
+                    "condition": "$ResourceIsSelf"
                 }
             ],
             "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('a0b1b346-4d3e-4e8b-98f8-753987be4970')/inheritsPermissionsFrom",
@@ -1438,6 +1464,12 @@
                         "microsoft.directory/conditionalAccessPolicies/standard/read",
                         "microsoft.directory/conditionalAccessPolicies/owners/read",
                         "microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read",
+                        "microsoft.directory/multiTenantOrganization/joinRequest/standard/read",
+                        "microsoft.directory/multiTenantOrganization/standard/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/standard/read",
                         "microsoft.directory/privilegedIdentityManagement/allProperties/read",
                         "microsoft.directory/provisioningLogs/allProperties/read",
                         "microsoft.directory/signInReports/allProperties/read",
@@ -1490,10 +1522,19 @@
                         "microsoft.directory/crossTenantAccessPolicy/partners/create",
                         "microsoft.directory/crossTenantAccessPolicy/partners/delete",
                         "microsoft.directory/crossTenantAccessPolicy/partners/standard/read",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/basic/update",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/resetToDefaultSettings",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/basic/update",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/resetToDefaultSettings",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read",
                         "microsoft.directory/crossTenantAccessPolicy/partners/b2bCollaboration/update",
                         "microsoft.directory/crossTenantAccessPolicy/partners/b2bDirectConnect/update",
                         "microsoft.directory/crossTenantAccessPolicy/partners/crossCloudMeetings/update",
                         "microsoft.directory/crossTenantAccessPolicy/partners/tenantRestrictions/update",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/create",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/basic/update",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/standard/read",
                         "microsoft.directory/deviceLocalCredentials/standard/read",
                         "microsoft.directory/domains/federation/update",
                         "microsoft.directory/domains/federationConfiguration/standard/read",
@@ -1503,6 +1544,16 @@
                         "microsoft.directory/entitlementManagement/allProperties/read",
                         "microsoft.directory/identityProtection/allProperties/read",
                         "microsoft.directory/identityProtection/allProperties/update",
+                        "microsoft.directory/multiTenantOrganization/basic/update",
+                        "microsoft.directory/multiTenantOrganization/create",
+                        "microsoft.directory/multiTenantOrganization/joinRequest/organizationDetails/update",
+                        "microsoft.directory/multiTenantOrganization/joinRequest/standard/read",
+                        "microsoft.directory/multiTenantOrganization/standard/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/organizationDetails/update",
+                        "microsoft.directory/multiTenantOrganization/tenants/create",
+                        "microsoft.directory/multiTenantOrganization/tenants/delete",
+                        "microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/standard/read",
                         "microsoft.directory/namedLocations/create",
                         "microsoft.directory/namedLocations/delete",
                         "microsoft.directory/namedLocations/standard/read",
@@ -1803,8 +1854,8 @@
         },
         {
             "id": "a9ea8996-122f-4c74-9520-8edcd192826c",
-            "description": "Can manage all aspects of the Power BI product.",
-            "displayName": "Power BI Administrator",
+            "description": "Manages all aspects of Microsoft Fabric.",
+            "displayName": "Fabric Administrator",
             "isBuiltIn": true,
             "isEnabled": true,
             "isPrivileged": false,
@@ -2677,8 +2728,15 @@
                         "microsoft.directory/crossTenantAccessPolicy/standard/read",
                         "microsoft.directory/crossTenantAccessPolicy/default/standard/read",
                         "microsoft.directory/crossTenantAccessPolicy/partners/standard/read",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read",
+                        "microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/standard/read",
                         "microsoft.directory/deviceManagementPolicies/standard/read",
                         "microsoft.directory/deviceRegistrationPolicy/standard/read",
+                        "microsoft.directory/multiTenantOrganization/joinRequest/standard/read",
+                        "microsoft.directory/multiTenantOrganization/standard/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read",
+                        "microsoft.directory/multiTenantOrganization/tenants/standard/read",
                         "microsoft.directory/privilegedIdentityManagement/allProperties/read",
                         "microsoft.directory/provisioningLogs/allProperties/read",
                         "microsoft.directory/roleAssignments/allProperties/read",
@@ -2716,6 +2774,8 @@
                         "microsoft.permissionsManagement/allEntities/allProperties/read",
                         "microsoft.teams/allEntities/allProperties/read",
                         "microsoft.virtualVisits/allEntities/allProperties/read",
+                        "microsoft.viva.goals/allEntities/allProperties/read",
+                        "microsoft.viva.pulse/allEntities/allProperties/read",
                         "microsoft.windows.updatesDeployments/allEntities/allProperties/read"
                     ],
                     "condition": null
@@ -3077,6 +3137,7 @@
                         "microsoft.directory/servicePrincipals/synchronizationCredentials/manage",
                         "microsoft.directory/servicePrincipals/synchronizationJobs/manage",
                         "microsoft.directory/servicePrincipals/synchronizationSchema/manage",
+                        "microsoft.directory/servicePrincipals/appRoleAssignedTo/update",
                         "microsoft.directory/servicePrincipals/audience/update",
                         "microsoft.directory/servicePrincipals/authentication/update",
                         "microsoft.directory/servicePrincipals/basic/update",
@@ -3915,7 +3976,7 @@
                         "microsoft.hardware.support/shippingStatus/allProperties/read",
                         "microsoft.hardware.support/warrantyClaims/allProperties/read"
                     ],
-                    "condition": "@Subject.objectId Any_of @Resource.owners"
+                    "condition": "$SubjectIsOwner"
                 }
             ],
             "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('281fe777-fb20-4fbb-b7a3-ccebce5b0d96')/inheritsPermissionsFrom",
@@ -3996,7 +4057,8 @@
                 {
                     "allowedResourceActions": [
                         "microsoft.office365.supportTickets/allEntities/allTasks",
-                        "microsoft.office365.webPortal/allEntities/standard/read"
+                        "microsoft.office365.webPortal/allEntities/standard/read",
+                        "microsoft.viva.goals/allEntities/allProperties/allTasks"
                     ],
                     "condition": null
                 }
@@ -4154,7 +4216,8 @@
                         "microsoft.office365.serviceHealth/allEntities/allTasks",
                         "microsoft.office365.supportTickets/allEntities/allTasks",
                         "microsoft.office365.usageReports/allEntities/allProperties/read",
-                        "microsoft.office365.webPortal/allEntities/standard/read"
+                        "microsoft.office365.webPortal/allEntities/standard/read",
+                        "microsoft.viva.pulse/allEntities/allProperties/allTasks"
                     ],
                     "condition": null
                 }

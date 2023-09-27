@@ -1,3 +1,4 @@
+v20.events.data.microsoft.com
 onedsblobprdcus15.centralus.cloudapp.azure.com
 onedsblobprdcus16.centralus.cloudapp.azure.com
 onedsblobprdcus17.centralus.cloudapp.azure.com

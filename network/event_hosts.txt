@@ -85,6 +85,7 @@ onedscolprdweu04.westeurope.cloudapp.azure.com
 onedscolprdweu05.westeurope.cloudapp.azure.com
 onedscolprdweu06.westeurope.cloudapp.azure.com
 onedscolprdweu07.westeurope.cloudapp.azure.com
+onedscolprdweu11.westeurope.cloudapp.azure.com
 onedscolprdwus00.westus.cloudapp.azure.com
 onedscolprdwus01.westus.cloudapp.azure.com
 onedscolprdwus02.westus.cloudapp.azure.com
@@ -100,3 +101,6 @@ onedscolprdwus11.westus.cloudapp.azure.com
 onedscolprdwus12.westus.cloudapp.azure.com
 onedscolprdwus13.westus.cloudapp.azure.com
 onedscolprdwus14.westus.cloudapp.azure.com
+onedscolprdwus15.westus.cloudapp.azure.com
+onedscolprdwus16.westus.cloudapp.azure.com
+onedscolprdwus17.westus.cloudapp.azure.com

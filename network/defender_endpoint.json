@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "serviceArea": "Defender for Endpoint",
+        "serviceAreaDisplayName": "Defender for Endpoint - Common",
+        "urls": [
+        ],
+        "tcpPorts": "443",
+        "required": true
+    },
+    {
+        "id": 2,
+        "serviceArea": "Defender for Endpoint",
+        "serviceAreaDisplayName": "Defender for Endpoint - US",
+        "urls": [
+          "unitedstates.x.cp.wd.microsoft.com",
+          "us.vortex-win.data.microsoft.com",
+          "us-v20.events.data.microsoft.com",
+          "winatp-gw-cus.microsoft.com",
+          "winatp-gw-eus.microsoft.com",
+          "winatp-gw-cus3.microsoft.com",
+          "winatp-gw-eus3.microsoft.com",
+          "automatedirstrprdcus.blob.core.windows.net",
+          "automatedirstrprdeus.blob.core.windows.net",
+          "automatedirstrprdcus3.blob.core.windows.net",
+          "automatedirstrprdeus3.blob.core.windows.net",
+          "ussus1eastprod.blob.core.windows.net",
+          "ussus2eastprod.blob.core.windows.net",
+          "ussus3eastprod.blob.core.windows.net",
+          "ussus4eastprod.blob.core.windows.net",
+          "wsus1eastprod.blob.core.windows.net",
+          "wsus2eastprod.blob.core.windows.net",
+          "ussus1westprod.blob.core.windows.net",
+          "ussus2westprod.blob.core.windows.net",
+          "ussus3westprod.blob.core.windows.net",
+          "ussus4westprod.blob.core.windows.net",
+          "wsus1westprod.blob.core.windows.net",
+          "wsus2westprod.blob.core.windows.net"
+        ],
+        "tcpPorts": "443",
+        "required": true
+    },
+    {
+        "id": 3,
+        "serviceArea": "Defender for Endpoint",
+        "serviceAreaDisplayName": "Defender for Endpoint - EU",
+        "urls": [
+            "europe.x.cp.wd.microsoft.com",
+            "eu.vortex-win.data.microsoft.com",
+            "eu-v20.events.data.microsoft.com",
+            "winatp-gw-neu.microsoft.com",
+            "winatp-gw-weu.microsoft.com",
+            "winatp-gw-neu3.microsoft.com",
+            "winatp-gw-weu3.microsoft.com",
+            "automatedirstrprdneu.blob.core.windows.net",
+            "automatedirstrprdweu.blob.core.windows.net",
+            "automatedirstrprdneu3.blob.core.windows.net",
+            "automatedirstrprdweu3.blob.core.windows.net",
+            "usseu1northprod.blob.core.windows.net",
+            "wseu1northprod.blob.core.windows.net",
+            "usseu1westprod.blob.core.windows.net",
+            "wseu1westprod.blob.core.windows.net"
+        ],
+        "tcpPorts": "443",
+        "required": true
+    },
+    {
+        "id": 4,
+        "serviceArea": "Defender for Endpoint",
+        "serviceAreaDisplayName": "Defender for Endpoint - UK",
+        "urls": [
+            "unitedkingdom.x.cp.wd.microsoft.com",
+            "uk.vortex-win.data.microsoft.com",
+            "uk-v20.events.data.microsoft.com",
+            "winatp-gw-uks.microsoft.com",
+            "winatp-gw-ukw.microsoft.com",
+            "automatedirstrprduks.blob.core.windows.net",
+            "automatedirstrprdukw.blob.core.windows.net",
+            "ussuk1southprod.blob.core.windows.net",
+            "wsuk1southprod.blob.core.windows.net",
+            "ussuk1westprod.blob.core.windows.net",
+            "wsuk1westprod.blob.core.windows.net"
+        ],
+        "tcpPorts": "443",
+        "required": true
+    },
+    {
+        "id": 5,
+        "serviceArea": "Defender for Endpoint",
+        "serviceAreaDisplayName": "Defender for Endpoint - AU",
+        "urls": [
+            "australia.x.cp.wd.microsoft.com",
+            "au.vortex-win.data.microsoft.com",
+            "au-v20.events.data.microsoft.com",
+            "winatp-gw-aue.microsoft.com",
+            "winatp-gw-aus.microsoft.com",
+            "automatedirstrprdaue.blob.core.windows.net",
+            "automatedirstrprdaus.blob.core.windows.net",
+            "ussau1southeastprod.blob.core.windows.net",
+            "ussau1eastprod.blob.core.windows.net"
+        ],
+        "tcpPorts": "443",
+        "required": true
+    },
+    {
+        "id": 6,
+        "serviceArea": "Defender for Endpoint",
+        "serviceAreaDisplayName": "Defender for Endpoint - AV",
+        "urls": [
+            "go.microsoft.com",
+            "definitionupdates.microsoft.com",
+            "wdcp.microsoft.com"
+        ],
+        "tcpPorts": "443",
+        "required": true
+    }
+]

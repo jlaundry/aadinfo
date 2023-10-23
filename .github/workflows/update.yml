@@ -1,5 +1,7 @@
 name: "Update data"
 on:
+  schedule:
+    - cron: '42 1 1 * *'
   workflow_dispatch:
 
 jobs:

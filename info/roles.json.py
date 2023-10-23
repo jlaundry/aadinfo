@@ -1,13 +1,16 @@
 
 import json
+import os
 
 # roles.json is from https://admin.microsoft.com/admin/api/rbac/roles
 # seems to be an internal API - extract via https://admin.microsoft.com/#/rbac/directory
 
-with open("roles.json") as of:
+BASE_DIR = os.path.realpath(os.path.dirname(__file__))
+
+with open(os.path.join(BASE_DIR, "roles.json")) as of:
     roles = json.load(of)
 
-outfile = open("roles.md", "w")
+outfile = open(os.path.join(BASE_DIR, "roles.md"), "w")
 outfile.write("# AAD Built-In Role Permissions\n\n")
 
 outfile.write("## Permissions by Role\n\n")

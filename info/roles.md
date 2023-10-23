@@ -374,8 +374,10 @@
 | Global Administrator | microsoft.directory/groupSettings/allProperties/allTasks |
 | Global Administrator | microsoft.directory/groups/allProperties/allTasks |
 | Global Administrator | microsoft.directory/groupsAssignableToRoles/allProperties/update |
+| Global Administrator | microsoft.directory/groupsAssignableToRoles/assignLicense |
 | Global Administrator | microsoft.directory/groupsAssignableToRoles/create |
 | Global Administrator | microsoft.directory/groupsAssignableToRoles/delete |
+| Global Administrator | microsoft.directory/groupsAssignableToRoles/reprocessLicenseAssignment |
 | Global Administrator | microsoft.directory/groupsAssignableToRoles/restore |
 | Global Administrator | microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks |
 | Global Administrator | microsoft.directory/identityProtection/allProperties/allTasks |
@@ -432,6 +434,7 @@
 | Global Administrator | microsoft.directory/users/authenticationMethods/create |
 | Global Administrator | microsoft.directory/users/authenticationMethods/delete |
 | Global Administrator | microsoft.directory/users/authenticationMethods/standard/read |
+| Global Administrator | microsoft.directory/users/convertExternalToInternalMemberUser |
 | Global Administrator | microsoft.directory/verifiableCredentials/configuration/allProperties/read |
 | Global Administrator | microsoft.directory/verifiableCredentials/configuration/allProperties/update |
 | Global Administrator | microsoft.directory/verifiableCredentials/configuration/contracts/allProperties/read |
@@ -840,10 +843,16 @@
 | Privileged Role Administrator | microsoft.directory/authorizationPolicy/allProperties/allTasks |
 | Privileged Role Administrator | microsoft.directory/directoryRoles/allProperties/allTasks |
 | Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/allProperties/update |
+| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/assignLicense |
 | Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/create |
 | Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/delete |
+| Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/reprocessLicenseAssignment |
 | Privileged Role Administrator | microsoft.directory/groupsAssignableToRoles/restore |
 | Privileged Role Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
+| Privileged Role Administrator | microsoft.directory/permissionGrantPolicies/allProperties/read |
+| Privileged Role Administrator | microsoft.directory/permissionGrantPolicies/allProperties/update |
+| Privileged Role Administrator | microsoft.directory/permissionGrantPolicies/create |
+| Privileged Role Administrator | microsoft.directory/permissionGrantPolicies/delete |
 | Privileged Role Administrator | microsoft.directory/privilegedIdentityManagement/allProperties/allTasks |
 | Privileged Role Administrator | microsoft.directory/roleAssignments/allProperties/allTasks |
 | Privileged Role Administrator | microsoft.directory/roleDefinitions/allProperties/allTasks |
@@ -1044,6 +1053,7 @@
 | Teams Administrator | microsoft.directory/pendingExternalUserProfiles/create |
 | Teams Administrator | microsoft.directory/pendingExternalUserProfiles/delete |
 | Teams Administrator | microsoft.directory/pendingExternalUserProfiles/standard/read |
+| Teams Administrator | microsoft.directory/permissionGrantPolicies/standard/read |
 | Teams Administrator | microsoft.office365.network/performance/allProperties/read |
 | Teams Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Teams Administrator | microsoft.office365.skypeForBusiness/allEntities/allTasks |
@@ -1114,6 +1124,7 @@
 | User Administrator | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
 | User Administrator | microsoft.directory/users/assignLicense |
 | User Administrator | microsoft.directory/users/basic/update |
+| User Administrator | microsoft.directory/users/convertExternalToInternalMemberUser |
 | User Administrator | microsoft.directory/users/create |
 | User Administrator | microsoft.directory/users/delete |
 | User Administrator | microsoft.directory/users/disable |
@@ -1405,8 +1416,10 @@
 | microsoft.directory/groups/settings/update | Groups Administrator, User Administrator |
 | microsoft.directory/groups/visibility/update | Groups Administrator, User Administrator |
 | microsoft.directory/groupsAssignableToRoles/allProperties/update | Global Administrator, Privileged Role Administrator |
+| microsoft.directory/groupsAssignableToRoles/assignLicense | Global Administrator, Privileged Role Administrator |
 | microsoft.directory/groupsAssignableToRoles/create | Global Administrator, Privileged Role Administrator |
 | microsoft.directory/groupsAssignableToRoles/delete | Global Administrator, Privileged Role Administrator |
+| microsoft.directory/groupsAssignableToRoles/reprocessLicenseAssignment | Global Administrator, Privileged Role Administrator |
 | microsoft.directory/groupsAssignableToRoles/restore | Global Administrator, Privileged Role Administrator |
 | microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks | Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/identityProtection/allProperties/allTasks | Global Administrator, Security Operator |
@@ -1444,10 +1457,12 @@
 | microsoft.directory/pendingExternalUserProfiles/create | Global Administrator, Teams Administrator |
 | microsoft.directory/pendingExternalUserProfiles/delete | Global Administrator, Teams Administrator |
 | microsoft.directory/pendingExternalUserProfiles/standard/read | Global Administrator, Global Reader, Teams Administrator |
+| microsoft.directory/permissionGrantPolicies/allProperties/read | Privileged Role Administrator |
+| microsoft.directory/permissionGrantPolicies/allProperties/update | Privileged Role Administrator |
 | microsoft.directory/permissionGrantPolicies/basic/update | Global Administrator |
-| microsoft.directory/permissionGrantPolicies/create | Global Administrator |
-| microsoft.directory/permissionGrantPolicies/delete | Global Administrator |
-| microsoft.directory/permissionGrantPolicies/standard/read | Global Administrator, Global Reader |
+| microsoft.directory/permissionGrantPolicies/create | Global Administrator, Privileged Role Administrator |
+| microsoft.directory/permissionGrantPolicies/delete | Global Administrator, Privileged Role Administrator |
+| microsoft.directory/permissionGrantPolicies/standard/read | Global Administrator, Global Reader, Teams Administrator |
 | microsoft.directory/policies/allProperties/allTasks | Global Administrator |
 | microsoft.directory/policies/allProperties/read | Global Reader |
 | microsoft.directory/policies/basic/update | Security Administrator |
@@ -1526,6 +1541,7 @@
 | microsoft.directory/users/authenticationMethods/standard/restrictedRead | Authentication Administrator, Global Reader |
 | microsoft.directory/users/authorizationInfo/update | Hybrid Identity Administrator, Privileged Authentication Administrator |
 | microsoft.directory/users/basic/update | Authentication Administrator, Intune Administrator, Privileged Authentication Administrator, User Administrator |
+| microsoft.directory/users/convertExternalToInternalMemberUser | Global Administrator, User Administrator |
 | microsoft.directory/users/create | User Administrator |
 | microsoft.directory/users/customSecurityAttributes/read | Attribute Assignment Administrator, Attribute Assignment Reader |
 | microsoft.directory/users/customSecurityAttributes/update | Attribute Assignment Administrator |

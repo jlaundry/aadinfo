@@ -10,7 +10,8 @@ jobs:
 
       - name: "Update JSON with Graph credentials"
         run: |
-          AZURE_TOKEN=$( \                                                                                                                                            curl \
+          AZURE_TOKEN=$( \
+            curl \
             -d grant_type=client_credentials \
             -d client_id=${AZURE_CLIENT_ID} \
             -d client_secret=${AZURE_CLIENT_SECRET} \

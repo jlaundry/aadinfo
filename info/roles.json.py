@@ -7,7 +7,7 @@ import os
 
 BASE_DIR = os.path.realpath(os.path.dirname(__file__))
 
-with open(os.path.join(BASE_DIR, "roles.json")) as of:
+with open(os.path.join(BASE_DIR, "roles.graph.json")) as of:
     roles = json.load(of)
 
 outfile = open(os.path.join(BASE_DIR, "roles.md"), "w")
@@ -18,10 +18,10 @@ outfile.write("| Role | Permission |\n| ---- | ---------- |\n")
 
 permissions = {}
 
-for role in sorted(roles["Roles"], key=lambda r: r['DisplayName']):
-    display_name = role['DisplayName']
-    for perm in role["RolePermissions"]:
-        for action in sorted(perm["ResourceActions"]["AllowedResourceActions"]):
+for role in sorted(roles["value"], key=lambda r: r['displayName']):
+    display_name = role['displayName']
+    for perm in role["rolePermissions"]:
+        for action in sorted(perm["allowedResourceActions"]):
             outfile.write(f"| {display_name} | {action} |\n")
 
             if action not in permissions.keys():

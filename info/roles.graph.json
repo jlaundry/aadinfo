@@ -88,6 +88,7 @@
             "microsoft.directory/passwordHashSync/allProperties/allTasks",
             "microsoft.directory/policies/allProperties/allTasks",
             "microsoft.directory/conditionalAccessPolicies/allProperties/allTasks",
+            "microsoft.directory/passwordManagementPolicies/standard/read",
             "microsoft.directory/crossTenantAccessPolicy/standard/read",
             "microsoft.directory/crossTenantAccessPolicy/allowedCloudEndpoints/update",
             "microsoft.directory/crossTenantAccessPolicy/basic/update",
@@ -1475,6 +1476,7 @@
             "microsoft.directory/multiTenantOrganization/standard/read",
             "microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read",
             "microsoft.directory/multiTenantOrganization/tenants/standard/read",
+            "microsoft.directory/passwordManagementPolicies/standard/read",
             "microsoft.directory/privilegedIdentityManagement/allProperties/read",
             "microsoft.directory/provisioningLogs/allProperties/read",
             "microsoft.directory/signInReports/allProperties/read",
@@ -1576,6 +1578,7 @@
             "microsoft.directory/conditionalAccessPolicies/basic/update",
             "microsoft.directory/conditionalAccessPolicies/owners/update",
             "microsoft.directory/conditionalAccessPolicies/tenantDefault/update",
+            "microsoft.directory/passwordManagementPolicies/standard/read",
             "microsoft.directory/privilegedIdentityManagement/allProperties/read",
             "microsoft.directory/provisioningLogs/allProperties/read",
             "microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update",
@@ -2737,6 +2740,7 @@
             "microsoft.directory/permissionGrantPolicies/standard/read",
             "microsoft.directory/policies/allProperties/read",
             "microsoft.directory/conditionalAccessPolicies/allProperties/read",
+            "microsoft.directory/passwordManagementPolicies/standard/read",
             "microsoft.directory/crossTenantAccessPolicy/standard/read",
             "microsoft.directory/crossTenantAccessPolicy/default/standard/read",
             "microsoft.directory/crossTenantAccessPolicy/partners/standard/read",
@@ -2962,6 +2966,7 @@
         {
           "allowedResourceActions": [
             "microsoft.directory/organization/strongAuthentication/allTasks",
+            "microsoft.directory/passwordManagementPolicies/standard/read",
             "microsoft.directory/userCredentialPolicies/create",
             "microsoft.directory/userCredentialPolicies/delete",
             "microsoft.directory/userCredentialPolicies/standard/read",
@@ -3526,6 +3531,8 @@
       "rolePermissions": [
         {
           "allowedResourceActions": [
+            "microsoft.directory/azureManagedIdentities/customSecurityAttributes/read",
+            "microsoft.directory/azureManagedIdentities/customSecurityAttributes/update",
             "microsoft.directory/attributeSets/allProperties/read",
             "microsoft.directory/customSecurityAttributeDefinitions/allProperties/read",
             "microsoft.directory/devices/customSecurityAttributes/read",
@@ -3589,6 +3596,7 @@
         {
           "allowedResourceActions": [
             "microsoft.directory/attributeSets/allProperties/read",
+            "microsoft.directory/azureManagedIdentities/customSecurityAttributes/read",
             "microsoft.directory/customSecurityAttributeDefinitions/allProperties/read",
             "microsoft.directory/devices/customSecurityAttributes/read",
             "microsoft.directory/servicePrincipals/customSecurityAttributes/read",
@@ -4289,6 +4297,7 @@
       "rolePermissions": [
         {
           "allowedResourceActions": [
+            "microsoft.directory/customSecurityAttributeAuditLogs/allProperties/read",
             "microsoft.azure.customSecurityAttributeDiagnosticSettings/allEntities/allProperties/allTasks"
           ],
           "condition": null
@@ -4315,7 +4324,9 @@
       "version": "1",
       "rolePermissions": [
         {
-          "allowedResourceActions": [],
+          "allowedResourceActions": [
+            "microsoft.directory/customSecurityAttributeAuditLogs/allProperties/read"
+          ],
           "condition": null
         }
       ],
@@ -4325,6 +4336,31 @@
           "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
         }
       ]
+    },
+    {
+      "id": "963797fb-eb3b-4cde-8ce3-5878b3f32a3f",
+      "description": "Can access Dynamics 365 Business Central environments and perform all administrative tasks on the environments.",
+      "displayName": "Dynamics 365 Business Central Administrator",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "templateId": "963797fb-eb3b-4cde-8ce3-5878b3f32a3f",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.azure.serviceHealth/allEntities/allTasks",
+            "microsoft.dynamics365.businessCentral/allEntities/allProperties/allTasks",
+            "microsoft.office365.serviceHealth/allEntities/allTasks"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('963797fb-eb3b-4cde-8ce3-5878b3f32a3f')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": []
     }
   ]
 }

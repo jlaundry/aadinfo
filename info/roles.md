@@ -126,7 +126,6 @@
 | Authentication Extensibility Administrator | microsoft.directory/customAuthenticationExtensions/allProperties/allTasks |
 | Authentication Policy Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Authentication Policy Administrator | microsoft.directory/organization/strongAuthentication/allTasks |
-| Authentication Policy Administrator | microsoft.directory/passwordManagementPolicies/standard/read |
 | Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/basic/update |
 | Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/create |
 | Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/delete |
@@ -570,7 +569,6 @@
 | Global Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
 | Global Administrator | microsoft.directory/organization/allProperties/allTasks |
 | Global Administrator | microsoft.directory/passwordHashSync/allProperties/allTasks |
-| Global Administrator | microsoft.directory/passwordManagementPolicies/standard/read |
 | Global Administrator | microsoft.directory/pendingExternalUserProfiles/basic/update |
 | Global Administrator | microsoft.directory/pendingExternalUserProfiles/create |
 | Global Administrator | microsoft.directory/pendingExternalUserProfiles/delete |
@@ -705,7 +703,6 @@
 | Global Reader | microsoft.directory/namedLocations/standard/read |
 | Global Reader | microsoft.directory/oAuth2PermissionGrants/allProperties/read |
 | Global Reader | microsoft.directory/organization/allProperties/read |
-| Global Reader | microsoft.directory/passwordManagementPolicies/standard/read |
 | Global Reader | microsoft.directory/pendingExternalUserProfiles/standard/read |
 | Global Reader | microsoft.directory/permissionGrantPolicies/standard/read |
 | Global Reader | microsoft.directory/policies/allProperties/read |
@@ -827,6 +824,11 @@
 | Guest User | microsoft.directory/users/guestBasicProfile/limitedRead |
 | Guest User | microsoft.directory/users/inviteGuest |
 | Guest User | microsoft.directory/users/appRoleAssignments/read |
+| Guest User | microsoft.directory/users/authenticationMethods/basic/update |
+| Guest User | microsoft.directory/users/authenticationMethods/create |
+| Guest User | microsoft.directory/users/authenticationMethods/delete |
+| Guest User | microsoft.directory/users/authenticationMethods/standard/read |
+| Guest User | microsoft.directory/users/authenticationMethods/standard/restrictedRead |
 | Guest User | microsoft.directory/users/deviceForResourceAccount/read |
 | Guest User | microsoft.directory/users/directReports/read |
 | Guest User | microsoft.directory/users/eligibleMemberOf/read |
@@ -1286,7 +1288,6 @@
 | Security Administrator | microsoft.directory/namedLocations/create |
 | Security Administrator | microsoft.directory/namedLocations/delete |
 | Security Administrator | microsoft.directory/namedLocations/standard/read |
-| Security Administrator | microsoft.directory/passwordManagementPolicies/standard/read |
 | Security Administrator | microsoft.directory/policies/basic/update |
 | Security Administrator | microsoft.directory/policies/create |
 | Security Administrator | microsoft.directory/policies/delete |
@@ -1338,7 +1339,6 @@
 | Security Reader | microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read |
 | Security Reader | microsoft.directory/multiTenantOrganization/tenants/standard/read |
 | Security Reader | microsoft.directory/namedLocations/standard/read |
-| Security Reader | microsoft.directory/passwordManagementPolicies/standard/read |
 | Security Reader | microsoft.directory/policies/owners/read |
 | Security Reader | microsoft.directory/policies/policyAppliedTo/read |
 | Security Reader | microsoft.directory/policies/standard/read |
@@ -1985,7 +1985,6 @@
 | microsoft.directory/organization/strongAuthentication/read | Lifecycle Workflows Administrator |
 | microsoft.directory/organization/trustedCAsForPasswordlessAuth/read | Directory Readers |
 | microsoft.directory/passwordHashSync/allProperties/allTasks | Directory Synchronization Accounts, Global Administrator, Hybrid Identity Administrator |
-| microsoft.directory/passwordManagementPolicies/standard/read | Authentication Policy Administrator, Global Administrator, Global Reader, Security Administrator, Security Reader |
 | microsoft.directory/pendingExternalUserProfiles/basic/update | Extended Directory User Administrator, Global Administrator, Teams Administrator |
 | microsoft.directory/pendingExternalUserProfiles/create | Extended Directory User Administrator, Global Administrator, Teams Administrator |
 | microsoft.directory/pendingExternalUserProfiles/delete | Extended Directory User Administrator, Global Administrator, Teams Administrator |
@@ -2093,11 +2092,11 @@
 | microsoft.directory/users/allProperties/read | Global Reader |
 | microsoft.directory/users/appRoleAssignments/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/assignLicense | Directory Writers, License Administrator, Partner Tier1 Support, Partner Tier2 Support, User Administrator |
-| microsoft.directory/users/authenticationMethods/basic/update | Authentication Administrator, Global Administrator, Privileged Authentication Administrator |
-| microsoft.directory/users/authenticationMethods/create | Authentication Administrator, Global Administrator, Privileged Authentication Administrator |
-| microsoft.directory/users/authenticationMethods/delete | Authentication Administrator, Global Administrator, Privileged Authentication Administrator |
-| microsoft.directory/users/authenticationMethods/standard/read | Global Administrator, Privileged Authentication Administrator |
-| microsoft.directory/users/authenticationMethods/standard/restrictedRead | Authentication Administrator, Global Reader |
+| microsoft.directory/users/authenticationMethods/basic/update | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator |
+| microsoft.directory/users/authenticationMethods/create | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator |
+| microsoft.directory/users/authenticationMethods/delete | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator |
+| microsoft.directory/users/authenticationMethods/standard/read | Global Administrator, Guest User, Privileged Authentication Administrator |
+| microsoft.directory/users/authenticationMethods/standard/restrictedRead | Authentication Administrator, Global Reader, Guest User |
 | microsoft.directory/users/authorizationInfo/update | Hybrid Identity Administrator, Privileged Authentication Administrator |
 | microsoft.directory/users/basic/update | Authentication Administrator, Directory Writers, Intune Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
 | microsoft.directory/users/basicProfile/update | User |

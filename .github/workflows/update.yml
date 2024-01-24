@@ -1,14 +1,14 @@
 name: "Update data"
 on:
   schedule:
-    - cron: '42 1 1 * *'
+    - cron: '42 1 * * 1'
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: "Update clouds"
         run: |

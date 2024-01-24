@@ -64,6 +64,9 @@
 | Application Administrator | microsoft.directory/servicePrincipals/owners/update |
 | Application Administrator | microsoft.directory/servicePrincipals/permissions/update |
 | Application Administrator | microsoft.directory/servicePrincipals/policies/update |
+| Application Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage |
+| Application Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage |
+| Application Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage |
 | Application Administrator | microsoft.directory/servicePrincipals/synchronization/standard/read |
 | Application Administrator | microsoft.directory/servicePrincipals/synchronizationCredentials/manage |
 | Application Administrator | microsoft.directory/servicePrincipals/synchronizationJobs/manage |
@@ -212,6 +215,9 @@
 | Cloud Application Administrator | microsoft.directory/servicePrincipals/owners/update |
 | Cloud Application Administrator | microsoft.directory/servicePrincipals/permissions/update |
 | Cloud Application Administrator | microsoft.directory/servicePrincipals/policies/update |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage |
+| Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage |
 | Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronization/standard/read |
 | Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronizationCredentials/manage |
 | Cloud Application Administrator | microsoft.directory/servicePrincipals/synchronizationJobs/manage |
@@ -403,6 +409,12 @@
 | Directory Writers | microsoft.directory/oAuth2PermissionGrants/basic/update |
 | Directory Writers | microsoft.directory/oAuth2PermissionGrants/create |
 | Directory Writers | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
+| Directory Writers | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage |
+| Directory Writers | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage |
+| Directory Writers | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage |
+| Directory Writers | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage |
+| Directory Writers | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage |
+| Directory Writers | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage |
 | Directory Writers | microsoft.directory/servicePrincipals/synchronizationCredentials/manage |
 | Directory Writers | microsoft.directory/servicePrincipals/synchronizationJobs/manage |
 | Directory Writers | microsoft.directory/servicePrincipals/synchronizationSchema/manage |
@@ -594,6 +606,12 @@
 | Global Administrator | microsoft.directory/servicePrincipalCreationPolicies/standard/read |
 | Global Administrator | microsoft.directory/servicePrincipals/allProperties/allTasks |
 | Global Administrator | microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin |
+| Global Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage |
+| Global Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage |
+| Global Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage |
+| Global Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage |
+| Global Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage |
+| Global Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage |
 | Global Administrator | microsoft.directory/servicePrincipals/synchronization/standard/read |
 | Global Administrator | microsoft.directory/signInReports/allProperties/read |
 | Global Administrator | microsoft.directory/subscribedSkus/allProperties/allTasks |
@@ -633,6 +651,7 @@
 | Global Administrator | microsoft.office365.lockbox/allEntities/allTasks |
 | Global Administrator | microsoft.office365.messageCenter/messages/read |
 | Global Administrator | microsoft.office365.messageCenter/securityMessages/read |
+| Global Administrator | microsoft.office365.migrations/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.office365.network/performance/allProperties/read |
 | Global Administrator | microsoft.office365.organizationalMessages/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.office365.protectionCenter/allEntities/allProperties/allTasks |
@@ -655,6 +674,7 @@
 | Global Administrator | microsoft.viva.pulse/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.windows.defenderAdvancedThreatProtection/allEntities/allTasks |
 | Global Administrator | microsoft.windows.updatesDeployments/allEntities/allProperties/allTasks |
+| Global Reader | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Global Reader | microsoft.cloudPC/allEntities/allProperties/read |
 | Global Reader | microsoft.commerce.billing/allEntities/allProperties/read |
 | Global Reader | microsoft.commerce.billing/purchases/standard/read |
@@ -734,6 +754,7 @@
 | Global Reader | microsoft.office365.organizationalMessages/allEntities/allProperties/read |
 | Global Reader | microsoft.office365.protectionCenter/allEntities/allProperties/read |
 | Global Reader | microsoft.office365.securityComplianceCenter/allEntities/read |
+| Global Reader | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Global Reader | microsoft.office365.usageReports/allEntities/allProperties/read |
 | Global Reader | microsoft.office365.webPortal/allEntities/standard/read |
 | Global Reader | microsoft.office365.yammer/allEntities/allProperties/read |
@@ -895,6 +916,12 @@
 | Hybrid Identity Administrator | microsoft.directory/servicePrincipals/owners/update |
 | Hybrid Identity Administrator | microsoft.directory/servicePrincipals/permissions/update |
 | Hybrid Identity Administrator | microsoft.directory/servicePrincipals/policies/update |
+| Hybrid Identity Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage |
+| Hybrid Identity Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage |
+| Hybrid Identity Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage |
+| Hybrid Identity Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage |
+| Hybrid Identity Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage |
+| Hybrid Identity Administrator | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage |
 | Hybrid Identity Administrator | microsoft.directory/servicePrincipals/synchronization/standard/read |
 | Hybrid Identity Administrator | microsoft.directory/servicePrincipals/synchronizationCredentials/manage |
 | Hybrid Identity Administrator | microsoft.directory/servicePrincipals/synchronizationJobs/manage |
@@ -1008,6 +1035,9 @@
 | Message Center Privacy Reader | microsoft.office365.webPortal/allEntities/standard/read |
 | Message Center Reader | microsoft.office365.messageCenter/messages/read |
 | Message Center Reader | microsoft.office365.webPortal/allEntities/standard/read |
+| Microsoft 365 Migration Administrator | microsoft.office365.migrations/allEntities/allProperties/allTasks |
+| Microsoft 365 Migration Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Microsoft 365 Migration Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Microsoft Hardware Warranty Administrator | microsoft.hardware.support/shippingAddress/allProperties/allTasks |
 | Microsoft Hardware Warranty Administrator | microsoft.hardware.support/shippingStatus/allProperties/read |
 | Microsoft Hardware Warranty Administrator | microsoft.hardware.support/warrantyClaims/allProperties/allTasks |
@@ -1367,6 +1397,7 @@
 | SharePoint Administrator | microsoft.directory/groups.unified/owners/update |
 | SharePoint Administrator | microsoft.directory/groups.unified/restore |
 | SharePoint Administrator | microsoft.directory/groups/hiddenMembers/read |
+| SharePoint Administrator | microsoft.office365.migrations/allEntities/allProperties/allTasks |
 | SharePoint Administrator | microsoft.office365.network/performance/allProperties/read |
 | SharePoint Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | SharePoint Administrator | microsoft.office365.sharePoint/allEntities/allTasks |
@@ -1696,7 +1727,7 @@
 | microsoft.azure.print/printers/basic/update | Printer Technician |
 | microsoft.azure.print/printers/register | Printer Technician |
 | microsoft.azure.print/printers/unregister | Printer Technician |
-| microsoft.azure.serviceHealth/allEntities/allTasks | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud Application Administrator, Cloud Device Administrator, Compliance Administrator, Compliance Data Administrator, Desktop Analytics Administrator, Dynamics 365 Administrator, Dynamics 365 Business Central Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, License Administrator, Office Apps Administrator, Partner Tier1 Support, Partner Tier2 Support, Power Platform Administrator, Privileged Authentication Administrator, Reports Reader, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, User Administrator |
+| microsoft.azure.serviceHealth/allEntities/allTasks | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud Application Administrator, Cloud Device Administrator, Compliance Administrator, Compliance Data Administrator, Desktop Analytics Administrator, Dynamics 365 Administrator, Dynamics 365 Business Central Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Reader, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, License Administrator, Office Apps Administrator, Partner Tier1 Support, Partner Tier2 Support, Power Platform Administrator, Privileged Authentication Administrator, Reports Reader, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, User Administrator |
 | microsoft.azure.supportTickets/allEntities/allTasks | Application Administrator, Authentication Administrator, Authentication Policy Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Desktop Analytics Administrator, Dynamics 365 Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Intune Administrator, Office Apps Administrator, Partner Tier1 Support, Partner Tier2 Support, Power Platform Administrator, Privileged Authentication Administrator, Security Administrator, Security Operator, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, User Administrator, Windows 365 Administrator |
 | microsoft.cloudPC/allEntities/allProperties/allTasks | Global Administrator, Intune Administrator, Windows 365 Administrator |
 | microsoft.cloudPC/allEntities/allProperties/read | Global Reader |
@@ -2064,6 +2095,12 @@
 | microsoft.directory/servicePrincipals/policies/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Security Administrator, User |
 | microsoft.directory/servicePrincipals/standard/limitedRead | Guest User, Restricted Guest User |
 | microsoft.directory/servicePrincipals/standard/read | Directory Readers, Directory Synchronization Accounts, User |
+| microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage | Directory Writers, Global Administrator, Hybrid Identity Administrator |
+| microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage | Directory Writers, Global Administrator, Hybrid Identity Administrator |
+| microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage | Directory Writers, Global Administrator, Hybrid Identity Administrator |
+| microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Global Administrator, Hybrid Identity Administrator |
+| microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Global Administrator, Hybrid Identity Administrator |
+| microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronization/standard/read | Application Administrator, Cloud Application Administrator, Global Administrator, Global Reader, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronizationCredentials/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronizationJobs/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator |
@@ -2179,6 +2216,7 @@
 | microsoft.office365.lockbox/allEntities/allTasks | Customer LockBox Access Approver, Global Administrator |
 | microsoft.office365.messageCenter/messages/read | Global Administrator, Global Reader, Global Secure Access Administrator, Hybrid Identity Administrator, Message Center Privacy Reader, Message Center Reader, Microsoft Hardware Warranty Administrator, Office Apps Administrator, Search Administrator, Search Editor, User Experience Success Manager, Viva Pulse Administrator, Yammer Administrator |
 | microsoft.office365.messageCenter/securityMessages/read | Global Administrator, Global Reader, Message Center Privacy Reader |
+| microsoft.office365.migrations/allEntities/allProperties/allTasks | Global Administrator, Microsoft 365 Migration Administrator, SharePoint Administrator |
 | microsoft.office365.network/locations/allProperties/allTasks | Network Administrator |
 | microsoft.office365.network/performance/allProperties/read | Exchange Administrator, Global Administrator, Global Reader, Network Administrator, Reports Reader, Service Support Administrator, SharePoint Administrator, Teams Administrator, Usage Summary Reports Reader, User Experience Success Manager, Yammer Administrator |
 | microsoft.office365.organizationalMessages/allEntities/allProperties/allTasks | Global Administrator, Organizational Messages Writer |
@@ -2196,14 +2234,14 @@
 | microsoft.office365.search/content/manage | Global Administrator, Search Administrator, Search Editor |
 | microsoft.office365.securityComplianceCenter/allEntities/allTasks | Global Administrator, Security Operator |
 | microsoft.office365.securityComplianceCenter/allEntities/read | Global Reader |
-| microsoft.office365.serviceHealth/allEntities/allTasks | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud Application Administrator, Cloud Device Administrator, Compliance Administrator, Compliance Data Administrator, Dynamics 365 Administrator, Dynamics 365 Business Central Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Kaizala Administrator, License Administrator, Office Apps Administrator, Partner Tier1 Support, Partner Tier2 Support, Power Platform Administrator, Privileged Authentication Administrator, Search Administrator, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, User Administrator, User Experience Success Manager, Viva Pulse Administrator, Yammer Administrator |
+| microsoft.office365.serviceHealth/allEntities/allTasks | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud Application Administrator, Cloud Device Administrator, Compliance Administrator, Compliance Data Administrator, Dynamics 365 Administrator, Dynamics 365 Business Central Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Kaizala Administrator, License Administrator, Office Apps Administrator, Partner Tier1 Support, Partner Tier2 Support, Power Platform Administrator, Privileged Authentication Administrator, Search Administrator, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, User Administrator, User Experience Success Manager, Viva Pulse Administrator, Yammer Administrator |
 | microsoft.office365.sharePoint/allEntities/allTasks | Global Administrator, Knowledge Administrator, Knowledge Manager, SharePoint Administrator |
 | microsoft.office365.skypeForBusiness/allEntities/allTasks | Global Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist |
-| microsoft.office365.supportTickets/allEntities/allTasks | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Domain Name Administrator, Dynamics 365 Administrator, Edge Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Office Apps Administrator, Partner Tier1 Support, Partner Tier2 Support, Power Platform Administrator, Privileged Authentication Administrator, Search Administrator, Security Administrator, Security Operator, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, User Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
+| microsoft.office365.supportTickets/allEntities/allTasks | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Domain Name Administrator, Dynamics 365 Administrator, Edge Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, Microsoft 365 Migration Administrator, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Office Apps Administrator, Partner Tier1 Support, Partner Tier2 Support, Power Platform Administrator, Privileged Authentication Administrator, Search Administrator, Security Administrator, Security Operator, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, User Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
 | microsoft.office365.usageReports/allEntities/allProperties/read | Exchange Administrator, Global Administrator, Global Reader, Reports Reader, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
 | microsoft.office365.usageReports/allEntities/standard/read | Organizational Messages Writer, Usage Summary Reports Reader, User Experience Success Manager |
 | microsoft.office365.userCommunication/allEntities/allTasks | Global Administrator, Office Apps Administrator |
-| microsoft.office365.webPortal/allEntities/standard/read | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud App Security Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Customer LockBox Access Approver, Domain Name Administrator, Dynamics 365 Administrator, Edge Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, License Administrator, Message Center Privacy Reader, Message Center Reader, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Network Administrator, Office Apps Administrator, Organizational Messages Writer, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, Power Platform Administrator, Privileged Authentication Administrator, Privileged Role Administrator, Reports Reader, Search Administrator, Search Editor, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Devices Administrator, Usage Summary Reports Reader, User Administrator, User Experience Success Manager, Virtual Visits Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
+| microsoft.office365.webPortal/allEntities/standard/read | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud App Security Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Customer LockBox Access Approver, Domain Name Administrator, Dynamics 365 Administrator, Edge Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, License Administrator, Message Center Privacy Reader, Message Center Reader, Microsoft 365 Migration Administrator, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Network Administrator, Office Apps Administrator, Organizational Messages Writer, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, Power Platform Administrator, Privileged Authentication Administrator, Privileged Role Administrator, Reports Reader, Search Administrator, Search Editor, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Devices Administrator, Usage Summary Reports Reader, User Administrator, User Experience Success Manager, Virtual Visits Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
 | microsoft.office365.yammer/allEntities/allProperties/allTasks | Global Administrator, Yammer Administrator |
 | microsoft.office365.yammer/allEntities/allProperties/read | Global Reader |
 | microsoft.permissionsManagement/allEntities/allProperties/allTasks | Global Administrator, Permissions Management Administrator |

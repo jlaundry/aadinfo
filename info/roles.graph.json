@@ -125,6 +125,12 @@
             "microsoft.directory/servicePrincipals/allProperties/allTasks",
             "microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin",
             "microsoft.directory/servicePrincipals/synchronization/standard/read",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage",
             "microsoft.directory/signInReports/allProperties/read",
             "microsoft.directory/subscribedSkus/allProperties/allTasks",
             "microsoft.directory/users/allProperties/allTasks",
@@ -182,6 +188,7 @@
             "microsoft.office365.lockbox/allEntities/allTasks",
             "microsoft.office365.messageCenter/messages/read",
             "microsoft.office365.messageCenter/securityMessages/read",
+            "microsoft.office365.migrations/allEntities/allProperties/allTasks",
             "microsoft.office365.network/performance/allProperties/read",
             "microsoft.office365.organizationalMessages/allEntities/allProperties/allTasks",
             "microsoft.office365.protectionCenter/allEntities/allProperties/allTasks",
@@ -970,6 +977,12 @@
             "microsoft.directory/servicePrincipals/synchronizationCredentials/manage",
             "microsoft.directory/servicePrincipals/synchronizationJobs/manage",
             "microsoft.directory/servicePrincipals/synchronizationSchema/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage",
             "microsoft.directory/servicePrincipals/appRoleAssignedTo/update",
             "microsoft.directory/users/assignLicense",
             "microsoft.directory/users/create",
@@ -1059,6 +1072,7 @@
             "microsoft.directory/groups.unified/owners/update",
             "microsoft.azure.serviceHealth/allEntities/allTasks",
             "microsoft.azure.supportTickets/allEntities/allTasks",
+            "microsoft.office365.migrations/allEntities/allProperties/allTasks",
             "microsoft.office365.network/performance/allProperties/read",
             "microsoft.office365.serviceHealth/allEntities/allTasks",
             "microsoft.office365.sharePoint/allEntities/allTasks",
@@ -1385,6 +1399,9 @@
             "microsoft.directory/servicePrincipals/synchronizationCredentials/manage",
             "microsoft.directory/servicePrincipals/synchronizationJobs/manage",
             "microsoft.directory/servicePrincipals/synchronizationSchema/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage",
             "microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials",
             "microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin",
             "microsoft.directory/servicePrincipals/appRoleAssignedTo/update",
@@ -1778,6 +1795,9 @@
             "microsoft.directory/servicePrincipals/synchronizationCredentials/manage",
             "microsoft.directory/servicePrincipals/synchronizationJobs/manage",
             "microsoft.directory/servicePrincipals/synchronizationSchema/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage",
             "microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials",
             "microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin",
             "microsoft.directory/servicePrincipals/appRoleAssignedTo/update",
@@ -2706,6 +2726,7 @@
       "rolePermissions": [
         {
           "allowedResourceActions": [
+            "microsoft.azure.serviceHealth/allEntities/allTasks",
             "microsoft.directory/accessReviews/allProperties/read",
             "microsoft.directory/accessReviews/definitions/allProperties/read",
             "microsoft.directory/adminConsentRequestPolicy/allProperties/read",
@@ -2785,6 +2806,7 @@
             "microsoft.office365.organizationalMessages/allEntities/allProperties/read",
             "microsoft.office365.protectionCenter/allEntities/allProperties/read",
             "microsoft.office365.securityComplianceCenter/allEntities/read",
+            "microsoft.office365.serviceHealth/allEntities/allTasks",
             "microsoft.office365.usageReports/allEntities/allProperties/read",
             "microsoft.office365.webPortal/allEntities/standard/read",
             "microsoft.office365.yammer/allEntities/allProperties/read",
@@ -3154,6 +3176,12 @@
             "microsoft.directory/servicePrincipals/synchronizationCredentials/manage",
             "microsoft.directory/servicePrincipals/synchronizationJobs/manage",
             "microsoft.directory/servicePrincipals/synchronizationSchema/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage",
+            "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage",
             "microsoft.directory/servicePrincipals/appRoleAssignedTo/update",
             "microsoft.directory/servicePrincipals/audience/update",
             "microsoft.directory/servicePrincipals/authentication/update",
@@ -4360,6 +4388,31 @@
         }
       ],
       "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('963797fb-eb3b-4cde-8ce3-5878b3f32a3f')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": []
+    },
+    {
+      "id": "8c8b803f-96e1-4129-9349-20738d9f9652",
+      "description": "Perform all migration functionality to migrate content to Microsoft 365 using Migration Manager.",
+      "displayName": "Microsoft 365 Migration Administrator",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "templateId": "8c8b803f-96e1-4129-9349-20738d9f9652",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.office365.migrations/allEntities/allProperties/allTasks",
+            "microsoft.office365.webPortal/allEntities/standard/read",
+            "microsoft.office365.supportTickets/allEntities/allTasks"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('8c8b803f-96e1-4129-9349-20738d9f9652')/inheritsPermissionsFrom",
       "inheritsPermissionsFrom": []
     }
   ]

@@ -180,6 +180,7 @@
             "microsoft.office365.complianceManager/allEntities/allTasks",
             "microsoft.office365.desktopAnalytics/allEntities/allTasks",
             "microsoft.office365.exchange/allEntities/basic/allTasks",
+            "microsoft.office365.fileStorageContainers/allEntities/allProperties/allTasks",
             "microsoft.office365.knowledge/contentUnderstanding/allProperties/allTasks",
             "microsoft.office365.knowledge/contentUnderstanding/analytics/allProperties/read",
             "microsoft.office365.knowledge/knowledgeNetwork/allProperties/allTasks",
@@ -2585,7 +2586,7 @@
       "displayName": "External Identity Provider Administrator",
       "isBuiltIn": true,
       "isEnabled": true,
-      "isPrivileged": false,
+      "isPrivileged": true,
       "resourceScopes": [
         "/"
       ],
@@ -2800,6 +2801,7 @@
             "microsoft.hardware.support/shippingStatus/allProperties/read",
             "microsoft.hardware.support/warrantyClaims/allProperties/read",
             "microsoft.insights/allEntities/allProperties/read",
+            "microsoft.office365.fileStorageContainers/allEntities/allProperties/read",
             "microsoft.office365.messageCenter/messages/read",
             "microsoft.office365.messageCenter/securityMessages/read",
             "microsoft.office365.network/performance/allProperties/read",
@@ -3493,7 +3495,7 @@
       "displayName": "Domain Name Administrator",
       "isBuiltIn": true,
       "isEnabled": true,
-      "isPrivileged": false,
+      "isPrivileged": true,
       "resourceScopes": [
         "/"
       ],

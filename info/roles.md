@@ -643,6 +643,7 @@
 | Global Administrator | microsoft.office365.complianceManager/allEntities/allTasks |
 | Global Administrator | microsoft.office365.desktopAnalytics/allEntities/allTasks |
 | Global Administrator | microsoft.office365.exchange/allEntities/basic/allTasks |
+| Global Administrator | microsoft.office365.fileStorageContainers/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.office365.knowledge/contentUnderstanding/allProperties/allTasks |
 | Global Administrator | microsoft.office365.knowledge/contentUnderstanding/analytics/allProperties/read |
 | Global Administrator | microsoft.office365.knowledge/knowledgeNetwork/allProperties/allTasks |
@@ -748,6 +749,7 @@
 | Global Reader | microsoft.hardware.support/warrantyClaims/allProperties/read |
 | Global Reader | microsoft.insights/allEntities/allProperties/read |
 | Global Reader | microsoft.networkAccess/allEntities/allProperties/read |
+| Global Reader | microsoft.office365.fileStorageContainers/allEntities/allProperties/read |
 | Global Reader | microsoft.office365.messageCenter/messages/read |
 | Global Reader | microsoft.office365.messageCenter/securityMessages/read |
 | Global Reader | microsoft.office365.network/performance/allProperties/read |
@@ -2208,6 +2210,8 @@
 | microsoft.office365.exchange/allEntities/basic/allTasks | Exchange Administrator, Global Administrator |
 | microsoft.office365.exchange/migration/allProperties/allTasks | Exchange Recipient Administrator |
 | microsoft.office365.exchange/recipients/allProperties/allTasks | Exchange Recipient Administrator |
+| microsoft.office365.fileStorageContainers/allEntities/allProperties/allTasks | Global Administrator |
+| microsoft.office365.fileStorageContainers/allEntities/allProperties/read | Global Reader |
 | microsoft.office365.knowledge/contentUnderstanding/allProperties/allTasks | Global Administrator, Knowledge Administrator |
 | microsoft.office365.knowledge/contentUnderstanding/analytics/allProperties/read | Global Administrator, Knowledge Manager |
 | microsoft.office365.knowledge/knowledgeNetwork/allProperties/allTasks | Global Administrator, Knowledge Administrator |

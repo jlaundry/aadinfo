@@ -330,6 +330,7 @@
 | Directory Readers | microsoft.directory/users/appRoleAssignments/read |
 | Directory Readers | microsoft.directory/users/deviceForResourceAccount/read |
 | Directory Readers | microsoft.directory/users/directReports/read |
+| Directory Readers | microsoft.directory/users/invitedBy/read |
 | Directory Readers | microsoft.directory/users/licenseDetails/read |
 | Directory Readers | microsoft.directory/users/manager/read |
 | Directory Readers | microsoft.directory/users/memberOf/read |
@@ -440,8 +441,10 @@
 | Dynamics 365 Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Dynamics 365 Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Dynamics 365 Business Central Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Dynamics 365 Business Central Administrator | microsoft.directory/subscribedSkus/standard/read |
 | Dynamics 365 Business Central Administrator | microsoft.dynamics365.businessCentral/allEntities/allProperties/allTasks |
 | Dynamics 365 Business Central Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
+| Dynamics 365 Business Central Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Edge Administrator | microsoft.edge/allEntities/allProperties/allTasks |
 | Edge Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Edge Administrator | microsoft.office365.webPortal/allEntities/standard/read |
@@ -812,6 +815,7 @@
 | Guest Inviter | microsoft.directory/users/deviceForResourceAccount/read |
 | Guest Inviter | microsoft.directory/users/directReports/read |
 | Guest Inviter | microsoft.directory/users/inviteGuest |
+| Guest Inviter | microsoft.directory/users/invitedBy/read |
 | Guest Inviter | microsoft.directory/users/licenseDetails/read |
 | Guest Inviter | microsoft.directory/users/manager/read |
 | Guest Inviter | microsoft.directory/users/memberOf/read |
@@ -855,6 +859,7 @@
 | Guest User | microsoft.directory/users/deviceForResourceAccount/read |
 | Guest User | microsoft.directory/users/directReports/read |
 | Guest User | microsoft.directory/users/eligibleMemberOf/read |
+| Guest User | microsoft.directory/users/invitedBy/read |
 | Guest User | microsoft.directory/users/licenseDetails/read |
 | Guest User | microsoft.directory/users/manager/read |
 | Guest User | microsoft.directory/users/memberOf/read |
@@ -1238,6 +1243,7 @@
 | Restricted Guest User | microsoft.directory/users/deviceForResourceAccount/read |
 | Restricted Guest User | microsoft.directory/users/directReports/read |
 | Restricted Guest User | microsoft.directory/users/eligibleMemberOf/read |
+| Restricted Guest User | microsoft.directory/users/invitedBy/read |
 | Restricted Guest User | microsoft.directory/users/licenseDetails/read |
 | Restricted Guest User | microsoft.directory/users/manager/read |
 | Restricted Guest User | microsoft.directory/users/memberOf/read |
@@ -2111,7 +2117,7 @@
 | microsoft.directory/signInReports/allProperties/read | Application Administrator, Cloud Application Administrator, Cloud Device Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Hybrid Identity Administrator, Reports Reader, Security Administrator, Security Operator, Security Reader, User |
 | microsoft.directory/subscribedSkus/allProperties/allTasks | Global Administrator |
 | microsoft.directory/subscribedSkus/allProperties/read | Global Reader |
-| microsoft.directory/subscribedSkus/standard/read | Directory Readers, Partner Tier2 Support, User |
+| microsoft.directory/subscribedSkus/standard/read | Directory Readers, Dynamics 365 Business Central Administrator, Partner Tier2 Support, User |
 | microsoft.directory/tenantManagement/tenants/create | Global Administrator, Tenant Creator, User |
 | microsoft.directory/userCredentialPolicies/basic/update | Authentication Policy Administrator |
 | microsoft.directory/userCredentialPolicies/create | Authentication Policy Administrator |
@@ -2154,6 +2160,7 @@
 | microsoft.directory/users/identities/update | User |
 | microsoft.directory/users/invalidateAllRefreshTokens | Authentication Administrator, Directory Writers, Helpdesk Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User, User Administrator |
 | microsoft.directory/users/inviteGuest | Directory Writers, Guest Inviter, Guest User, User, User Administrator |
+| microsoft.directory/users/invitedBy/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User |
 | microsoft.directory/users/licenseDetails/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/manager/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/manager/update | Authentication Administrator, Directory Writers, Intune Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
@@ -2245,7 +2252,7 @@
 | microsoft.office365.usageReports/allEntities/allProperties/read | Exchange Administrator, Global Administrator, Global Reader, Reports Reader, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
 | microsoft.office365.usageReports/allEntities/standard/read | Organizational Messages Writer, Usage Summary Reports Reader, User Experience Success Manager |
 | microsoft.office365.userCommunication/allEntities/allTasks | Global Administrator, Office Apps Administrator |
-| microsoft.office365.webPortal/allEntities/standard/read | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud App Security Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Customer LockBox Access Approver, Domain Name Administrator, Dynamics 365 Administrator, Edge Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, License Administrator, Message Center Privacy Reader, Message Center Reader, Microsoft 365 Migration Administrator, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Network Administrator, Office Apps Administrator, Organizational Messages Writer, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, Power Platform Administrator, Privileged Authentication Administrator, Privileged Role Administrator, Reports Reader, Search Administrator, Search Editor, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Devices Administrator, Usage Summary Reports Reader, User Administrator, User Experience Success Manager, Virtual Visits Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
+| microsoft.office365.webPortal/allEntities/standard/read | Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud App Security Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Customer LockBox Access Approver, Domain Name Administrator, Dynamics 365 Administrator, Dynamics 365 Business Central Administrator, Edge Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, License Administrator, Message Center Privacy Reader, Message Center Reader, Microsoft 365 Migration Administrator, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Network Administrator, Office Apps Administrator, Organizational Messages Writer, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, Power Platform Administrator, Privileged Authentication Administrator, Privileged Role Administrator, Reports Reader, Search Administrator, Search Editor, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Devices Administrator, Usage Summary Reports Reader, User Administrator, User Experience Success Manager, Virtual Visits Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
 | microsoft.office365.yammer/allEntities/allProperties/allTasks | Global Administrator, Yammer Administrator |
 | microsoft.office365.yammer/allEntities/allProperties/read | Global Reader |
 | microsoft.permissionsManagement/allEntities/allProperties/allTasks | Global Administrator, Permissions Management Administrator |

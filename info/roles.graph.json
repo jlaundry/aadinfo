@@ -276,6 +276,7 @@
             "microsoft.directory/users/deviceForResourceAccount/read",
             "microsoft.directory/users/directReports/read",
             "microsoft.directory/users/eligibleMemberOf/read",
+            "microsoft.directory/users/invitedBy/read",
             "microsoft.directory/users/licenseDetails/read",
             "microsoft.directory/users/manager/read",
             "microsoft.directory/users/memberOf/read",
@@ -333,6 +334,7 @@
             "microsoft.directory/users/deviceForResourceAccount/read",
             "microsoft.directory/users/directReports/read",
             "microsoft.directory/users/eligibleMemberOf/read",
+            "microsoft.directory/users/invitedBy/read",
             "microsoft.directory/users/licenseDetails/read",
             "microsoft.directory/users/manager/read",
             "microsoft.directory/users/memberOf/read",
@@ -372,6 +374,7 @@
             "microsoft.directory/users/appRoleAssignments/read",
             "microsoft.directory/users/deviceForResourceAccount/read",
             "microsoft.directory/users/directReports/read",
+            "microsoft.directory/users/invitedBy/read",
             "microsoft.directory/users/licenseDetails/read",
             "microsoft.directory/users/manager/read",
             "microsoft.directory/users/memberOf/read",
@@ -924,6 +927,7 @@
             "microsoft.directory/users/appRoleAssignments/read",
             "microsoft.directory/users/deviceForResourceAccount/read",
             "microsoft.directory/users/directReports/read",
+            "microsoft.directory/users/invitedBy/read",
             "microsoft.directory/users/licenseDetails/read",
             "microsoft.directory/users/manager/read",
             "microsoft.directory/users/memberOf/read",
@@ -4383,8 +4387,10 @@
         {
           "allowedResourceActions": [
             "microsoft.azure.serviceHealth/allEntities/allTasks",
+            "microsoft.directory/subscribedSkus/standard/read",
             "microsoft.dynamics365.businessCentral/allEntities/allProperties/allTasks",
-            "microsoft.office365.serviceHealth/allEntities/allTasks"
+            "microsoft.office365.serviceHealth/allEntities/allTasks",
+            "microsoft.office365.webPortal/allEntities/standard/read"
           ],
           "condition": null
         }

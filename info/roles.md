@@ -1067,6 +1067,7 @@
 | Office Apps Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Office Apps Administrator | microsoft.office365.userCommunication/allEntities/allTasks |
 | Office Apps Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Organizational Branding Administrator | microsoft.directory/loginOrganizationBranding/allProperties/allTasks |
 | Organizational Messages Writer | microsoft.office365.organizationalMessages/allEntities/allProperties/allTasks |
 | Organizational Messages Writer | microsoft.office365.usageReports/allEntities/standard/read |
 | Organizational Messages Writer | microsoft.office365.webPortal/allEntities/standard/read |
@@ -1992,7 +1993,7 @@
 | microsoft.directory/identityProviders/allProperties/allTasks | External Identity Provider Administrator |
 | microsoft.directory/lifecycleWorkflows/workflows/allProperties/allTasks | Global Administrator, Lifecycle Workflows Administrator |
 | microsoft.directory/lifecycleWorkflows/workflows/allProperties/read | Global Reader |
-| microsoft.directory/loginOrganizationBranding/allProperties/allTasks | Global Administrator |
+| microsoft.directory/loginOrganizationBranding/allProperties/allTasks | Global Administrator, Organizational Branding Administrator |
 | microsoft.directory/loginOrganizationBranding/allProperties/read | Global Reader |
 | microsoft.directory/multiTenantOrganization/basic/update | Global Administrator, Security Administrator |
 | microsoft.directory/multiTenantOrganization/create | Global Administrator, Security Administrator |

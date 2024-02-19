@@ -4373,7 +4373,7 @@
     },
     {
       "id": "963797fb-eb3b-4cde-8ce3-5878b3f32a3f",
-      "description": "Can access Dynamics 365 Business Central environments and perform all administrative tasks on the environments.",
+      "description": "Access and perform all administrative tasks on Dynamics 365 Business Central environments.",
       "displayName": "Dynamics 365 Business Central Administrator",
       "isBuiltIn": true,
       "isEnabled": true,
@@ -4422,6 +4422,33 @@
       ],
       "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('8c8b803f-96e1-4129-9349-20738d9f9652')/inheritsPermissionsFrom",
       "inheritsPermissionsFrom": []
+    },
+    {
+      "id": "92ed04bf-c94a-4b82-9729-b799a7a4c178",
+      "description": "Manage all aspects of organizational branding in a tenant.",
+      "displayName": "Organizational Branding Administrator",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "templateId": "92ed04bf-c94a-4b82-9729-b799a7a4c178",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/loginOrganizationBranding/allProperties/allTasks"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('92ed04bf-c94a-4b82-9729-b799a7a4c178')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ]
     }
   ]
 }

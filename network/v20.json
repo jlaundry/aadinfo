@@ -153,7 +153,9 @@
         "onedscolprdwus18.westus.cloudapp.azure.com",
         "onedscolprdwus19.westus.cloudapp.azure.com",
         "onedscolprdwus20.westus.cloudapp.azure.com",
-        "onedscolprdwus21.westus.cloudapp.azure.com"
+        "onedscolprdwus21.westus.cloudapp.azure.com",
+        "onedscolprdwus22.westus.cloudapp.azure.com",
+        "onedscolprdwus23.westus.cloudapp.azure.com"
     ],
     "tcpPorts": "443",
     "required": true

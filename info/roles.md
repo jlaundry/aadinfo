@@ -637,6 +637,7 @@
 | Global Administrator | microsoft.dynamics365/allEntities/allTasks |
 | Global Administrator | microsoft.edge/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.flow/allEntities/allTasks |
+| Global Administrator | microsoft.graph.dataConnect/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.hardware.support/shippingAddress/allProperties/allTasks |
 | Global Administrator | microsoft.hardware.support/shippingStatus/allProperties/read |
 | Global Administrator | microsoft.hardware.support/warrantyClaims/allProperties/allTasks |
@@ -747,6 +748,7 @@
 | Global Reader | microsoft.directory/verifiableCredentials/configuration/contracts/allProperties/read |
 | Global Reader | microsoft.directory/verifiableCredentials/configuration/contracts/cards/allProperties/read |
 | Global Reader | microsoft.edge/allEntities/allProperties/read |
+| Global Reader | microsoft.graph.dataConnect/allEntities/allProperties/read |
 | Global Reader | microsoft.hardware.support/shippingAddress/allProperties/read |
 | Global Reader | microsoft.hardware.support/shippingStatus/allProperties/read |
 | Global Reader | microsoft.hardware.support/warrantyClaims/allProperties/read |
@@ -2219,6 +2221,8 @@
 | microsoft.edge/allEntities/allProperties/allTasks | Edge Administrator, Global Administrator |
 | microsoft.edge/allEntities/allProperties/read | Global Reader |
 | microsoft.flow/allEntities/allTasks | Global Administrator, Power Platform Administrator |
+| microsoft.graph.dataConnect/allEntities/allProperties/allTasks | Global Administrator |
+| microsoft.graph.dataConnect/allEntities/allProperties/read | Global Reader |
 | microsoft.hardware.support/shippingAddress/allProperties/allTasks | Global Administrator, Microsoft Hardware Warranty Administrator |
 | microsoft.hardware.support/shippingAddress/allProperties/read | Global Reader, Microsoft Hardware Warranty Specialist |
 | microsoft.hardware.support/shippingStatus/allProperties/read | Global Administrator, Global Reader, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist |

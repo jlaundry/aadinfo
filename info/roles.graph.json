@@ -4426,7 +4426,10 @@
         {
           "allowedResourceActions": [
             "microsoft.azure.serviceHealth/allEntities/allTasks",
+            "microsoft.directory/domains/standard/read",
+            "microsoft.directory/organization/standard/read",
             "microsoft.directory/subscribedSkus/standard/read",
+            "microsoft.directory/users/standard/read",
             "microsoft.dynamics365.businessCentral/allEntities/allProperties/allTasks",
             "microsoft.office365.serviceHealth/allEntities/allTasks",
             "microsoft.office365.webPortal/allEntities/standard/read"

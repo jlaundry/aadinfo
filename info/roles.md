@@ -441,7 +441,10 @@
 | Dynamics 365 Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Dynamics 365 Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Dynamics 365 Business Central Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
+| Dynamics 365 Business Central Administrator | microsoft.directory/domains/standard/read |
+| Dynamics 365 Business Central Administrator | microsoft.directory/organization/standard/read |
 | Dynamics 365 Business Central Administrator | microsoft.directory/subscribedSkus/standard/read |
+| Dynamics 365 Business Central Administrator | microsoft.directory/users/standard/read |
 | Dynamics 365 Business Central Administrator | microsoft.dynamics365.businessCentral/allEntities/allProperties/allTasks |
 | Dynamics 365 Business Central Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Dynamics 365 Business Central Administrator | microsoft.office365.webPortal/allEntities/standard/read |
@@ -1942,7 +1945,7 @@
 | microsoft.directory/domains/federationConfiguration/create | Global Administrator, Hybrid Identity Administrator, Security Administrator |
 | microsoft.directory/domains/federationConfiguration/delete | Global Administrator, Hybrid Identity Administrator, Security Administrator |
 | microsoft.directory/domains/federationConfiguration/standard/read | Global Administrator, Global Reader, Hybrid Identity Administrator, Security Administrator, Security Reader |
-| microsoft.directory/domains/standard/read | Directory Readers, Guest User, Restricted Guest User, User |
+| microsoft.directory/domains/standard/read | Directory Readers, Dynamics 365 Business Central Administrator, Guest User, Restricted Guest User, User |
 | microsoft.directory/entitlementManagement/allProperties/allTasks | Global Administrator, Identity Governance Administrator, User Administrator |
 | microsoft.directory/entitlementManagement/allProperties/read | Compliance Administrator, Global Reader, Security Administrator, Security Reader |
 | microsoft.directory/externalUserProfiles/basic/update | Extended Directory User Administrator, Global Administrator, Teams Administrator |
@@ -2042,7 +2045,7 @@
 | microsoft.directory/organization/basic/update | Billing Administrator, Partner Tier2 Support |
 | microsoft.directory/organization/basicProfile/read | Guest User, Restricted Guest User |
 | microsoft.directory/organization/dirSync/update | Directory Synchronization Accounts, Hybrid Identity Administrator |
-| microsoft.directory/organization/standard/read | Directory Readers, User |
+| microsoft.directory/organization/standard/read | Directory Readers, Dynamics 365 Business Central Administrator, User |
 | microsoft.directory/organization/strongAuthentication/allTasks | Authentication Policy Administrator |
 | microsoft.directory/organization/strongAuthentication/read | Lifecycle Workflows Administrator |
 | microsoft.directory/organization/trustedCAsForPasswordlessAuth/read | Directory Readers |
@@ -2204,7 +2207,7 @@
 | microsoft.directory/users/searchableDeviceKey/update | User |
 | microsoft.directory/users/sponsors/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/sponsors/update | Directory Writers, User Administrator |
-| microsoft.directory/users/standard/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
+| microsoft.directory/users/standard/read | Directory Readers, Dynamics 365 Business Central Administrator, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/usageLocation/update | License Administrator, User Administrator |
 | microsoft.directory/users/userPrincipalName/update | Authentication Administrator, Directory Writers, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
 | microsoft.directory/verifiableCredentials/configuration/allProperties/read | Authentication Policy Administrator, Global Administrator, Global Reader |

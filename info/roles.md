@@ -342,54 +342,6 @@
 | Directory Readers | microsoft.directory/users/scopedRoleMemberOf/read |
 | Directory Readers | microsoft.directory/users/sponsors/read |
 | Directory Readers | microsoft.directory/users/standard/read |
-| Directory Synchronization Accounts | microsoft.directory/applications/appRoles/update |
-| Directory Synchronization Accounts | microsoft.directory/applications/audience/update |
-| Directory Synchronization Accounts | microsoft.directory/applications/authentication/update |
-| Directory Synchronization Accounts | microsoft.directory/applications/basic/update |
-| Directory Synchronization Accounts | microsoft.directory/applications/create |
-| Directory Synchronization Accounts | microsoft.directory/applications/credentials/update |
-| Directory Synchronization Accounts | microsoft.directory/applications/delete |
-| Directory Synchronization Accounts | microsoft.directory/applications/notes/update |
-| Directory Synchronization Accounts | microsoft.directory/applications/owners/update |
-| Directory Synchronization Accounts | microsoft.directory/applications/permissions/update |
-| Directory Synchronization Accounts | microsoft.directory/applications/policies/update |
-| Directory Synchronization Accounts | microsoft.directory/applications/tag/update |
-| Directory Synchronization Accounts | microsoft.directory/authorizationPolicy/standard/read |
-| Directory Synchronization Accounts | microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks |
-| Directory Synchronization Accounts | microsoft.directory/organization/dirSync/update |
-| Directory Synchronization Accounts | microsoft.directory/passwordHashSync/allProperties/allTasks |
-| Directory Synchronization Accounts | microsoft.directory/policies/basic/update |
-| Directory Synchronization Accounts | microsoft.directory/policies/create |
-| Directory Synchronization Accounts | microsoft.directory/policies/delete |
-| Directory Synchronization Accounts | microsoft.directory/policies/owners/read |
-| Directory Synchronization Accounts | microsoft.directory/policies/owners/update |
-| Directory Synchronization Accounts | microsoft.directory/policies/policyAppliedTo/read |
-| Directory Synchronization Accounts | microsoft.directory/policies/standard/read |
-| Directory Synchronization Accounts | microsoft.directory/policies/tenantDefault/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/appRoleAssignedTo/read |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/appRoleAssignedTo/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/appRoleAssignments/read |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/audience/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/authentication/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/basic/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/create |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/credentials/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/delete |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/disable |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/enable |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/getPasswordSingleSignOnCredentials |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/memberOf/read |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/notes/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/oAuth2PermissionGrants/read |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/ownedObjects/read |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/owners/read |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/owners/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/permissions/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/policies/read |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/policies/update |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/standard/read |
-| Directory Synchronization Accounts | microsoft.directory/servicePrincipals/tag/update |
 | Directory Writers | microsoft.directory/applications/extensionProperties/update |
 | Directory Writers | microsoft.directory/contacts/create |
 | Directory Writers | microsoft.directory/groupSettings/basic/update |
@@ -1802,38 +1754,38 @@
 | microsoft.directory/applicationTemplates/instantiate | Application Administrator, Cloud Application Administrator, Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/applications/allProperties/allTasks | Global Administrator |
 | microsoft.directory/applications/allProperties/read | Global Reader |
-| microsoft.directory/applications/appRoles/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/appRoles/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/applicationProxy/read | Application Administrator, Global Secure Access Administrator |
 | microsoft.directory/applications/applicationProxy/update | Application Administrator |
 | microsoft.directory/applications/applicationProxyAuthentication/update | Application Administrator |
 | microsoft.directory/applications/applicationProxySslCertificate/update | Application Administrator |
 | microsoft.directory/applications/applicationProxyUrlSettings/update | Application Administrator |
-| microsoft.directory/applications/audience/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/authentication/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/basic/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/create | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator |
+| microsoft.directory/applications/audience/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/authentication/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/basic/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/create | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator |
 | microsoft.directory/applications/createAsOwner | Application Developer, User |
-| microsoft.directory/applications/credentials/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/delete | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
+| microsoft.directory/applications/credentials/update | Application Administrator, Cloud Application Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/delete | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
 | microsoft.directory/applications/extensionProperties/update | Application Administrator, Cloud Application Administrator, Directory Writers, User |
-| microsoft.directory/applications/notes/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/notes/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/owners/limitedRead | Guest User, Restricted Guest User |
 | microsoft.directory/applications/owners/read | Directory Readers, Global Secure Access Administrator, User |
-| microsoft.directory/applications/owners/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/permissions/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/owners/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/permissions/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/policies/limitedRead | Guest User, Restricted Guest User |
 | microsoft.directory/applications/policies/read | Directory Readers, Global Secure Access Administrator, User |
-| microsoft.directory/applications/policies/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, Security Administrator, User |
+| microsoft.directory/applications/policies/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, Security Administrator, User |
 | microsoft.directory/applications/standard/limitedRead | Guest User, Restricted Guest User |
 | microsoft.directory/applications/standard/read | Directory Readers, Global Secure Access Administrator, User |
 | microsoft.directory/applications/synchronization/standard/read | Application Administrator, Cloud Application Administrator, Global Administrator, Global Reader, Hybrid Identity Administrator |
-| microsoft.directory/applications/tag/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/tag/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/verification/update | Application Administrator, Cloud Application Administrator, User |
 | microsoft.directory/attributeSets/allProperties/allTasks | Attribute Definition Administrator |
 | microsoft.directory/attributeSets/allProperties/read | Attribute Assignment Administrator, Attribute Assignment Reader, Attribute Definition Reader |
 | microsoft.directory/auditLogs/allProperties/read | Application Administrator, Cloud Application Administrator, Cloud Device Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Hybrid Identity Administrator, Reports Reader, Security Administrator, Security Operator, Security Reader, User |
 | microsoft.directory/authorizationPolicy/allProperties/allTasks | Global Administrator, Privileged Role Administrator |
-| microsoft.directory/authorizationPolicy/standard/read | Azure Information Protection Administrator, Cloud Device Administrator, Compliance Data Administrator, Desktop Analytics Administrator, Directory Synchronization Accounts, Global Reader, Kaizala Administrator, License Administrator, Security Administrator, Security Operator, Security Reader, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Telephony Administrator, User |
+| microsoft.directory/authorizationPolicy/standard/read | Azure Information Protection Administrator, Cloud Device Administrator, Compliance Data Administrator, Desktop Analytics Administrator, Global Reader, Kaizala Administrator, License Administrator, Security Administrator, Security Operator, Security Reader, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Telephony Administrator, User |
 | microsoft.directory/azureManagedIdentities/customSecurityAttributes/read | Attribute Assignment Administrator, Attribute Assignment Reader |
 | microsoft.directory/azureManagedIdentities/customSecurityAttributes/update | Attribute Assignment Administrator |
 | microsoft.directory/b2cTrustFrameworkKeySet/allProperties/allTasks | B2C IEF Keyset Administrator |
@@ -2011,7 +1963,7 @@
 | microsoft.directory/groupsAssignableToRoles/delete | Global Administrator, Privileged Role Administrator, User |
 | microsoft.directory/groupsAssignableToRoles/reprocessLicenseAssignment | Global Administrator, Privileged Role Administrator, User |
 | microsoft.directory/groupsAssignableToRoles/restore | Global Administrator, Privileged Role Administrator, User |
-| microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks | Directory Synchronization Accounts, Global Administrator, Hybrid Identity Administrator |
+| microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks | Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/identityProtection/allProperties/allTasks | Global Administrator, Security Operator |
 | microsoft.directory/identityProtection/allProperties/read | Global Reader, Security Administrator, Security Reader |
 | microsoft.directory/identityProtection/allProperties/update | Security Administrator |
@@ -2044,12 +1996,12 @@
 | microsoft.directory/organization/allProperties/read | Global Reader |
 | microsoft.directory/organization/basic/update | Billing Administrator, Partner Tier2 Support |
 | microsoft.directory/organization/basicProfile/read | Guest User, Restricted Guest User |
-| microsoft.directory/organization/dirSync/update | Directory Synchronization Accounts, Hybrid Identity Administrator |
+| microsoft.directory/organization/dirSync/update | Hybrid Identity Administrator |
 | microsoft.directory/organization/standard/read | Directory Readers, Dynamics 365 Business Central Administrator, User |
 | microsoft.directory/organization/strongAuthentication/allTasks | Authentication Policy Administrator |
 | microsoft.directory/organization/strongAuthentication/read | Lifecycle Workflows Administrator |
 | microsoft.directory/organization/trustedCAsForPasswordlessAuth/read | Directory Readers |
-| microsoft.directory/passwordHashSync/allProperties/allTasks | Directory Synchronization Accounts, Global Administrator, Hybrid Identity Administrator |
+| microsoft.directory/passwordHashSync/allProperties/allTasks | Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/pendingExternalUserProfiles/basic/update | Extended Directory User Administrator, Global Administrator, Teams Administrator |
 | microsoft.directory/pendingExternalUserProfiles/create | Extended Directory User Administrator, Global Administrator, Teams Administrator |
 | microsoft.directory/pendingExternalUserProfiles/delete | Extended Directory User Administrator, Global Administrator, Teams Administrator |
@@ -2062,14 +2014,14 @@
 | microsoft.directory/permissionGrantPolicies/standard/read | Global Administrator, Global Reader, Teams Administrator |
 | microsoft.directory/policies/allProperties/allTasks | Global Administrator |
 | microsoft.directory/policies/allProperties/read | Global Reader |
-| microsoft.directory/policies/basic/update | Directory Synchronization Accounts, Security Administrator, User |
-| microsoft.directory/policies/create | Directory Synchronization Accounts, Security Administrator |
-| microsoft.directory/policies/delete | Directory Synchronization Accounts, Security Administrator, User |
-| microsoft.directory/policies/owners/read | Directory Synchronization Accounts, Security Reader, User |
-| microsoft.directory/policies/owners/update | Directory Synchronization Accounts, Security Administrator, User |
-| microsoft.directory/policies/policyAppliedTo/read | Directory Synchronization Accounts, Security Reader, User |
-| microsoft.directory/policies/standard/read | Directory Synchronization Accounts, Security Reader, User, User Administrator |
-| microsoft.directory/policies/tenantDefault/update | Directory Synchronization Accounts, Security Administrator |
+| microsoft.directory/policies/basic/update | Security Administrator, User |
+| microsoft.directory/policies/create | Security Administrator |
+| microsoft.directory/policies/delete | Security Administrator, User |
+| microsoft.directory/policies/owners/read | Security Reader, User |
+| microsoft.directory/policies/owners/update | Security Administrator, User |
+| microsoft.directory/policies/policyAppliedTo/read | Security Reader, User |
+| microsoft.directory/policies/standard/read | Security Reader, User, User Administrator |
+| microsoft.directory/policies/tenantDefault/update | Security Administrator |
 | microsoft.directory/privilegedIdentityManagement/allProperties/allTasks | Privileged Role Administrator |
 | microsoft.directory/privilegedIdentityManagement/allProperties/read | Global Administrator, Global Reader, Security Administrator, Security Operator, Security Reader |
 | microsoft.directory/provisioningLogs/allProperties/read | Application Administrator, Cloud Application Administrator, Global Administrator, Global Reader, Hybrid Identity Administrator, Reports Reader, Security Administrator, Security Operator, Security Reader, User |
@@ -2093,42 +2045,42 @@
 | microsoft.directory/servicePrincipals/allProperties/allTasks | Global Administrator |
 | microsoft.directory/servicePrincipals/allProperties/read | Global Reader |
 | microsoft.directory/servicePrincipals/appRoleAssignedTo/limitedRead | Guest User, Restricted Guest User |
-| microsoft.directory/servicePrincipals/appRoleAssignedTo/read | Directory Readers, Directory Synchronization Accounts, User |
-| microsoft.directory/servicePrincipals/appRoleAssignedTo/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Directory Writers, Hybrid Identity Administrator, Identity Governance Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Role Administrator, User, User Administrator |
+| microsoft.directory/servicePrincipals/appRoleAssignedTo/read | Directory Readers, User |
+| microsoft.directory/servicePrincipals/appRoleAssignedTo/update | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator, Identity Governance Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Role Administrator, User, User Administrator |
 | microsoft.directory/servicePrincipals/appRoleAssignments/limitedRead | Guest User, Restricted Guest User |
-| microsoft.directory/servicePrincipals/appRoleAssignments/read | Directory Readers, Directory Synchronization Accounts, User |
-| microsoft.directory/servicePrincipals/audience/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
+| microsoft.directory/servicePrincipals/appRoleAssignments/read | Directory Readers, User |
+| microsoft.directory/servicePrincipals/audience/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
 | microsoft.directory/servicePrincipals/authentication/read | User |
-| microsoft.directory/servicePrincipals/authentication/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
-| microsoft.directory/servicePrincipals/basic/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
-| microsoft.directory/servicePrincipals/create | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator |
+| microsoft.directory/servicePrincipals/authentication/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/servicePrincipals/basic/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/servicePrincipals/create | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/createAsOwner | Application Developer, User |
-| microsoft.directory/servicePrincipals/credentials/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, User |
+| microsoft.directory/servicePrincipals/credentials/update | Application Administrator, Cloud Application Administrator, User |
 | microsoft.directory/servicePrincipals/customSecurityAttributes/read | Attribute Assignment Administrator, Attribute Assignment Reader |
 | microsoft.directory/servicePrincipals/customSecurityAttributes/update | Attribute Assignment Administrator |
-| microsoft.directory/servicePrincipals/delete | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
-| microsoft.directory/servicePrincipals/disable | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
-| microsoft.directory/servicePrincipals/enable | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
-| microsoft.directory/servicePrincipals/getPasswordSingleSignOnCredentials | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, User |
-| microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, User |
+| microsoft.directory/servicePrincipals/delete | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/servicePrincipals/disable | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/servicePrincipals/enable | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/servicePrincipals/getPasswordSingleSignOnCredentials | Application Administrator, Cloud Application Administrator, User |
+| microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials | Application Administrator, Cloud Application Administrator, User |
 | microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin | Application Administrator, Cloud Application Administrator |
 | microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin | Global Administrator, Privileged Role Administrator |
 | microsoft.directory/servicePrincipals/memberOf/limitedRead | Guest User, Restricted Guest User |
-| microsoft.directory/servicePrincipals/memberOf/read | Directory Readers, Directory Synchronization Accounts, User |
-| microsoft.directory/servicePrincipals/notes/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
+| microsoft.directory/servicePrincipals/memberOf/read | Directory Readers, User |
+| microsoft.directory/servicePrincipals/notes/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
 | microsoft.directory/servicePrincipals/oAuth2PermissionGrants/limitedRead | Guest User, Restricted Guest User |
-| microsoft.directory/servicePrincipals/oAuth2PermissionGrants/read | Directory Readers, Directory Synchronization Accounts, User |
+| microsoft.directory/servicePrincipals/oAuth2PermissionGrants/read | Directory Readers, User |
 | microsoft.directory/servicePrincipals/ownedObjects/limitedRead | Guest User, Restricted Guest User |
-| microsoft.directory/servicePrincipals/ownedObjects/read | Directory Readers, Directory Synchronization Accounts, User |
+| microsoft.directory/servicePrincipals/ownedObjects/read | Directory Readers, User |
 | microsoft.directory/servicePrincipals/owners/limitedRead | Guest User, Restricted Guest User |
-| microsoft.directory/servicePrincipals/owners/read | Directory Readers, Directory Synchronization Accounts, User |
-| microsoft.directory/servicePrincipals/owners/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
-| microsoft.directory/servicePrincipals/permissions/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Privileged Role Administrator, User |
+| microsoft.directory/servicePrincipals/owners/read | Directory Readers, User |
+| microsoft.directory/servicePrincipals/owners/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/servicePrincipals/permissions/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Privileged Role Administrator, User |
 | microsoft.directory/servicePrincipals/policies/limitedRead | Guest User, Restricted Guest User |
-| microsoft.directory/servicePrincipals/policies/read | Directory Readers, Directory Synchronization Accounts, User |
-| microsoft.directory/servicePrincipals/policies/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, Security Administrator, User |
+| microsoft.directory/servicePrincipals/policies/read | Directory Readers, User |
+| microsoft.directory/servicePrincipals/policies/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Security Administrator, User |
 | microsoft.directory/servicePrincipals/standard/limitedRead | Guest User, Restricted Guest User |
-| microsoft.directory/servicePrincipals/standard/read | Directory Readers, Directory Synchronization Accounts, User |
+| microsoft.directory/servicePrincipals/standard/read | Directory Readers, User |
 | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage | Directory Writers, Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage | Directory Writers, Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage | Directory Writers, Global Administrator, Hybrid Identity Administrator |
@@ -2139,7 +2091,7 @@
 | microsoft.directory/servicePrincipals/synchronizationCredentials/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronizationJobs/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronizationSchema/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator |
-| microsoft.directory/servicePrincipals/tag/update | Application Administrator, Cloud Application Administrator, Directory Synchronization Accounts, Hybrid Identity Administrator, User |
+| microsoft.directory/servicePrincipals/tag/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
 | microsoft.directory/signInReports/allProperties/read | Application Administrator, Cloud Application Administrator, Cloud Device Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Hybrid Identity Administrator, Reports Reader, Security Administrator, Security Operator, Security Reader, User |
 | microsoft.directory/subscribedSkus/allProperties/allTasks | Global Administrator |
 | microsoft.directory/subscribedSkus/allProperties/read | Global Reader |

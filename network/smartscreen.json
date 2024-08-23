@@ -14,19 +14,97 @@
         "serviceArea": "Data",
         "serviceAreaDisplayName": "Defender Smart Screen hosts",
         "urls": [
+            "wd-prod-ss.trafficmanager.net",
+            "wd-prod-ss-as-southeast-1-fe.southeastasia.cloudapp.azure.com",
+            "wd-prod-ss-as-southeast-2-fe.southeastasia.cloudapp.azure.com",
+            "wd-prod-ss-as-southeast-3-fe.southeastasia.cloudapp.azure.com",
+            "wd-prod-ss-as-southeast-4-fe.southeastasia.cloudapp.azure.com",
+            "wd-prod-ss-au-east-1-fe.australiaeast.cloudapp.azure.com",
+            "wd-prod-ss-au-southeast-1-fe.australiasoutheast.cloudapp.azure.com",
+            "wd-prod-ss-br-south-1-fe.brazilsouth.cloudapp.azure.com",
+            "wd-prod-ss-eu-north-1-fe.northeurope.cloudapp.azure.com",
+            "wd-prod-ss-eu-north-2-fe.northeurope.cloudapp.azure.com",
+            "wd-prod-ss-eu-west-1-fe.westeurope.cloudapp.azure.com",
+            "wd-prod-ss-eu-west-2-fe.westeurope.cloudapp.azure.com",
+            "wd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com",
+            "wd-prod-ss-uk-west-1-fe.ukwest.cloudapp.azure.com",
+            "wd-prod-ss-us-east-0-fe.eastus.cloudapp.azure.com",
             "wd-prod-ss-us-east-1-fe.eastus.cloudapp.azure.com",
             "wd-prod-ss-us-east-2-fe.eastus.cloudapp.azure.com",
             "wd-prod-ss-us-northcentral-1-fe.northcentralus.cloudapp.azure.com",
             "wd-prod-ss-us-northcentral-2-fe.northcentralus.cloudapp.azure.com",
             "wd-prod-ss-us-southcentral-1-fe.southcentralus.cloudapp.azure.com",
             "wd-prod-ss-us-southcentral-2-fe.southcentralus.cloudapp.azure.com",
-            "wd-prod-ss-us-east-0-fe.eastus.cloudapp.azure.com",
             "wd-prod-ss-us-west-0-fe.westus.cloudapp.azure.com",
             "wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com",
             "wd-prod-ss-us-west-2-fe.westus.cloudapp.azure.com"
         ],
         "tcpPorts": "443",
         "required": true
+    },
+    {
+        "id": 3,
+        "serviceArea": "Data",
+        "serviceAreaDisplayName": "Defender Smart Screen hosts - US",
+        "urls": [
+            "unitedstates.smartscreen.microsoft.com",
+            "prod-atm-wds-e5-unitedstates2.trafficmanager.net",
+            "prod-agic-eu2-1.eastus2.cloudapp.azure.com",
+            "prod-agic-eu2-2.eastus2.cloudapp.azure.com",
+            "prod-agic-eu2-3.eastus2.cloudapp.azure.com",
+            "prod-agic-ncu-1.northcentralus.cloudapp.azure.com",
+            "prod-agic-ncu-2.northcentralus.cloudapp.azure.com",
+            "prod-agic-ncu-3.northcentralus.cloudapp.azure.com",
+            "prod-agic-scu-1.southcentralus.cloudapp.azure.com",
+            "prod-agic-scu-2.southcentralus.cloudapp.azure.com",
+            "prod-agic-scu-3.southcentralus.cloudapp.azure.com",
+            "prod-agic-wu-1.westus.cloudapp.azure.com",
+            "prod-agic-wu-2.westus.cloudapp.azure.com",
+            "prod-agic-wu-3.westus.cloudapp.azure.com",
+            "prod-agic-wu-3.westus.cloudapp.azure.com"
+        ],
+        "tcpPorts": "443",
+        "required": true
+    },
+    {
+        "id": 4,
+        "serviceArea": "Data",
+        "serviceAreaDisplayName": "Defender Smart Screen hosts - EU",
+        "urls": [
+            "europe.smartscreen.microsoft.com",
+            "wd-prod-ss-eu.trafficmanager.net",
+            "wd-prod-ss-eu-north-1-fe.northeurope.cloudapp.azure.com",
+            "wd-prod-ss-eu-north-2-fe.northeurope.cloudapp.azure.com",
+            "wd-prod-ss-eu-west-1-fe.westeurope.cloudapp.azure.com",
+            "wd-prod-ss-eu-west-2-fe.westeurope.cloudapp.azure.com"
+        ],
+        "tcpPorts": "443",
+        "required": true
+    },
+    {
+        "id": 5,
+        "serviceArea": "Data",
+        "serviceAreaDisplayName": "Defender Smart Screen hosts - UK",
+        "urls": [
+            "unitedkingdom.smartscreen.microsoft.com",
+            "wd-prod-ss-uk.trafficmanager.net",
+            "wd-prod-ss-uk-south-1-fe.uksouth.cloudapp.azure.com",
+            "wd-prod-ss-uk-west-1-fe.ukwest.cloudapp.azure.com"
+        ],
+        "tcpPorts": "443",
+        "required": true
+    },
+    {
+        "id": 6,
+        "serviceArea": "Data",
+        "serviceAreaDisplayName": "Defender Smart Screen hosts - AU",
+        "urls": [
+            "australia.smartscreen.microsoft.com",
+            "wd-prod-ss-au.trafficmanager.net",
+            "wd-prod-ss-au-east-1-fe.australiaeast.cloudapp.azure.com",
+            "wd-prod-ss-au-southeast-1-fe.australiasoutheast.cloudapp.azure.com"
+        ],
+        "tcpPorts": "443",
+        "required": true
     }
 ]
-        

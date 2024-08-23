@@ -4,7 +4,8 @@
         "serviceArea": "Data",
         "serviceAreaDisplayName": "Experimentation and Configuration Service",
         "urls": [
-            "ecs.office.com"
+            "ecs.office.com",
+            "config.edge.skype.com"
         ],
         "tcpPorts": "443",
         "udpPorts": "443",

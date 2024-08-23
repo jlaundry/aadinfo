@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "serviceArea": "Data",
+        "serviceAreaDisplayName": "Experimentation and Configuration Service",
+        "urls": [
+            "ecs.office.com"
+        ],
+        "tcpPorts": "443",
+        "udpPorts": "443",
+        "required": true
+    }
+]

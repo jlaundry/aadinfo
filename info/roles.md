@@ -1217,6 +1217,11 @@
 | Restricted Guest User | microsoft.directory/servicePrincipals/policies/limitedRead |
 | Restricted Guest User | microsoft.directory/servicePrincipals/standard/limitedRead |
 | Restricted Guest User | microsoft.directory/users/appRoleAssignments/read |
+| Restricted Guest User | microsoft.directory/users/authenticationMethods/basic/update |
+| Restricted Guest User | microsoft.directory/users/authenticationMethods/create |
+| Restricted Guest User | microsoft.directory/users/authenticationMethods/delete |
+| Restricted Guest User | microsoft.directory/users/authenticationMethods/standard/read |
+| Restricted Guest User | microsoft.directory/users/authenticationMethods/standard/restrictedRead |
 | Restricted Guest User | microsoft.directory/users/deviceForResourceAccount/read |
 | Restricted Guest User | microsoft.directory/users/directReports/read |
 | Restricted Guest User | microsoft.directory/users/eligibleMemberOf/read |
@@ -1603,6 +1608,11 @@
 | User | microsoft.directory/userInfos/openId/read |
 | User | microsoft.directory/userInfos/phone/read |
 | User | microsoft.directory/userInfos/profile/read |
+| User | microsoft.directory/users/authenticationMethods/basic/update |
+| User | microsoft.directory/users/authenticationMethods/create |
+| User | microsoft.directory/users/authenticationMethods/delete |
+| User | microsoft.directory/users/authenticationMethods/standard/read |
+| User | microsoft.directory/users/authenticationMethods/standard/restrictedRead |
 | User | microsoft.directory/users/basicProfile/update |
 | User | microsoft.directory/users/changePassword |
 | User | microsoft.directory/users/identities/update |
@@ -2157,11 +2167,11 @@
 | microsoft.directory/users/allProperties/read | Global Reader |
 | microsoft.directory/users/appRoleAssignments/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/assignLicense | Directory Writers, License Administrator, Partner Tier1 Support, Partner Tier2 Support, User Administrator |
-| microsoft.directory/users/authenticationMethods/basic/update | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator |
-| microsoft.directory/users/authenticationMethods/create | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator |
-| microsoft.directory/users/authenticationMethods/delete | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator |
-| microsoft.directory/users/authenticationMethods/standard/read | Global Administrator, Guest User, Privileged Authentication Administrator |
-| microsoft.directory/users/authenticationMethods/standard/restrictedRead | Authentication Administrator, Global Reader, Guest User |
+| microsoft.directory/users/authenticationMethods/basic/update | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator, Restricted Guest User, User |
+| microsoft.directory/users/authenticationMethods/create | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator, Restricted Guest User, User |
+| microsoft.directory/users/authenticationMethods/delete | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator, Restricted Guest User, User |
+| microsoft.directory/users/authenticationMethods/standard/read | Global Administrator, Guest User, Privileged Authentication Administrator, Restricted Guest User, User |
+| microsoft.directory/users/authenticationMethods/standard/restrictedRead | Authentication Administrator, Global Reader, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/authorizationInfo/update | Hybrid Identity Administrator, Privileged Authentication Administrator |
 | microsoft.directory/users/basic/update | Authentication Administrator, Directory Writers, Intune Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
 | microsoft.directory/users/basicProfile/update | User |

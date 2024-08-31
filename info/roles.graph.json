@@ -341,6 +341,11 @@
         {
           "allowedResourceActions": [
             "microsoft.directory/users/appRoleAssignments/read",
+            "microsoft.directory/users/authenticationMethods/basic/update",
+            "microsoft.directory/users/authenticationMethods/create",
+            "microsoft.directory/users/authenticationMethods/delete",
+            "microsoft.directory/users/authenticationMethods/standard/read",
+            "microsoft.directory/users/authenticationMethods/standard/restrictedRead",
             "microsoft.directory/users/deviceForResourceAccount/read",
             "microsoft.directory/users/directReports/read",
             "microsoft.directory/users/eligibleMemberOf/read",
@@ -749,6 +754,11 @@
             "microsoft.directory/userInfos/openId/read",
             "microsoft.directory/userInfos/phone/read",
             "microsoft.directory/userInfos/profile/read",
+            "microsoft.directory/users/authenticationMethods/basic/update",
+            "microsoft.directory/users/authenticationMethods/create",
+            "microsoft.directory/users/authenticationMethods/delete",
+            "microsoft.directory/users/authenticationMethods/standard/read",
+            "microsoft.directory/users/authenticationMethods/standard/restrictedRead",
             "microsoft.directory/users/basicProfile/update",
             "microsoft.directory/users/changePassword",
             "microsoft.directory/users/identities/update",

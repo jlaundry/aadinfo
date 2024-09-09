@@ -342,6 +342,7 @@
 | Directory Readers | microsoft.directory/users/scopedRoleMemberOf/read |
 | Directory Readers | microsoft.directory/users/sponsors/read |
 | Directory Readers | microsoft.directory/users/standard/read |
+| Directory Synchronization Accounts | microsoft.directory/onPremisesSynchronization/standard/read |
 | Directory Writers | microsoft.directory/applications/extensionProperties/update |
 | Directory Writers | microsoft.directory/contacts/create |
 | Directory Writers | microsoft.directory/groupSettings/basic/update |
@@ -543,6 +544,8 @@
 | Global Administrator | microsoft.directory/namedLocations/delete |
 | Global Administrator | microsoft.directory/namedLocations/standard/read |
 | Global Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
+| Global Administrator | microsoft.directory/onPremisesSynchronization/basic/update |
+| Global Administrator | microsoft.directory/onPremisesSynchronization/standard/read |
 | Global Administrator | microsoft.directory/organization/allProperties/allTasks |
 | Global Administrator | microsoft.directory/passwordHashSync/allProperties/allTasks |
 | Global Administrator | microsoft.directory/pendingExternalUserProfiles/basic/update |
@@ -872,6 +875,8 @@
 | Hybrid Identity Administrator | microsoft.directory/domains/federationConfiguration/delete |
 | Hybrid Identity Administrator | microsoft.directory/domains/federationConfiguration/standard/read |
 | Hybrid Identity Administrator | microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks |
+| Hybrid Identity Administrator | microsoft.directory/onPremisesSynchronization/basic/update |
+| Hybrid Identity Administrator | microsoft.directory/onPremisesSynchronization/standard/read |
 | Hybrid Identity Administrator | microsoft.directory/organization/dirSync/update |
 | Hybrid Identity Administrator | microsoft.directory/passwordHashSync/allProperties/allTasks |
 | Hybrid Identity Administrator | microsoft.directory/provisioningLogs/allProperties/read |
@@ -1040,6 +1045,7 @@
 | Office Apps Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Office Apps Administrator | microsoft.office365.userCommunication/allEntities/allTasks |
 | Office Apps Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| On Premises Directory Sync Account | microsoft.directory/onPremisesSynchronization/standard/read |
 | Organizational Branding Administrator | microsoft.directory/loginOrganizationBranding/allProperties/allTasks |
 | Organizational Messages Approver | microsoft.office365.organizationalMessages/allEntities/allProperties/read |
 | Organizational Messages Approver | microsoft.office365.organizationalMessages/allEntities/allProperties/update |
@@ -2044,6 +2050,8 @@
 | microsoft.directory/oAuth2PermissionGrants/create | Directory Writers |
 | microsoft.directory/oAuth2PermissionGrants/createAsOwner | Application Developer |
 | microsoft.directory/oAuth2PermissionGrants/standard/read | Directory Readers, User |
+| microsoft.directory/onPremisesSynchronization/basic/update | Global Administrator, Hybrid Identity Administrator |
+| microsoft.directory/onPremisesSynchronization/standard/read | Directory Synchronization Accounts, Global Administrator, Hybrid Identity Administrator, On Premises Directory Sync Account |
 | microsoft.directory/organization/allProperties/allTasks | Global Administrator |
 | microsoft.directory/organization/allProperties/read | Global Reader |
 | microsoft.directory/organization/basic/update | Billing Administrator, Partner Tier2 Support |

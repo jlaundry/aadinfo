@@ -120,6 +120,8 @@
             "microsoft.directory/namedLocations/delete",
             "microsoft.directory/namedLocations/standard/read",
             "microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks",
+            "microsoft.directory/onPremisesSynchronization/basic/update",
+            "microsoft.directory/onPremisesSynchronization/standard/read",
             "microsoft.directory/organization/allProperties/allTasks",
             "microsoft.directory/passwordHashSync/allProperties/allTasks",
             "microsoft.directory/pendingExternalUserProfiles/basic/update",
@@ -1344,7 +1346,9 @@
       "version": "1",
       "rolePermissions": [
         {
-          "allowedResourceActions": [],
+          "allowedResourceActions": [
+            "microsoft.directory/onPremisesSynchronization/standard/read"
+          ],
           "condition": null
         }
       ],
@@ -3355,6 +3359,8 @@
             "microsoft.directory/domains/federationConfiguration/standard/read",
             "microsoft.directory/domains/federation/update",
             "microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks",
+            "microsoft.directory/onPremisesSynchronization/basic/update",
+            "microsoft.directory/onPremisesSynchronization/standard/read",
             "microsoft.directory/organization/dirSync/update",
             "microsoft.directory/passwordHashSync/allProperties/allTasks",
             "microsoft.directory/provisioningLogs/allProperties/read",
@@ -4915,7 +4921,9 @@
       "version": "1",
       "rolePermissions": [
         {
-          "allowedResourceActions": [],
+          "allowedResourceActions": [
+            "microsoft.directory/onPremisesSynchronization/standard/read"
+          ],
           "condition": null
         }
       ],

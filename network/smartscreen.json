@@ -49,7 +49,10 @@
         "urls": [
             "unitedstates.smartscreen.microsoft.com",
             "prod-atm-wds-e5-unitedstates2.trafficmanager.net",
+            "prod-agic-cu-1.centralus.cloudapp.azure.com",
+            "prod-agic-cu-2.centralus.cloudapp.azure.com",
             "prod-agic-cu-3.centralus.cloudapp.azure.com",
+            "prod-agic-cu-4.centralus.cloudapp.azure.com",
             "prod-agic-eu2-1.eastus2.cloudapp.azure.com",
             "prod-agic-eu2-2.eastus2.cloudapp.azure.com",
             "prod-agic-eu2-3.eastus2.cloudapp.azure.com",

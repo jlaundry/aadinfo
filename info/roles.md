@@ -117,6 +117,9 @@
 | Attribute Log Administrator | microsoft.azure.customSecurityAttributeDiagnosticSettings/allEntities/allProperties/allTasks |
 | Attribute Log Administrator | microsoft.directory/customSecurityAttributeAuditLogs/allProperties/read |
 | Attribute Log Reader | microsoft.directory/customSecurityAttributeAuditLogs/allProperties/read |
+| Attribute Provisioning Administrator | microsoft.directory/servicePrincipals/synchronization.customSecurityAttributes/schema/read |
+| Attribute Provisioning Administrator | microsoft.directory/servicePrincipals/synchronization.customSecurityAttributes/schema/update |
+| Attribute Provisioning Reader | microsoft.directory/servicePrincipals/synchronization.customSecurityAttributes/schema/read |
 | Authentication Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Authentication Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Authentication Administrator | microsoft.directory/deletedItems.users/restore |
@@ -248,9 +251,12 @@
 | Cloud Device Administrator | microsoft.directory/deviceManagementPolicies/standard/read |
 | Cloud Device Administrator | microsoft.directory/deviceRegistrationPolicy/basic/update |
 | Cloud Device Administrator | microsoft.directory/deviceRegistrationPolicy/standard/read |
+| Cloud Device Administrator | microsoft.directory/deviceTemplates/owners/read |
+| Cloud Device Administrator | microsoft.directory/deviceTemplates/owners/update |
 | Cloud Device Administrator | microsoft.directory/devices/delete |
 | Cloud Device Administrator | microsoft.directory/devices/disable |
 | Cloud Device Administrator | microsoft.directory/devices/enable |
+| Cloud Device Administrator | microsoft.directory/devices/permissions/update |
 | Cloud Device Administrator | microsoft.directory/signInReports/allProperties/read |
 | Cloud Device Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Compliance Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
@@ -514,7 +520,10 @@
 | Global Administrator | microsoft.directory/deviceManagementPolicies/standard/read |
 | Global Administrator | microsoft.directory/deviceRegistrationPolicy/basic/update |
 | Global Administrator | microsoft.directory/deviceRegistrationPolicy/standard/read |
+| Global Administrator | microsoft.directory/deviceTemplates/owners/read |
+| Global Administrator | microsoft.directory/deviceTemplates/owners/update |
 | Global Administrator | microsoft.directory/devices/allProperties/allTasks |
+| Global Administrator | microsoft.directory/devices/permissions/update |
 | Global Administrator | microsoft.directory/directoryRoleTemplates/allProperties/allTasks |
 | Global Administrator | microsoft.directory/directoryRoles/allProperties/allTasks |
 | Global Administrator | microsoft.directory/domains/allProperties/allTasks |
@@ -1679,6 +1688,7 @@
 | User Administrator | microsoft.directory/users/enable |
 | User Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
 | User Administrator | microsoft.directory/users/inviteGuest |
+| User Administrator | microsoft.directory/users/lifeCycleInfo/read |
 | User Administrator | microsoft.directory/users/manager/update |
 | User Administrator | microsoft.directory/users/password/update |
 | User Administrator | microsoft.directory/users/photo/update |
@@ -1935,6 +1945,8 @@
 | microsoft.directory/deviceManagementPolicies/standard/read | Cloud Device Administrator, Global Administrator, Global Reader, Intune Administrator, Windows 365 Administrator |
 | microsoft.directory/deviceRegistrationPolicy/basic/update | Cloud Device Administrator, Global Administrator |
 | microsoft.directory/deviceRegistrationPolicy/standard/read | Cloud Device Administrator, Global Administrator, Global Reader, Intune Administrator, Windows 365 Administrator |
+| microsoft.directory/deviceTemplates/owners/read | Cloud Device Administrator, Global Administrator |
+| microsoft.directory/deviceTemplates/owners/update | Cloud Device Administrator, Global Administrator |
 | microsoft.directory/devices/allProperties/allTasks | Global Administrator |
 | microsoft.directory/devices/allProperties/read | Global Reader |
 | microsoft.directory/devices/basic/update | Device Managers, Intune Administrator, Windows 365 Administrator |
@@ -1948,6 +1960,7 @@
 | microsoft.directory/devices/extensionAttributeSet2/update | Device Managers, Intune Administrator, Windows 365 Administrator |
 | microsoft.directory/devices/extensionAttributeSet3/update | Device Managers, Intune Administrator, Windows 365 Administrator |
 | microsoft.directory/devices/memberOf/read | Device Managers, Directory Readers, User |
+| microsoft.directory/devices/permissions/update | Cloud Device Administrator, Global Administrator |
 | microsoft.directory/devices/registeredOwners/read | Device Managers, Directory Readers, User |
 | microsoft.directory/devices/registeredOwners/update | Device Managers, Intune Administrator, Windows 365 Administrator |
 | microsoft.directory/devices/registeredUsers/read | Device Managers, Directory Readers, User |
@@ -2159,6 +2172,8 @@
 | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Global Administrator, Hybrid Identity Administrator |
+| microsoft.directory/servicePrincipals/synchronization.customSecurityAttributes/schema/read | Attribute Provisioning Administrator, Attribute Provisioning Reader |
+| microsoft.directory/servicePrincipals/synchronization.customSecurityAttributes/schema/update | Attribute Provisioning Administrator |
 | microsoft.directory/servicePrincipals/synchronization/standard/read | Application Administrator, Cloud Application Administrator, Global Administrator, Global Reader, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronizationCredentials/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronizationJobs/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator |
@@ -2212,7 +2227,7 @@
 | microsoft.directory/users/inviteGuest | Directory Writers, Guest Inviter, Guest User, User, User Administrator |
 | microsoft.directory/users/invitedBy/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User |
 | microsoft.directory/users/licenseDetails/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
-| microsoft.directory/users/lifeCycleInfo/read | Lifecycle Workflows Administrator |
+| microsoft.directory/users/lifeCycleInfo/read | Lifecycle Workflows Administrator, User Administrator |
 | microsoft.directory/users/manager/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/manager/update | Authentication Administrator, Directory Writers, Intune Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
 | microsoft.directory/users/memberOf/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |

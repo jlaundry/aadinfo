@@ -81,6 +81,9 @@
             "microsoft.directory/deviceRegistrationPolicy/basic/update",
             "microsoft.directory/deviceRegistrationPolicy/standard/read",
             "microsoft.directory/devices/allProperties/allTasks",
+            "microsoft.directory/devices/permissions/update",
+            "microsoft.directory/deviceTemplates/owners/read",
+            "microsoft.directory/deviceTemplates/owners/update",
             "microsoft.directory/directoryRoles/allProperties/allTasks",
             "microsoft.directory/directoryRoleTemplates/allProperties/allTasks",
             "microsoft.directory/domains/allProperties/allTasks",
@@ -478,6 +481,7 @@
             "microsoft.directory/users/enable",
             "microsoft.directory/users/invalidateAllRefreshTokens",
             "microsoft.directory/users/inviteGuest",
+            "microsoft.directory/users/lifeCycleInfo/read",
             "microsoft.directory/users/manager/update",
             "microsoft.directory/users/password/update",
             "microsoft.directory/users/photo/update",
@@ -2255,6 +2259,9 @@
             "microsoft.directory/devices/delete",
             "microsoft.directory/devices/disable",
             "microsoft.directory/devices/enable",
+            "microsoft.directory/devices/permissions/update",
+            "microsoft.directory/deviceTemplates/owners/read",
+            "microsoft.directory/deviceTemplates/owners/update",
             "microsoft.directory/signInReports/allProperties/read",
             "microsoft.office365.serviceHealth/allEntities/allTasks"
           ],
@@ -4970,6 +4977,67 @@
       ],
       "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('a92aed5d-d78a-4d16-b381-09adb37eb3b0')/inheritsPermissionsFrom",
       "inheritsPermissionsFrom": []
+    },
+    {
+      "id": "422218e4-db15-4ef9-bbe0-8afb41546d79",
+      "assignmentMode": "allowed",
+      "categories": "identity,readOnly",
+      "description": "Read the provisioning configuration of all active custom security attributes for an application.",
+      "displayName": "Attribute Provisioning Reader",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": true,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": null,
+      "templateId": "422218e4-db15-4ef9-bbe0-8afb41546d79",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/servicePrincipals/synchronization.customSecurityAttributes/schema/read"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('422218e4-db15-4ef9-bbe0-8afb41546d79')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ]
+    },
+    {
+      "id": "ecb2c6bf-0ab6-418e-bd87-7986f8d63bbe",
+      "assignmentMode": "allowed",
+      "categories": "identity",
+      "description": "Read and edit the provisioning configuration of all active custom security attributes for an application.",
+      "displayName": "Attribute Provisioning Administrator",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": true,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": null,
+      "templateId": "ecb2c6bf-0ab6-418e-bd87-7986f8d63bbe",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/servicePrincipals/synchronization.customSecurityAttributes/schema/read",
+            "microsoft.directory/servicePrincipals/synchronization.customSecurityAttributes/schema/update"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('ecb2c6bf-0ab6-418e-bd87-7986f8d63bbe')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ]
     }
   ]
 }

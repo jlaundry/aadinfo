@@ -427,6 +427,9 @@
 | Exchange Administrator | microsoft.backup/restorePoints/userMailboxes/allProperties/allTasks |
 | Exchange Administrator | microsoft.backup/userMailboxProtectionUnits/allProperties/allTasks |
 | Exchange Administrator | microsoft.backup/userMailboxRestoreArtifacts/allProperties/allTasks |
+| Exchange Administrator | microsoft.directory/contacts/allProperties/read |
+| Exchange Administrator | microsoft.directory/contacts/memberOf/read |
+| Exchange Administrator | microsoft.directory/contacts/standard/read |
 | Exchange Administrator | microsoft.directory/groups.unified/basic/update |
 | Exchange Administrator | microsoft.directory/groups.unified/create |
 | Exchange Administrator | microsoft.directory/groups.unified/delete |
@@ -1893,12 +1896,12 @@
 | microsoft.directory/connectors/allProperties/read | Application Administrator, Global Administrator, Global Reader, Global Secure Access Administrator |
 | microsoft.directory/connectors/create | Application Administrator, Global Administrator |
 | microsoft.directory/contacts/allProperties/allTasks | Global Administrator |
-| microsoft.directory/contacts/allProperties/read | Global Reader |
+| microsoft.directory/contacts/allProperties/read | Exchange Administrator, Global Reader |
 | microsoft.directory/contacts/basic/update | Intune Administrator, Partner Tier1 Support, Partner Tier2 Support, User Administrator |
 | microsoft.directory/contacts/create | Directory Writers, Intune Administrator, Partner Tier1 Support, Partner Tier2 Support, User Administrator |
 | microsoft.directory/contacts/delete | Intune Administrator, Partner Tier1 Support, Partner Tier2 Support, User Administrator |
-| microsoft.directory/contacts/memberOf/read | Directory Readers, User |
-| microsoft.directory/contacts/standard/read | Directory Readers, User |
+| microsoft.directory/contacts/memberOf/read | Directory Readers, Exchange Administrator, User |
+| microsoft.directory/contacts/standard/read | Directory Readers, Exchange Administrator, User |
 | microsoft.directory/contracts/allProperties/allTasks | Global Administrator |
 | microsoft.directory/contracts/standard/read | Directory Readers, User |
 | microsoft.directory/crossTenantAccessPolicy/allowedCloudEndpoints/update | Global Administrator, Security Administrator, Teams Administrator |

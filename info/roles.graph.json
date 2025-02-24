@@ -187,6 +187,7 @@
             "microsoft.insights/allEntities/allProperties/allTasks",
             "microsoft.intune/allEntities/allTasks",
             "microsoft.networkAccess/allEntities/allProperties/allTasks",
+            "microsoft.networkAccess/trafficLogs/standard/read",
             "microsoft.office365.complianceManager/allEntities/allTasks",
             "microsoft.office365.copilot/allEntities/allProperties/allTasks",
             "microsoft.office365.desktopAnalytics/allEntities/allTasks",
@@ -214,6 +215,10 @@
             "microsoft.office365.userCommunication/allEntities/allTasks",
             "microsoft.office365.webPortal/allEntities/standard/read",
             "microsoft.office365.yammer/allEntities/allProperties/allTasks",
+            "microsoft.peopleAdmin/organization/allProperties/read",
+            "microsoft.peopleAdmin/organization/allProperties/update",
+            "microsoft.people/users/photo/read",
+            "microsoft.people/users/photo/update",
             "microsoft.permissionsManagement/allEntities/allProperties/allTasks",
             "microsoft.powerApps/allEntities/allTasks",
             "microsoft.powerApps.powerBI/allEntities/allTasks",
@@ -5036,6 +5041,108 @@
         }
       ],
       "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('ecb2c6bf-0ab6-418e-bd87-7986f8d63bbe')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ]
+    },
+    {
+      "id": "843318fb-79a6-4168-9e6f-aa9a07481cc4",
+      "assignmentMode": "allowed",
+      "categories": "identity,readOnly",
+      "description": "Provides designated security personnel with read-only access to network traffic logs in Microsoft Entra Internet Access and Microsoft Entra Private Access for detailed analysis.",
+      "displayName": "Global Secure Access Log Reader",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the Global Secure Access Administrator role to users who need to do the following:\n* Read network traffic logs in Microsoft Entra Internet Access and Microsoft Entra Private Access for analysis by designated security personnel\n* View log details such as session, connection, and transaction\n* Filter logs based on criteria such as IP address and domain\n* Use APIs to read logs such as aggregations",
+      "templateId": "843318fb-79a6-4168-9e6f-aa9a07481cc4",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.networkAccess/trafficLogs/standard/read"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('843318fb-79a6-4168-9e6f-aa9a07481cc4')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ]
+    },
+    {
+      "id": "024906de-61e5-49c8-8572-40335f1e0e10",
+      "assignmentMode": "allowed",
+      "categories": "identity",
+      "description": "Manage profile photos of users and people settings for all users in the organization.",
+      "displayName": "People Administrator",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the People Administrator role to users who need to do the following tasks:\n- Update profile photos for all users including administrators\n- Update people settings for all users, such as pronouns, name pronunciation, and people card settings",
+      "templateId": "024906de-61e5-49c8-8572-40335f1e0e10",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.peopleAdmin/organization/allProperties/read",
+            "microsoft.peopleAdmin/organization/allProperties/update",
+            "microsoft.people/users/photo/read",
+            "microsoft.people/users/photo/update"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('024906de-61e5-49c8-8572-40335f1e0e10')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ]
+    },
+    {
+      "id": "2ea5ce4c-b2d8-4668-bd81-3680bd2d227a",
+      "assignmentMode": "allowed",
+      "categories": "devices,identity",
+      "description": "Provision new IoT devices, manage their lifecycle, configure certificates, and manage device templates.",
+      "displayName": "IoT Device Administrator",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the IoT Device Administrator role to users who need to do the following tasks:\n* Provision new IoT devices using device templates\n* Manage the lifecycle of IoT devices\n* Configure certificates used for IoT device authentication\n* Manage the lifecycle of IoT device templates",
+      "templateId": "2ea5ce4c-b2d8-4668-bd81-3680bd2d227a",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/certificateBasedDeviceAuthConfigurations/create",
+            "microsoft.directory/certificateBasedDeviceAuthConfigurations/credentials/update",
+            "microsoft.directory/certificateBasedDeviceAuthConfigurations/delete",
+            "microsoft.directory/certificateBasedDeviceAuthConfigurations/standard/read",
+            "microsoft.directory/deviceTemplates/create",
+            "microsoft.directory/deviceTemplates/createDeviceFromTemplate",
+            "microsoft.directory/deviceTemplates/delete",
+            "microsoft.directory/deviceTemplates/deviceInstances/read",
+            "microsoft.directory/deviceTemplates/owners/read",
+            "microsoft.directory/deviceTemplates/owners/update"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('2ea5ce4c-b2d8-4668-bd81-3680bd2d227a')/inheritsPermissionsFrom",
       "inheritsPermissionsFrom": [
         {
           "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"

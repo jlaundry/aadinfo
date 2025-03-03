@@ -630,6 +630,7 @@
 | Global Administrator | microsoft.insights/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.intune/allEntities/allTasks |
 | Global Administrator | microsoft.networkAccess/allEntities/allProperties/allTasks |
+| Global Administrator | microsoft.networkAccess/trafficLogs/standard/read |
 | Global Administrator | microsoft.office365.complianceManager/allEntities/allTasks |
 | Global Administrator | microsoft.office365.copilot/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.office365.desktopAnalytics/allEntities/allTasks |
@@ -657,6 +658,10 @@
 | Global Administrator | microsoft.office365.userCommunication/allEntities/allTasks |
 | Global Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Global Administrator | microsoft.office365.yammer/allEntities/allProperties/allTasks |
+| Global Administrator | microsoft.people/users/photo/read |
+| Global Administrator | microsoft.people/users/photo/update |
+| Global Administrator | microsoft.peopleAdmin/organization/allProperties/read |
+| Global Administrator | microsoft.peopleAdmin/organization/allProperties/update |
 | Global Administrator | microsoft.permissionsManagement/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.powerApps.powerBI/allEntities/allTasks |
 | Global Administrator | microsoft.powerApps/allEntities/allTasks |
@@ -780,6 +785,7 @@
 | Global Secure Access Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Global Secure Access Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Global Secure Access Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Global Secure Access Log Reader | microsoft.networkAccess/trafficLogs/standard/read |
 | Groups Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Groups Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Groups Administrator | microsoft.directory/deletedItems.groups/delete |
@@ -991,6 +997,16 @@
 | Intune Administrator | microsoft.office365.organizationalMessages/allEntities/allProperties/read |
 | Intune Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Intune Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| IoT Device Administrator | microsoft.directory/certificateBasedDeviceAuthConfigurations/create |
+| IoT Device Administrator | microsoft.directory/certificateBasedDeviceAuthConfigurations/credentials/update |
+| IoT Device Administrator | microsoft.directory/certificateBasedDeviceAuthConfigurations/delete |
+| IoT Device Administrator | microsoft.directory/certificateBasedDeviceAuthConfigurations/standard/read |
+| IoT Device Administrator | microsoft.directory/deviceTemplates/create |
+| IoT Device Administrator | microsoft.directory/deviceTemplates/createDeviceFromTemplate |
+| IoT Device Administrator | microsoft.directory/deviceTemplates/delete |
+| IoT Device Administrator | microsoft.directory/deviceTemplates/deviceInstances/read |
+| IoT Device Administrator | microsoft.directory/deviceTemplates/owners/read |
+| IoT Device Administrator | microsoft.directory/deviceTemplates/owners/update |
 | Kaizala Administrator | microsoft.directory/authorizationPolicy/standard/read |
 | Kaizala Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Kaizala Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
@@ -1163,6 +1179,10 @@
 | Partner Tier2 Support | microsoft.office365.webPortal/allEntities/standard/read |
 | Password Administrator | microsoft.directory/users/password/update |
 | Password Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| People Administrator | microsoft.people/users/photo/read |
+| People Administrator | microsoft.people/users/photo/update |
+| People Administrator | microsoft.peopleAdmin/organization/allProperties/read |
+| People Administrator | microsoft.peopleAdmin/organization/allProperties/update |
 | Permissions Management Administrator | microsoft.permissionsManagement/allEntities/allProperties/allTasks |
 | Power Platform Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Power Platform Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
@@ -1876,6 +1896,10 @@
 | microsoft.directory/b2cUserAttribute/allProperties/allTasks | External ID User Flow Attribute Administrator |
 | microsoft.directory/b2cUserFlow/allProperties/allTasks | External ID User Flow Administrator |
 | microsoft.directory/bitlockerKeys/key/read | Cloud Device Administrator, Global Administrator, Global Reader, Helpdesk Administrator, Intune Administrator, Security Administrator, Security Reader |
+| microsoft.directory/certificateBasedDeviceAuthConfigurations/create | IoT Device Administrator |
+| microsoft.directory/certificateBasedDeviceAuthConfigurations/credentials/update | IoT Device Administrator |
+| microsoft.directory/certificateBasedDeviceAuthConfigurations/delete | IoT Device Administrator |
+| microsoft.directory/certificateBasedDeviceAuthConfigurations/standard/read | IoT Device Administrator |
 | microsoft.directory/cloudAppSecurity/allProperties/allTasks | Cloud App Security Administrator, Compliance Data Administrator, Global Administrator, Security Operator |
 | microsoft.directory/cloudAppSecurity/allProperties/read | Global Reader |
 | microsoft.directory/cloudProvisioning/allProperties/allTasks | Hybrid Identity Administrator |
@@ -1948,8 +1972,12 @@
 | microsoft.directory/deviceManagementPolicies/standard/read | Cloud Device Administrator, Global Administrator, Global Reader, Intune Administrator, Windows 365 Administrator |
 | microsoft.directory/deviceRegistrationPolicy/basic/update | Cloud Device Administrator, Global Administrator |
 | microsoft.directory/deviceRegistrationPolicy/standard/read | Cloud Device Administrator, Global Administrator, Global Reader, Intune Administrator, Windows 365 Administrator |
-| microsoft.directory/deviceTemplates/owners/read | Cloud Device Administrator, Global Administrator |
-| microsoft.directory/deviceTemplates/owners/update | Cloud Device Administrator, Global Administrator |
+| microsoft.directory/deviceTemplates/create | IoT Device Administrator |
+| microsoft.directory/deviceTemplates/createDeviceFromTemplate | IoT Device Administrator |
+| microsoft.directory/deviceTemplates/delete | IoT Device Administrator |
+| microsoft.directory/deviceTemplates/deviceInstances/read | IoT Device Administrator |
+| microsoft.directory/deviceTemplates/owners/read | Cloud Device Administrator, Global Administrator, IoT Device Administrator |
+| microsoft.directory/deviceTemplates/owners/update | Cloud Device Administrator, Global Administrator, IoT Device Administrator |
 | microsoft.directory/devices/allProperties/allTasks | Global Administrator |
 | microsoft.directory/devices/allProperties/read | Global Reader |
 | microsoft.directory/devices/basic/update | Device Managers, Intune Administrator, Windows 365 Administrator |
@@ -2283,6 +2311,7 @@
 | microsoft.intune/allEntities/read | Security Operator |
 | microsoft.networkAccess/allEntities/allProperties/allTasks | Global Administrator, Global Secure Access Administrator, Security Administrator |
 | microsoft.networkAccess/allEntities/allProperties/read | Global Reader, Security Reader |
+| microsoft.networkAccess/trafficLogs/standard/read | Global Administrator, Global Secure Access Log Reader |
 | microsoft.office365.complianceManager/allEntities/allTasks | Compliance Administrator, Compliance Data Administrator, Global Administrator |
 | microsoft.office365.copilot/allEntities/allProperties/allTasks | AI Administrator, Global Administrator |
 | microsoft.office365.copilot/allEntities/allProperties/read | Global Reader |
@@ -2329,6 +2358,10 @@
 | microsoft.office365.webPortal/allEntities/standard/read | AI Administrator, Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud App Security Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Customer LockBox Access Approver, Domain Name Administrator, Dynamics 365 Administrator, Dynamics 365 Business Central Administrator, Edge Administrator, Exchange Administrator, Fabric Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, License Administrator, Message Center Privacy Reader, Message Center Reader, Microsoft 365 Backup Administrator, Microsoft 365 Migration Administrator, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Network Administrator, Office Apps Administrator, Organizational Messages Approver, Organizational Messages Writer, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, Power Platform Administrator, Privileged Authentication Administrator, Privileged Role Administrator, Reports Reader, Search Administrator, Search Editor, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, SharePoint Embedded Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Devices Administrator, Teams Telephony Administrator, Usage Summary Reports Reader, User Administrator, User Experience Success Manager, Virtual Visits Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
 | microsoft.office365.yammer/allEntities/allProperties/allTasks | Global Administrator, Yammer Administrator |
 | microsoft.office365.yammer/allEntities/allProperties/read | Global Reader |
+| microsoft.people/users/photo/read | Global Administrator, People Administrator |
+| microsoft.people/users/photo/update | Global Administrator, People Administrator |
+| microsoft.peopleAdmin/organization/allProperties/read | Global Administrator, People Administrator |
+| microsoft.peopleAdmin/organization/allProperties/update | Global Administrator, People Administrator |
 | microsoft.permissionsManagement/allEntities/allProperties/allTasks | Global Administrator, Permissions Management Administrator |
 | microsoft.permissionsManagement/allEntities/allProperties/read | Global Reader |
 | microsoft.powerApps.powerBI/allEntities/allTasks | Fabric Administrator, Global Administrator |

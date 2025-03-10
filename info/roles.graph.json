@@ -224,6 +224,7 @@
             "microsoft.powerApps.powerBI/allEntities/allTasks",
             "microsoft.teams/allEntities/allProperties/allTasks",
             "microsoft.virtualVisits/allEntities/allProperties/allTasks",
+            "microsoft.viva.glint/allEntities/allProperties/allTasks",
             "microsoft.viva.goals/allEntities/allProperties/allTasks",
             "microsoft.viva.pulse/allEntities/allProperties/allTasks",
             "microsoft.windows.defenderAdvancedThreatProtection/allEntities/allTasks",
@@ -475,6 +476,7 @@
             "microsoft.directory/groups/settings/update",
             "microsoft.directory/groups/visibility/update",
             "microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks",
+            "microsoft.directory/onPremisesSynchronization/standard/read",
             "microsoft.directory/policies/standard/read",
             "microsoft.directory/servicePrincipals/appRoleAssignedTo/update",
             "microsoft.directory/users/assignLicense",
@@ -1110,6 +1112,7 @@
             "microsoft.directory/groups.unified/members/update",
             "microsoft.directory/groups.unified/owners/update",
             "microsoft.directory/groups.unified/restore",
+            "microsoft.directory/onPremisesSynchronization/standard/read",
             "microsoft.office365.exchange/allEntities/basic/allTasks",
             "microsoft.office365.network/performance/allProperties/read",
             "microsoft.office365.serviceHealth/allEntities/allTasks",
@@ -2949,6 +2952,7 @@
             "microsoft.directory/multiTenantOrganization/tenants/standard/read",
             "microsoft.directory/namedLocations/standard/read",
             "microsoft.directory/oAuth2PermissionGrants/allProperties/read",
+            "microsoft.directory/onPremisesSynchronization/standard/read",
             "microsoft.directory/organization/allProperties/read",
             "microsoft.directory/pendingExternalUserProfiles/standard/read",
             "microsoft.directory/permissionGrantPolicies/standard/read",
@@ -2991,6 +2995,7 @@
             "microsoft.permissionsManagement/allEntities/allProperties/read",
             "microsoft.teams/allEntities/allProperties/read",
             "microsoft.virtualVisits/allEntities/allProperties/read",
+            "microsoft.viva.glint/allEntities/allProperties/read",
             "microsoft.viva.goals/allEntities/allProperties/read",
             "microsoft.viva.pulse/allEntities/allProperties/read",
             "microsoft.windows.updatesDeployments/allEntities/allProperties/read"
@@ -5143,6 +5148,41 @@
         }
       ],
       "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('2ea5ce4c-b2d8-4668-bd81-3680bd2d227a')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ]
+    },
+    {
+      "id": "0ec3f692-38d6-4d14-9e69-0377ca7797ad",
+      "assignmentMode": "allowed",
+      "categories": "collaboration",
+      "description": "Manage and configure Microsoft Viva Glint settings in the Microsoft 365 admin center.",
+      "displayName": "Viva Glint Tenant Administrator",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the Viva Glint Tenant Administrator role to users who need to do the following tasks:\n- Read and configure Viva Glint settings in the Microsoft 365 admin center\n- Assign or remove Viva Glint service admins\n- Create and manage Viva Feature Access Management policies\n- View and manage Viva Glint experiences (if applicable)\n- Create and manage Azure support tickets",
+      "templateId": "0ec3f692-38d6-4d14-9e69-0377ca7797ad",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.azure.serviceHealth/allEntities/allTasks",
+            "microsoft.azure.supportTickets/allEntities/allTasks",
+            "microsoft.office365.messageCenter/messages/read",
+            "microsoft.office365.usageReports/allEntities/allProperties/read",
+            "microsoft.office365.webPortal/allEntities/standard/read",
+            "microsoft.viva.glint/allEntities/allProperties/allTasks"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('0ec3f692-38d6-4d14-9e69-0377ca7797ad')/inheritsPermissionsFrom",
       "inheritsPermissionsFrom": [
         {
           "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"

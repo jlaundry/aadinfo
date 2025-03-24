@@ -5064,7 +5064,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Assign the Global Secure Access Administrator role to users who need to do the following:\n* Read network traffic logs in Microsoft Entra Internet Access and Microsoft Entra Private Access for analysis by designated security personnel\n* View log details such as session, connection, and transaction\n* Filter logs based on criteria such as IP address and domain\n* Use APIs to read logs such as aggregations",
+      "richDescription": "Assign the Global Secure Access Log Reader role to users who need to do the following:\n* Read network traffic logs in Microsoft Entra Internet Access and Microsoft Entra Private Access for analysis by designated security personnel\n* View log details such as session, connection, and transaction\n* Filter logs based on criteria such as IP address and domain",
       "templateId": "843318fb-79a6-4168-9e6f-aa9a07481cc4",
       "version": "1",
       "rolePermissions": [

@@ -365,6 +365,7 @@
 | Directory Writers | microsoft.directory/groupSettings/create |
 | Directory Writers | microsoft.directory/groupSettings/delete |
 | Directory Writers | microsoft.directory/groups/assignLicense |
+| Directory Writers | microsoft.directory/groups/assignedLabels/update |
 | Directory Writers | microsoft.directory/groups/basic/update |
 | Directory Writers | microsoft.directory/groups/classification/update |
 | Directory Writers | microsoft.directory/groups/create |
@@ -430,6 +431,7 @@
 | Exchange Administrator | microsoft.directory/contacts/allProperties/read |
 | Exchange Administrator | microsoft.directory/contacts/memberOf/read |
 | Exchange Administrator | microsoft.directory/contacts/standard/read |
+| Exchange Administrator | microsoft.directory/groups.unified/assignedLabels/update |
 | Exchange Administrator | microsoft.directory/groups.unified/basic/update |
 | Exchange Administrator | microsoft.directory/groups.unified/create |
 | Exchange Administrator | microsoft.directory/groups.unified/delete |
@@ -795,6 +797,7 @@
 | Groups Administrator | microsoft.directory/deletedItems.groups/delete |
 | Groups Administrator | microsoft.directory/deletedItems.groups/restore |
 | Groups Administrator | microsoft.directory/groups/assignLicense |
+| Groups Administrator | microsoft.directory/groups/assignedLabels/update |
 | Groups Administrator | microsoft.directory/groups/basic/update |
 | Groups Administrator | microsoft.directory/groups/classification/update |
 | Groups Administrator | microsoft.directory/groups/create |
@@ -985,6 +988,7 @@
 | Intune Administrator | microsoft.directory/devices/extensionAttributeSet3/update |
 | Intune Administrator | microsoft.directory/devices/registeredOwners/update |
 | Intune Administrator | microsoft.directory/devices/registeredUsers/update |
+| Intune Administrator | microsoft.directory/groups.security/assignedLabels/update |
 | Intune Administrator | microsoft.directory/groups.security/basic/update |
 | Intune Administrator | microsoft.directory/groups.security/classification/update |
 | Intune Administrator | microsoft.directory/groups.security/create |
@@ -1114,6 +1118,7 @@
 | Partner Tier1 Support | microsoft.directory/contacts/delete |
 | Partner Tier1 Support | microsoft.directory/deletedItems.groups/restore |
 | Partner Tier1 Support | microsoft.directory/deletedItems.users/restore |
+| Partner Tier1 Support | microsoft.directory/groups.unified/assignedLabels/update |
 | Partner Tier1 Support | microsoft.directory/groups/create |
 | Partner Tier1 Support | microsoft.directory/groups/delete |
 | Partner Tier1 Support | microsoft.directory/groups/members/update |
@@ -1154,6 +1159,7 @@
 | Partner Tier2 Support | microsoft.directory/deletedItems.groups/restore |
 | Partner Tier2 Support | microsoft.directory/deletedItems.users/restore |
 | Partner Tier2 Support | microsoft.directory/domains/allProperties/allTasks |
+| Partner Tier2 Support | microsoft.directory/groups.unified/assignedLabels/update |
 | Partner Tier2 Support | microsoft.directory/groups/create |
 | Partner Tier2 Support | microsoft.directory/groups/delete |
 | Partner Tier2 Support | microsoft.directory/groups/members/update |
@@ -1444,6 +1450,7 @@
 | SharePoint Administrator | microsoft.backup/siteRestoreArtifacts/allProperties/allTasks |
 | SharePoint Administrator | microsoft.backup/userDriveProtectionUnits/allProperties/allTasks |
 | SharePoint Administrator | microsoft.backup/userDriveRestoreArtifacts/allProperties/allTasks |
+| SharePoint Administrator | microsoft.directory/groups.unified/assignedLabels/update |
 | SharePoint Administrator | microsoft.directory/groups.unified/basic/update |
 | SharePoint Administrator | microsoft.directory/groups.unified/create |
 | SharePoint Administrator | microsoft.directory/groups.unified/delete |
@@ -1484,6 +1491,7 @@
 | Teams Administrator | microsoft.directory/externalUserProfiles/basic/update |
 | Teams Administrator | microsoft.directory/externalUserProfiles/delete |
 | Teams Administrator | microsoft.directory/externalUserProfiles/standard/read |
+| Teams Administrator | microsoft.directory/groups.unified/assignedLabels/update |
 | Teams Administrator | microsoft.directory/groups.unified/basic/update |
 | Teams Administrator | microsoft.directory/groups.unified/create |
 | Teams Administrator | microsoft.directory/groups.unified/delete |
@@ -1623,6 +1631,7 @@
 | User | microsoft.directory/deletedItems.applications/restore |
 | User | microsoft.directory/deletedItems.groups/restore |
 | User | microsoft.directory/devices/disable |
+| User | microsoft.directory/groups/assignedLabels/update |
 | User | microsoft.directory/groups/basic/update |
 | User | microsoft.directory/groups/classification/update |
 | User | microsoft.directory/groups/delete |
@@ -1768,6 +1777,7 @@
 | Windows 365 Administrator | microsoft.directory/devices/extensionAttributeSet3/update |
 | Windows 365 Administrator | microsoft.directory/devices/registeredOwners/update |
 | Windows 365 Administrator | microsoft.directory/devices/registeredUsers/update |
+| Windows 365 Administrator | microsoft.directory/groups.security/assignedLabels/update |
 | Windows 365 Administrator | microsoft.directory/groups.security/basic/update |
 | Windows 365 Administrator | microsoft.directory/groups.security/classification/update |
 | Windows 365 Administrator | microsoft.directory/groups.security/create |
@@ -1780,6 +1790,7 @@
 | Windows 365 Administrator | microsoft.office365.usageReports/allEntities/allProperties/read |
 | Windows 365 Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Windows Update Deployment Administrator | microsoft.windows.updatesDeployments/allEntities/allProperties/allTasks |
+| Yammer Administrator | microsoft.directory/groups.unified/assignedLabels/update |
 | Yammer Administrator | microsoft.directory/groups.unified/basic/update |
 | Yammer Administrator | microsoft.directory/groups.unified/create |
 | Yammer Administrator | microsoft.directory/groups.unified/delete |
@@ -2037,6 +2048,7 @@
 | microsoft.directory/groupSettings/create | Directory Writers |
 | microsoft.directory/groupSettings/delete | Directory Writers |
 | microsoft.directory/groupSettings/standard/read | Azure AD Joined Device Local Administrator, Directory Readers |
+| microsoft.directory/groups.security/assignedLabels/update | Intune Administrator, Windows 365 Administrator |
 | microsoft.directory/groups.security/basic/update | Intune Administrator, Knowledge Administrator, Knowledge Manager, Windows 365 Administrator |
 | microsoft.directory/groups.security/classification/update | Intune Administrator, Windows 365 Administrator |
 | microsoft.directory/groups.security/create | Intune Administrator, Knowledge Administrator, Knowledge Manager, Windows 365 Administrator |
@@ -2046,6 +2058,7 @@
 | microsoft.directory/groups.security/members/update | Intune Administrator, Knowledge Administrator, Knowledge Manager, Windows 365 Administrator |
 | microsoft.directory/groups.security/owners/update | Intune Administrator, Knowledge Administrator, Knowledge Manager, Windows 365 Administrator |
 | microsoft.directory/groups.security/visibility/update | Intune Administrator, Windows 365 Administrator |
+| microsoft.directory/groups.unified/assignedLabels/update | Exchange Administrator, Partner Tier1 Support, Partner Tier2 Support, SharePoint Administrator, Teams Administrator, Yammer Administrator |
 | microsoft.directory/groups.unified/basic/update | Exchange Administrator, SharePoint Administrator, Teams Administrator, Yammer Administrator |
 | microsoft.directory/groups.unified/create | Exchange Administrator, SharePoint Administrator, Teams Administrator, Yammer Administrator |
 | microsoft.directory/groups.unified/delete | Exchange Administrator, SharePoint Administrator, Teams Administrator, Yammer Administrator |
@@ -2057,6 +2070,7 @@
 | microsoft.directory/groups/appRoleAssignments/limitedRead | Guest User |
 | microsoft.directory/groups/appRoleAssignments/read | Directory Readers, User |
 | microsoft.directory/groups/assignLicense | Directory Writers, Groups Administrator, License Administrator, User Administrator |
+| microsoft.directory/groups/assignedLabels/update | Directory Writers, Groups Administrator, User |
 | microsoft.directory/groups/basic/update | Directory Writers, Groups Administrator, User, User Administrator |
 | microsoft.directory/groups/classification/update | Directory Writers, Groups Administrator, User, User Administrator |
 | microsoft.directory/groups/create | Directory Writers, Groups Administrator, Partner Tier1 Support, Partner Tier2 Support, User Administrator |

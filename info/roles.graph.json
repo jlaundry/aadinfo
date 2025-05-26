@@ -189,6 +189,7 @@
             "microsoft.hardware.support/warrantyClaims/allProperties/allTasks",
             "microsoft.insights/allEntities/allProperties/allTasks",
             "microsoft.intune/allEntities/allTasks",
+            "microsoft.microsoft365.organizationalData/allEntities/allProperties/allTasks",
             "microsoft.networkAccess/allEntities/allProperties/allTasks",
             "microsoft.networkAccess/trafficLogs/standard/read",
             "microsoft.office365.complianceManager/allEntities/allTasks",
@@ -2994,6 +2995,7 @@
             "microsoft.hardware.support/shippingStatus/allProperties/read",
             "microsoft.hardware.support/warrantyClaims/allProperties/read",
             "microsoft.insights/allEntities/allProperties/read",
+            "microsoft.microsoft365.organizationalData/allEntities/allProperties/read",
             "microsoft.networkAccess/allEntities/allProperties/read",
             "microsoft.office365.copilot/allEntities/allProperties/read",
             "microsoft.office365.fileStorageContainers/allEntities/allProperties/read",
@@ -5164,6 +5166,42 @@
         }
       ],
       "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('843318fb-79a6-4168-9e6f-aa9a07481cc4')/inheritsPermissionsFrom",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ]
+    },
+    {
+      "id": "9d70768a-0cbc-4b4c-aea3-2e124b2477f4",
+      "assignmentMode": "allowed",
+      "categories": "collaboration",
+      "description": "Set up and manage the ingestion of organizational data into Microsoft 365.",
+      "displayName": "Organizational Data Source Administrator",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the Organizational Data Source Administrator role to users who need to do the following tasks:\n* Manage settings related to ingesting and managing organizational data for Microsoft 365 and Microsoft Viva applications\n* Upload, update, and delete the ingested organizational data in Microsoft 365 and Microsoft Viva applications\n* Export organizational data from the authorized applications",
+      "templateId": "9d70768a-0cbc-4b4c-aea3-2e124b2477f4",
+      "version": "1",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.azure.serviceHealth/allEntities/allTasks",
+            "microsoft.azure.supportTickets/allEntities/allTasks",
+            "microsoft.microsoft365.organizationalData/allEntities/allProperties/allTasks",
+            "microsoft.office365.messageCenter/messages/read",
+            "microsoft.office365.serviceHealth/allEntities/allTasks",
+            "microsoft.office365.supportTickets/allEntities/allTasks",
+            "microsoft.office365.webPortal/allEntities/standard/read"
+          ],
+          "condition": null
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('9d70768a-0cbc-4b4c-aea3-2e124b2477f4')/inheritsPermissionsFrom",
       "inheritsPermissionsFrom": [
         {
           "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"

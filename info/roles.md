@@ -1218,7 +1218,6 @@
 | People Administrator | microsoft.peopleAdmin/organization/allProperties/read |
 | People Administrator | microsoft.peopleAdmin/organization/allProperties/update |
 | Permissions Management Administrator | microsoft.permissionsManagement/allEntities/allProperties/allTasks |
-| Places Administrator | microsoft.places/allEntities/allProperties/allTasks |
 | Power Platform Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Power Platform Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Power Platform Administrator | microsoft.dynamics365/allEntities/allTasks |
@@ -2428,7 +2427,6 @@
 | microsoft.peopleAdmin/organization/allProperties/update | Global Administrator, People Administrator |
 | microsoft.permissionsManagement/allEntities/allProperties/allTasks | Global Administrator, Permissions Management Administrator |
 | microsoft.permissionsManagement/allEntities/allProperties/read | Global Reader |
-| microsoft.places/allEntities/allProperties/allTasks | Places Administrator |
 | microsoft.powerApps.powerBI/allEntities/allTasks | Fabric Administrator, Global Administrator |
 | microsoft.powerApps/allEntities/allTasks | Global Administrator, Power Platform Administrator |
 | microsoft.teams/allEntities/allProperties/allTasks | Global Administrator, Teams Administrator |

@@ -404,6 +404,7 @@
 | Domain Name Administrator | microsoft.directory/domains/allProperties/allTasks |
 | Domain Name Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Domain Name Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Dragon Administrator | microsoft.healthPlatform/allEntities/allProperties/allTasks |
 | Dynamics 365 Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Dynamics 365 Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Dynamics 365 Administrator | microsoft.dynamics365/allEntities/allTasks |
@@ -633,6 +634,7 @@
 | Global Administrator | microsoft.hardware.support/shippingAddress/allProperties/allTasks |
 | Global Administrator | microsoft.hardware.support/shippingStatus/allProperties/read |
 | Global Administrator | microsoft.hardware.support/warrantyClaims/allProperties/allTasks |
+| Global Administrator | microsoft.healthPlatform/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.insights/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.intune/allEntities/allTasks |
 | Global Administrator | microsoft.microsoft365.organizationalData/allEntities/allProperties/allTasks |
@@ -755,6 +757,7 @@
 | Global Reader | microsoft.hardware.support/shippingAddress/allProperties/read |
 | Global Reader | microsoft.hardware.support/shippingStatus/allProperties/read |
 | Global Reader | microsoft.hardware.support/warrantyClaims/allProperties/read |
+| Global Reader | microsoft.healthPlatform/allEntities/allProperties/read |
 | Global Reader | microsoft.insights/allEntities/allProperties/read |
 | Global Reader | microsoft.microsoft365.organizationalData/allEntities/allProperties/read |
 | Global Reader | microsoft.networkAccess/allEntities/allProperties/read |
@@ -2364,6 +2367,8 @@
 | microsoft.hardware.support/warrantyClaims/allProperties/allTasks | Global Administrator, Microsoft Hardware Warranty Administrator |
 | microsoft.hardware.support/warrantyClaims/allProperties/read | Global Reader, Microsoft Hardware Warranty Specialist |
 | microsoft.hardware.support/warrantyClaims/createAsOwner | Microsoft Hardware Warranty Specialist |
+| microsoft.healthPlatform/allEntities/allProperties/allTasks | Dragon Administrator, Global Administrator |
+| microsoft.healthPlatform/allEntities/allProperties/read | Global Reader |
 | microsoft.insights/allEntities/allProperties/allTasks | Global Administrator, Insights Administrator |
 | microsoft.insights/allEntities/allProperties/read | Global Reader |
 | microsoft.insights/programs/allProperties/update | Insights Business Leader |

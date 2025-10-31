@@ -4,6 +4,10 @@ on:
     - cron: '42 1 * * 1'
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -22,27 +26,22 @@ jobs:
             curl -s $SERVICETAGS_PUBLIC_URL | jq . > network/ServiceTags_Public.json
           fi
 
-      - name: "Update JSON with Graph credentials"
-        run: |
-          AZURE_TOKEN=$( \
-            curl \
-            -d grant_type=client_credentials \
-            -d client_id=${AZURE_CLIENT_ID} \
-            -d client_secret=${AZURE_CLIENT_SECRET} \
-            -d scope=https://graph.microsoft.com/.default \
-            -d resource=https://graph.microsoft.com \
-            https://login.microsoftonline.com/${AZURE_TENANT_ID}/oauth2/token \
-            | jq -j .access_token)
-          curl -H "Authorization: Bearer ${AZURE_TOKEN}" -H "Content-Type: application/json" https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions | jq . > info/roles.graph.json
-        env:
-          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
-          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-          AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
-
       - name: "Update JSON and Markdown"
         run: |
           curl https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7 > network/office_endpoints_worldwide.json
           python info/roles.json.py
+
+      - name: "Azure OIDC login"
+        uses: azure/login@v2
+        with:
+          allow-no-subscriptions: true
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          # subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: "Update JSON with Graph credentials"
+        run: |
+          az rest --method get --url https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions | jq . > info/roles.graph.json
 
       - name: Create PR
         id: push_update

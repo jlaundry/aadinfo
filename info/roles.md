@@ -1766,6 +1766,7 @@
 | User Administrator | microsoft.directory/deletedItems.groups/restore |
 | User Administrator | microsoft.directory/deletedItems.users/restore |
 | User Administrator | microsoft.directory/entitlementManagement/allProperties/allTasks |
+| User Administrator | microsoft.directory/groups.unified/assignedLabels/update |
 | User Administrator | microsoft.directory/groups/assignLicense |
 | User Administrator | microsoft.directory/groups/basic/update |
 | User Administrator | microsoft.directory/groups/classification/update |
@@ -2134,7 +2135,7 @@
 | microsoft.directory/groups.security/members/update | Intune Administrator, Knowledge Administrator, Knowledge Manager, Windows 365 Administrator |
 | microsoft.directory/groups.security/owners/update | Intune Administrator, Knowledge Administrator, Knowledge Manager, Windows 365 Administrator |
 | microsoft.directory/groups.security/visibility/update | Intune Administrator, Windows 365 Administrator |
-| microsoft.directory/groups.unified/assignedLabels/update | Exchange Administrator, Partner Tier1 Support, Partner Tier2 Support, SharePoint Administrator, Teams Administrator, Yammer Administrator |
+| microsoft.directory/groups.unified/assignedLabels/update | Exchange Administrator, Partner Tier1 Support, Partner Tier2 Support, SharePoint Administrator, Teams Administrator, User Administrator, Yammer Administrator |
 | microsoft.directory/groups.unified/basic/update | Exchange Administrator, SharePoint Administrator, Teams Administrator, Yammer Administrator |
 | microsoft.directory/groups.unified/create | Exchange Administrator, SharePoint Administrator, Teams Administrator, Yammer Administrator |
 | microsoft.directory/groups.unified/delete | Exchange Administrator, SharePoint Administrator, Teams Administrator, Yammer Administrator |

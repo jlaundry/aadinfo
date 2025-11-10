@@ -23,6 +23,7 @@
       "rolePermissions": [
         {
           "allowedResourceActions": [
+            "microsoft.agentRegistry/allEntities/allProperties/allTasks",
             "microsoft.azure.advancedThreatProtection/allEntities/allTasks",
             "microsoft.azure.informationProtection/allEntities/allTasks",
             "microsoft.azure.serviceHealth/allEntities/allTasks",
@@ -217,6 +218,7 @@
             "microsoft.office365.search/content/manage",
             "microsoft.office365.securityComplianceCenter/allEntities/allTasks",
             "microsoft.office365.serviceHealth/allEntities/allTasks",
+            "microsoft.office365.sharePointAdvancedManagement/allEntities/allProperties/allTasks",
             "microsoft.office365.sharePoint/allEntities/allTasks",
             "microsoft.office365.skypeForBusiness/allEntities/allTasks",
             "microsoft.office365.supportTickets/allEntities/allTasks",
@@ -2924,6 +2926,7 @@
       "rolePermissions": [
         {
           "allowedResourceActions": [
+            "microsoft.agentRegistry/allEntities/allProperties/read",
             "microsoft.azure.serviceHealth/allEntities/allTasks",
             "microsoft.backup/allEntities/allProperties/read",
             "microsoft.cloudPC/allEntities/allProperties/read",
@@ -5468,6 +5471,138 @@
         }
       ],
       "templateId": "e93e3737-fa85-474a-aee4-7d3fb86510f3",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "collaboration",
+      "description": "Manage all aspects of SharePoint Advanced Management.",
+      "displayName": "SharePoint Advanced Management Administrator",
+      "id": "99009c4a-3b3f-4957-82a9-9d35e12db77e",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('99009c4a-3b3f-4957-82a9-9d35e12db77e')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the SharePoint Advanced Management Administrator role to users who need to do the following tasks:\n* Perform all actions available to SharePoint Administrators, including global management of SharePoint Online, support ticket handling, and service health monitoring\n* View names, paths, and URLs of files, folders, libraries, documents, and lists within SharePoint sites, without accessing file or item content\n* Remove permissions from files, folders, libraries, documents, and lists within SharePoint sites",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.azure.serviceHealth/allEntities/allTasks",
+            "microsoft.azure.supportTickets/allEntities/allTasks",
+            "microsoft.backup/oneDriveForBusinessProtectionPolicies/allProperties/allTasks",
+            "microsoft.backup/oneDriveForBusinessRestoreSessions/allProperties/allTasks",
+            "microsoft.backup/restorePoints/sites/allProperties/allTasks",
+            "microsoft.backup/restorePoints/userDrives/allProperties/allTasks",
+            "microsoft.backup/sharePointProtectionPolicies/allProperties/allTasks",
+            "microsoft.backup/sharePointRestoreSessions/allProperties/allTasks",
+            "microsoft.backup/siteProtectionUnits/allProperties/allTasks",
+            "microsoft.backup/siteRestoreArtifacts/allProperties/allTasks",
+            "microsoft.backup/userDriveProtectionUnits/allProperties/allTasks",
+            "microsoft.backup/userDriveRestoreArtifacts/allProperties/allTasks",
+            "microsoft.directory/groups/hiddenMembers/read",
+            "microsoft.directory/groups.unified/assignedLabels/update",
+            "microsoft.directory/groups.unified/basic/update",
+            "microsoft.directory/groups.unified/create",
+            "microsoft.directory/groups.unified/delete",
+            "microsoft.directory/groups.unified/members/update",
+            "microsoft.directory/groups.unified/owners/update",
+            "microsoft.directory/groups.unified/restore",
+            "microsoft.office365.migrations/allEntities/allProperties/allTasks",
+            "microsoft.office365.network/performance/allProperties/read",
+            "microsoft.office365.serviceHealth/allEntities/allTasks",
+            "microsoft.office365.sharePointAdvancedManagement/allEntities/allProperties/allTasks",
+            "microsoft.office365.sharePoint/allEntities/allTasks",
+            "microsoft.office365.supportTickets/allEntities/allTasks",
+            "microsoft.office365.usageReports/allEntities/allProperties/read",
+            "microsoft.office365.webPortal/allEntities/standard/read"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "99009c4a-3b3f-4957-82a9-9d35e12db77e",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "identity",
+      "description": "Manage all aspects of the Agent Registry service in Microsoft Entra ID",
+      "displayName": "Agent Registry Administrator",
+      "id": "6b942400-691f-4bf0-9d12-d8a254a2baf5",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('6b942400-691f-4bf0-9d12-d8a254a2baf5')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the Agent Registry Administrator role to users who need to do the following tasks:\n- Manage metadata for AI agents in Microsoft Entra ID\n- Manage collections and visibility of agents\n- Assign Agent Registry-specific roles to other users or agents to access the registry",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.agentRegistry/allEntities/allProperties/allTasks"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "6b942400-691f-4bf0-9d12-d8a254a2baf5",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "identity",
+      "description": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent blueprints, agent service principals, agent identities, and agentic users.",
+      "displayName": "Agent ID Administrator",
+      "id": "db506228-d27e-4b7d-95e5-295956d6615f",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('db506228-d27e-4b7d-95e5-295956d6615f')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent blueprints, agent service principals, agent identities, and agentic users.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.azure.serviceHealth/allEntities/allTasks",
+            "microsoft.azure.supportTickets/allEntities/allTasks",
+            "microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks",
+            "microsoft.directory/accessReviews/definitions.directoryRoles/allProperties/read",
+            "microsoft.directory/accessReviews/definitions.entitlementManagement/allProperties/allTasks",
+            "microsoft.directory/accessReviews/definitions.groups/allProperties/read",
+            "microsoft.directory/accessReviews/definitions.groups/allProperties/update",
+            "microsoft.directory/accessReviews/definitions.groups/create",
+            "microsoft.directory/accessReviews/definitions.groups/delete",
+            "microsoft.directory/externalUserProfiles/standard/read",
+            "microsoft.directory/groups/hiddenMembers/read",
+            "microsoft.directory/groups.unified/createAsOwner",
+            "microsoft.directory/organization/standard/read",
+            "microsoft.directory/policies/standard/read",
+            "microsoft.office365.serviceHealth/allEntities/allTasks",
+            "microsoft.office365.supportTickets/allEntities/allTasks"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "db506228-d27e-4b7d-95e5-295956d6615f",
       "version": "1"
     }
   ]

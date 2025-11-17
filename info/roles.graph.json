@@ -5533,6 +5533,32 @@
     {
       "assignmentMode": "allowed",
       "categories": "identity",
+      "description": "Create an agent blueprint and its service principal in a tenant. User will be added as an owner of the agent blueprint and its service principal.",
+      "displayName": "Agent ID Developer",
+      "id": "adb2368d-a9be-41b5-8667-d96778e081b0",
+      "inheritsPermissionsFrom": [],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('adb2368d-a9be-41b5-8667-d96778e081b0')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the Agent ID Developer role to users who need to do the following tasks:\n- Create an agent blueprint and its service principal in a tenant. User will be added as an owner of the agent blueprint and its service principal.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/servicePrincipals/standard/read"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "adb2368d-a9be-41b5-8667-d96778e081b0",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "identity",
       "description": "Manage all aspects of the Agent Registry service in Microsoft Entra ID",
       "displayName": "Agent Registry Administrator",
       "id": "6b942400-691f-4bf0-9d12-d8a254a2baf5",

@@ -30,6 +30,7 @@
 | Agent ID Administrator | microsoft.directory/policies/standard/read |
 | Agent ID Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Agent ID Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Agent ID Developer | microsoft.directory/servicePrincipals/standard/read |
 | Agent Registry Administrator | microsoft.agentRegistry/allEntities/allProperties/allTasks |
 | Application Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Application Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
@@ -2349,7 +2350,7 @@
 | microsoft.directory/servicePrincipals/policies/read | Directory Readers, User |
 | microsoft.directory/servicePrincipals/policies/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Security Administrator, User |
 | microsoft.directory/servicePrincipals/standard/limitedRead | Guest User, Restricted Guest User |
-| microsoft.directory/servicePrincipals/standard/read | Directory Readers, User |
+| microsoft.directory/servicePrincipals/standard/read | Agent ID Developer, Directory Readers, User |
 | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage | Directory Writers, Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage | Directory Writers, Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage | Directory Writers, Global Administrator, Hybrid Identity Administrator |

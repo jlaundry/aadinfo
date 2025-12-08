@@ -6,6 +6,7 @@
 | ---- | ---------- |
 | AI Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | AI Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| AI Administrator | microsoft.directory/entitlementManagement/allProperties/read |
 | AI Administrator | microsoft.office365.copilot/allEntities/allProperties/allTasks |
 | AI Administrator | microsoft.office365.messageCenter/messages/read |
 | AI Administrator | microsoft.office365.network/performance/allProperties/read |
@@ -2163,7 +2164,7 @@
 | microsoft.directory/domains/federationConfiguration/standard/read | Global Administrator, Global Reader, Hybrid Identity Administrator, Security Administrator, Security Reader |
 | microsoft.directory/domains/standard/read | Directory Readers, Dynamics 365 Business Central Administrator, Guest User, Restricted Guest User, User |
 | microsoft.directory/entitlementManagement/allProperties/allTasks | Global Administrator, Identity Governance Administrator, User Administrator |
-| microsoft.directory/entitlementManagement/allProperties/read | Compliance Administrator, Global Reader, Security Administrator, Security Reader |
+| microsoft.directory/entitlementManagement/allProperties/read | AI Administrator, Compliance Administrator, Global Reader, Security Administrator, Security Reader |
 | microsoft.directory/externalUserProfiles/basic/update | Extended Directory User Administrator, Global Administrator, Teams Administrator |
 | microsoft.directory/externalUserProfiles/delete | Extended Directory User Administrator, Global Administrator, Teams Administrator |
 | microsoft.directory/externalUserProfiles/standard/read | Agent ID Administrator, Extended Directory User Administrator, Global Administrator, Global Reader, Teams Administrator |

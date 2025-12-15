@@ -17,13 +17,6 @@
 | AI Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Agent ID Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Agent ID Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
-| Agent ID Administrator | microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks |
-| Agent ID Administrator | microsoft.directory/accessReviews/definitions.directoryRoles/allProperties/read |
-| Agent ID Administrator | microsoft.directory/accessReviews/definitions.entitlementManagement/allProperties/allTasks |
-| Agent ID Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/read |
-| Agent ID Administrator | microsoft.directory/accessReviews/definitions.groups/allProperties/update |
-| Agent ID Administrator | microsoft.directory/accessReviews/definitions.groups/create |
-| Agent ID Administrator | microsoft.directory/accessReviews/definitions.groups/delete |
 | Agent ID Administrator | microsoft.directory/externalUserProfiles/standard/read |
 | Agent ID Administrator | microsoft.directory/groups.unified/createAsOwner |
 | Agent ID Administrator | microsoft.directory/groups/hiddenMembers/read |
@@ -887,6 +880,7 @@
 | Guest User | microsoft.directory/applications/owners/limitedRead |
 | Guest User | microsoft.directory/applications/policies/limitedRead |
 | Guest User | microsoft.directory/applications/standard/limitedRead |
+| Guest User | microsoft.directory/directoryRoleTemplates/allProperties/read |
 | Guest User | microsoft.directory/domains/standard/read |
 | Guest User | microsoft.directory/groups/appRoleAssignments/limitedRead |
 | Guest User | microsoft.directory/groups/memberOf/limitedRead |
@@ -1335,6 +1329,7 @@
 | Restricted Guest User | microsoft.directory/applications/owners/limitedRead |
 | Restricted Guest User | microsoft.directory/applications/policies/limitedRead |
 | Restricted Guest User | microsoft.directory/applications/standard/limitedRead |
+| Restricted Guest User | microsoft.directory/directoryRoleTemplates/allProperties/read |
 | Restricted Guest User | microsoft.directory/domains/standard/read |
 | Restricted Guest User | microsoft.directory/organization/basicProfile/read |
 | Restricted Guest User | microsoft.directory/servicePrincipals/appRoleAssignedTo/limitedRead |
@@ -1685,6 +1680,7 @@
 | User | microsoft.directory/devices/registeredOwners/read |
 | User | microsoft.directory/devices/registeredUsers/read |
 | User | microsoft.directory/devices/standard/read |
+| User | microsoft.directory/directoryRoleTemplates/allProperties/read |
 | User | microsoft.directory/directoryRoles/eligibleMembers/read |
 | User | microsoft.directory/directoryRoles/members/read |
 | User | microsoft.directory/directoryRoles/standard/read |
@@ -1970,15 +1966,15 @@
 | microsoft.commerce.billing/purchases/standard/read | Global Administrator, Global Reader, User Experience Success Manager |
 | microsoft.directory/accessReviews/allProperties/allTasks | Global Administrator, Identity Governance Administrator |
 | microsoft.directory/accessReviews/allProperties/read | Global Reader |
-| microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks | Agent ID Administrator, Identity Governance Administrator, User Administrator |
+| microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks | Identity Governance Administrator, User Administrator |
 | microsoft.directory/accessReviews/definitions.applications/allProperties/read | Privileged Role Administrator |
 | microsoft.directory/accessReviews/definitions.directoryRoles/allProperties/allTasks | Privileged Role Administrator |
-| microsoft.directory/accessReviews/definitions.directoryRoles/allProperties/read | Agent ID Administrator, User Administrator |
-| microsoft.directory/accessReviews/definitions.entitlementManagement/allProperties/allTasks | Agent ID Administrator, Identity Governance Administrator, User Administrator |
-| microsoft.directory/accessReviews/definitions.groups/allProperties/read | Agent ID Administrator, Identity Governance Administrator, Privileged Role Administrator, User Administrator |
-| microsoft.directory/accessReviews/definitions.groups/allProperties/update | Agent ID Administrator, Identity Governance Administrator, User Administrator |
-| microsoft.directory/accessReviews/definitions.groups/create | Agent ID Administrator, Identity Governance Administrator, User Administrator |
-| microsoft.directory/accessReviews/definitions.groups/delete | Agent ID Administrator, Identity Governance Administrator, User Administrator |
+| microsoft.directory/accessReviews/definitions.directoryRoles/allProperties/read | User Administrator |
+| microsoft.directory/accessReviews/definitions.entitlementManagement/allProperties/allTasks | Identity Governance Administrator, User Administrator |
+| microsoft.directory/accessReviews/definitions.groups/allProperties/read | Identity Governance Administrator, Privileged Role Administrator, User Administrator |
+| microsoft.directory/accessReviews/definitions.groups/allProperties/update | Identity Governance Administrator, User Administrator |
+| microsoft.directory/accessReviews/definitions.groups/create | Identity Governance Administrator, User Administrator |
+| microsoft.directory/accessReviews/definitions.groups/delete | Identity Governance Administrator, User Administrator |
 | microsoft.directory/accessReviews/definitions.groupsAssignableToRoles/allProperties/update | Privileged Role Administrator |
 | microsoft.directory/accessReviews/definitions.groupsAssignableToRoles/create | Privileged Role Administrator |
 | microsoft.directory/accessReviews/definitions.groupsAssignableToRoles/delete | Privileged Role Administrator |
@@ -2149,7 +2145,7 @@
 | microsoft.directory/devices/registeredUsers/update | Device Managers, Intune Administrator, Windows 365 Administrator |
 | microsoft.directory/devices/standard/read | Device Managers, Directory Readers, User |
 | microsoft.directory/directoryRoleTemplates/allProperties/allTasks | Global Administrator |
-| microsoft.directory/directoryRoleTemplates/allProperties/read | Global Reader |
+| microsoft.directory/directoryRoleTemplates/allProperties/read | Global Reader, Guest User, Restricted Guest User, User |
 | microsoft.directory/directoryRoles/allProperties/allTasks | Global Administrator, Privileged Role Administrator |
 | microsoft.directory/directoryRoles/allProperties/read | Global Reader |
 | microsoft.directory/directoryRoles/eligibleMembers/read | Directory Readers, User |

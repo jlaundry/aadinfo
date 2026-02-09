@@ -152,6 +152,7 @@
 | Authentication Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Authentication Administrator | microsoft.office365.webPortal/allEntities/standard/read |
 | Authentication Extensibility Administrator | microsoft.directory/customAuthenticationExtensions/allProperties/allTasks |
+| Authentication Extensibility Password Administrator | microsoft.directory/onPasswordSubmitCustomAuthenticationExtension/allProperties/allTasks |
 | Authentication Policy Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Authentication Policy Administrator | microsoft.directory/organization/strongAuthentication/allTasks |
 | Authentication Policy Administrator | microsoft.directory/userCredentialPolicies/basic/update |
@@ -2271,6 +2272,7 @@
 | microsoft.directory/oAuth2PermissionGrants/create | Directory Writers |
 | microsoft.directory/oAuth2PermissionGrants/createAsOwner | Application Developer |
 | microsoft.directory/oAuth2PermissionGrants/standard/read | Directory Readers, User |
+| microsoft.directory/onPasswordSubmitCustomAuthenticationExtension/allProperties/allTasks | Authentication Extensibility Password Administrator |
 | microsoft.directory/onPremisesSynchronization/basic/update | Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/onPremisesSynchronization/standard/read | Directory Synchronization Accounts, Exchange Administrator, Global Administrator, Global Reader, Hybrid Identity Administrator, On Premises Directory Sync Account, User Administrator |
 | microsoft.directory/organization/allProperties/allTasks | Global Administrator |

@@ -369,6 +369,7 @@
 | Directory Readers | microsoft.directory/users/photo/read |
 | Directory Readers | microsoft.directory/users/registeredDevices/read |
 | Directory Readers | microsoft.directory/users/scopedRoleMemberOf/read |
+| Directory Readers | microsoft.directory/users/sponsorOf/read |
 | Directory Readers | microsoft.directory/users/sponsors/read |
 | Directory Readers | microsoft.directory/users/standard/read |
 | Directory Synchronization Accounts | microsoft.directory/onPremisesSynchronization/standard/read |
@@ -881,6 +882,7 @@
 | Guest Inviter | microsoft.directory/users/photo/read |
 | Guest Inviter | microsoft.directory/users/registeredDevices/read |
 | Guest Inviter | microsoft.directory/users/scopedRoleMemberOf/read |
+| Guest Inviter | microsoft.directory/users/sponsorOf/read |
 | Guest Inviter | microsoft.directory/users/sponsors/read |
 | Guest Inviter | microsoft.directory/users/standard/read |
 | Guest User | microsoft.directory/applications/owners/limitedRead |
@@ -928,6 +930,7 @@
 | Guest User | microsoft.directory/users/photo/read |
 | Guest User | microsoft.directory/users/registeredDevices/read |
 | Guest User | microsoft.directory/users/scopedRoleMemberOf/read |
+| Guest User | microsoft.directory/users/sponsorOf/read |
 | Guest User | microsoft.directory/users/sponsors/read |
 | Guest User | microsoft.directory/users/standard/read |
 | Helpdesk Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
@@ -1367,6 +1370,7 @@
 | Restricted Guest User | microsoft.directory/users/photo/read |
 | Restricted Guest User | microsoft.directory/users/registeredDevices/read |
 | Restricted Guest User | microsoft.directory/users/scopedRoleMemberOf/read |
+| Restricted Guest User | microsoft.directory/users/sponsorOf/read |
 | Restricted Guest User | microsoft.directory/users/sponsors/read |
 | Restricted Guest User | microsoft.directory/users/standard/read |
 | Search Administrator | microsoft.office365.messageCenter/messages/read |
@@ -1377,6 +1381,7 @@
 | Search Editor | microsoft.office365.messageCenter/messages/read |
 | Search Editor | microsoft.office365.search/content/manage |
 | Search Editor | microsoft.office365.webPortal/allEntities/standard/read |
+| Security Administrator | microsoft.agentRegistry/allEntities/allProperties/read |
 | Security Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Security Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Security Administrator | microsoft.directory/applications/policies/update |
@@ -1472,6 +1477,7 @@
 | Security Operator | microsoft.office365.securityComplianceCenter/allEntities/allTasks |
 | Security Operator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Security Operator | microsoft.windows.defenderAdvancedThreatProtection/allEntities/allTasks |
+| Security Reader | microsoft.agentRegistry/allEntities/allProperties/read |
 | Security Reader | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Security Reader | microsoft.directory/accessReviews/definitions/allProperties/read |
 | Security Reader | microsoft.directory/auditLogs/allProperties/read |
@@ -1736,6 +1742,7 @@
 | User | microsoft.directory/users/photo/read |
 | User | microsoft.directory/users/registeredDevices/read |
 | User | microsoft.directory/users/scopedRoleMemberOf/read |
+| User | microsoft.directory/users/sponsorOf/read |
 | User | microsoft.directory/users/sponsors/read |
 | User | microsoft.directory/users/standard/read |
 | User | microsoft.directory/applications/appRoles/update |
@@ -1939,7 +1946,7 @@
 | Permission | Roles |
 | ---------- | ----- |
 | microsoft.agentRegistry/allEntities/allProperties/allTasks | Agent Registry Administrator, Global Administrator |
-| microsoft.agentRegistry/allEntities/allProperties/read | Global Reader |
+| microsoft.agentRegistry/allEntities/allProperties/read | Global Reader, Security Administrator, Security Reader |
 | microsoft.azure.advancedThreatProtection/allEntities/allTasks | Global Administrator, Security Operator |
 | microsoft.azure.customSecurityAttributeDiagnosticSettings/allEntities/allProperties/allTasks | Attribute Log Administrator |
 | microsoft.azure.devOps/allEntities/allTasks | Azure DevOps Administrator |
@@ -2442,6 +2449,7 @@
 | microsoft.directory/users/restore | Authentication Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
 | microsoft.directory/users/scopedRoleMemberOf/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/searchableDeviceKey/update | User |
+| microsoft.directory/users/sponsorOf/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/sponsors/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/sponsors/update | Directory Writers, User Administrator |
 | microsoft.directory/users/standard/read | Directory Readers, Dynamics 365 Business Central Administrator, Guest Inviter, Guest User, Restricted Guest User, User |

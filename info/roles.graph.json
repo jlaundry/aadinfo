@@ -38,6 +38,7 @@
             "microsoft.directory/administrativeUnits/allProperties/allTasks",
             "microsoft.directory/appConsent/appConsentRequests/allProperties/read",
             "microsoft.directory/applications/allProperties/allTasks",
+            "microsoft.directory/applications/disablement/update",
             "microsoft.directory/applications/synchronization/standard/read",
             "microsoft.directory/applicationTemplates/instantiate",
             "microsoft.directory/auditLogs/allProperties/read",
@@ -732,6 +733,7 @@
             "microsoft.directory/applications/basic/update",
             "microsoft.directory/applications/credentials/update",
             "microsoft.directory/applications/delete",
+            "microsoft.directory/applications/disablement/update",
             "microsoft.directory/applications/extensionProperties/update",
             "microsoft.directory/applications/notes/update",
             "microsoft.directory/applications/owners/update",
@@ -1478,6 +1480,7 @@
             "microsoft.directory/applications/create",
             "microsoft.directory/applications/credentials/update",
             "microsoft.directory/applications/delete",
+            "microsoft.directory/applications/disablement/update",
             "microsoft.directory/applications/extensionProperties/update",
             "microsoft.directory/applications/notes/update",
             "microsoft.directory/applications/owners/update",
@@ -1904,6 +1907,7 @@
             "microsoft.directory/applications/create",
             "microsoft.directory/applications/credentials/update",
             "microsoft.directory/applications/delete",
+            "microsoft.directory/applications/disablement/update",
             "microsoft.directory/applications/extensionProperties/update",
             "microsoft.directory/applications/notes/update",
             "microsoft.directory/applications/owners/update",
@@ -5683,7 +5687,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent identities, agent identity blueprints, agent identity blueprint principals, and agent users.\nAssign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage all aspects of agents in a tenant\n- Create, update, or delete agent users\n- Update properties for agent users\n- Enable or disable agent users\n- Restore deleted agent users\n- Invalidate refresh tokens for agent users\n- Revoke sign-in sessions for agent users\n- Manage identity lifecycle operations for agent users\n- Assign product licenses for agent users",
+      "richDescription": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent identities, agent identity blueprints, agent identity blueprint principals, and agent users.\nAssign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage all aspects of agents in a tenant\n- Create, update, or delete agent users\n- Update properties for agent users\n- Enable or disable agent users\n- Permanently delete agent users\n- Restore deleted agent users\n- Invalidate refresh tokens for agent users\n- Revoke sign-in sessions for agent users\n- Manage identity lifecycle operations for agent users\n- Assign product licenses for agent users",
       "rolePermissions": [
         {
           "allowedResourceActions": [

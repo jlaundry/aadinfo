@@ -50,6 +50,7 @@
 | Application Administrator | microsoft.directory/applications/create |
 | Application Administrator | microsoft.directory/applications/credentials/update |
 | Application Administrator | microsoft.directory/applications/delete |
+| Application Administrator | microsoft.directory/applications/disablement/update |
 | Application Administrator | microsoft.directory/applications/extensionProperties/update |
 | Application Administrator | microsoft.directory/applications/notes/update |
 | Application Administrator | microsoft.directory/applications/owners/update |
@@ -212,6 +213,7 @@
 | Cloud Application Administrator | microsoft.directory/applications/create |
 | Cloud Application Administrator | microsoft.directory/applications/credentials/update |
 | Cloud Application Administrator | microsoft.directory/applications/delete |
+| Cloud Application Administrator | microsoft.directory/applications/disablement/update |
 | Cloud Application Administrator | microsoft.directory/applications/extensionProperties/update |
 | Cloud Application Administrator | microsoft.directory/applications/notes/update |
 | Cloud Application Administrator | microsoft.directory/applications/owners/update |
@@ -515,6 +517,7 @@
 | Global Administrator | microsoft.directory/appConsent/appConsentRequests/allProperties/read |
 | Global Administrator | microsoft.directory/applicationTemplates/instantiate |
 | Global Administrator | microsoft.directory/applications/allProperties/allTasks |
+| Global Administrator | microsoft.directory/applications/disablement/update |
 | Global Administrator | microsoft.directory/applications/synchronization/standard/read |
 | Global Administrator | microsoft.directory/auditLogs/allProperties/read |
 | Global Administrator | microsoft.directory/authorizationPolicy/allProperties/allTasks |
@@ -1751,6 +1754,7 @@
 | User | microsoft.directory/applications/basic/update |
 | User | microsoft.directory/applications/credentials/update |
 | User | microsoft.directory/applications/delete |
+| User | microsoft.directory/applications/disablement/update |
 | User | microsoft.directory/applications/extensionProperties/update |
 | User | microsoft.directory/applications/notes/update |
 | User | microsoft.directory/applications/owners/update |
@@ -2028,6 +2032,7 @@
 | microsoft.directory/applications/createAsOwner | Application Developer, User |
 | microsoft.directory/applications/credentials/update | Application Administrator, Cloud Application Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/delete | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/applications/disablement/update | Application Administrator, Cloud Application Administrator, Global Administrator, User |
 | microsoft.directory/applications/extensionProperties/update | Application Administrator, Cloud Application Administrator, Directory Writers, User |
 | microsoft.directory/applications/notes/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/owners/limitedRead | Guest User, Restricted Guest User |

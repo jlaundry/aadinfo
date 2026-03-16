@@ -445,6 +445,14 @@
 | Edge Administrator | microsoft.edge/allEntities/allProperties/allTasks |
 | Edge Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Edge Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Entra Backup Administrator | microsoft.directory/backup/preview/cancel |
+| Entra Backup Administrator | microsoft.directory/backup/preview/create |
+| Entra Backup Administrator | microsoft.directory/backup/recovery/cancel |
+| Entra Backup Administrator | microsoft.directory/backup/recovery/create |
+| Entra Backup Administrator | microsoft.directory/backup/standard/read |
+| Entra Backup Reader | microsoft.directory/backup/preview/cancel |
+| Entra Backup Reader | microsoft.directory/backup/preview/create |
+| Entra Backup Reader | microsoft.directory/backup/standard/read |
 | Exchange Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Exchange Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Exchange Administrator | microsoft.backup/exchangeProtectionPolicies/allProperties/allTasks |
@@ -2058,11 +2066,11 @@
 | microsoft.directory/b2cTrustFrameworkPolicy/allProperties/allTasks | B2C IEF Policy Administrator |
 | microsoft.directory/b2cUserAttribute/allProperties/allTasks | External ID User Flow Attribute Administrator |
 | microsoft.directory/b2cUserFlow/allProperties/allTasks | External ID User Flow Administrator |
-| microsoft.directory/backup/preview/cancel | Global Administrator |
-| microsoft.directory/backup/preview/create | Global Administrator |
-| microsoft.directory/backup/recovery/cancel | Global Administrator |
-| microsoft.directory/backup/recovery/create | Global Administrator |
-| microsoft.directory/backup/standard/read | Global Administrator |
+| microsoft.directory/backup/preview/cancel | Entra Backup Administrator, Entra Backup Reader, Global Administrator |
+| microsoft.directory/backup/preview/create | Entra Backup Administrator, Entra Backup Reader, Global Administrator |
+| microsoft.directory/backup/recovery/cancel | Entra Backup Administrator, Global Administrator |
+| microsoft.directory/backup/recovery/create | Entra Backup Administrator, Global Administrator |
+| microsoft.directory/backup/standard/read | Entra Backup Administrator, Entra Backup Reader, Global Administrator |
 | microsoft.directory/bitlockerKeys/key/read | Cloud Device Administrator, Global Administrator, Global Reader, Helpdesk Administrator, Intune Administrator, Security Administrator, Security Reader |
 | microsoft.directory/bulkJobs.groups/basic/update | Groups Administrator |
 | microsoft.directory/bulkJobs.groups/create | Groups Administrator |

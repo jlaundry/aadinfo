@@ -5858,6 +5858,125 @@
       ],
       "templateId": "b6a27b2b-f905-4b2e-81b5-0d90e0ef1fdb",
       "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "identity",
+      "description": "Manage all capabilities in the Microsoft Entra Tenant Governance service.",
+      "displayName": "Tenant Governance Administrator",
+      "id": "1981f584-96e9-4a6f-95b0-f522373f8fae",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('1981f584-96e9-4a6f-95b0-f522373f8fae')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Can manage all aspects of tenant governance.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/crossTenantAccessPolicy/basic/update",
+            "microsoft.directory/crossTenantAccessPolicy/default/standard/read",
+            "microsoft.directory/crossTenantAccessPolicy/partners/create",
+            "microsoft.directory/crossTenantAccessPolicy/partners/delete",
+            "microsoft.directory/crossTenantAccessPolicy/partners/standard/read",
+            "microsoft.directory/crossTenantAccessPolicy/standard/read"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "1981f584-96e9-4a6f-95b0-f522373f8fae",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "identity",
+      "description": "Can read all tenant governance data.",
+      "displayName": "Tenant Governance Reader",
+      "id": "e0a4caa6-fe82-443f-b92f-d87341d17b2e",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('e0a4caa6-fe82-443f-b92f-d87341d17b2e')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Can read all aspects of tenant governance.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [],
+          "condition": null
+        }
+      ],
+      "templateId": "e0a4caa6-fe82-443f-b92f-d87341d17b2e",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "identity",
+      "description": "Can initiate governance relationships and terminate them.",
+      "displayName": "Tenant Governance Relationship Administrator",
+      "id": "b8e31d83-1534-480f-9b10-0338ded51b7e",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('b8e31d83-1534-480f-9b10-0338ded51b7e')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Can manage all aspects of tenant governance relationships, except accepting requests.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [],
+          "condition": null
+        }
+      ],
+      "templateId": "b8e31d83-1534-480f-9b10-0338ded51b7e",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "identity",
+      "description": "Can read tenant governance relationships and relevant objects.",
+      "displayName": "Tenant Governance Relationship Reader",
+      "id": "124577f8-48ed-456a-839f-13b419002e33",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('124577f8-48ed-456a-839f-13b419002e33')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Can read governance relationship related data.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [],
+          "condition": null
+        }
+      ],
+      "templateId": "124577f8-48ed-456a-839f-13b419002e33",
+      "version": "1"
     }
   ]
 }

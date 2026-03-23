@@ -7,6 +7,8 @@
 | AI Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | AI Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | AI Administrator | microsoft.directory/entitlementManagement/allProperties/read |
+| AI Administrator | microsoft.directory/subscribedSkus/standard/read |
+| AI Administrator | microsoft.directory/users/allProperties/read |
 | AI Administrator | microsoft.office365.copilot/allEntities/allProperties/allTasks |
 | AI Administrator | microsoft.office365.messageCenter/messages/read |
 | AI Administrator | microsoft.office365.network/performance/allProperties/read |
@@ -2400,7 +2402,7 @@
 | microsoft.directory/signInReports/allProperties/read | Application Administrator, Cloud Application Administrator, Cloud Device Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Hybrid Identity Administrator, Reports Reader, Security Administrator, Security Operator, Security Reader, User |
 | microsoft.directory/subscribedSkus/allProperties/allTasks | Global Administrator |
 | microsoft.directory/subscribedSkus/allProperties/read | Global Reader |
-| microsoft.directory/subscribedSkus/standard/read | Directory Readers, Dynamics 365 Business Central Administrator, Partner Tier2 Support, User |
+| microsoft.directory/subscribedSkus/standard/read | AI Administrator, Directory Readers, Dynamics 365 Business Central Administrator, Partner Tier2 Support, User |
 | microsoft.directory/tenantManagement/tenants/create | Global Administrator, Tenant Creator, User |
 | microsoft.directory/userCredentialPolicies/basic/update | Authentication Policy Administrator |
 | microsoft.directory/userCredentialPolicies/create | Authentication Policy Administrator |
@@ -2417,7 +2419,7 @@
 | microsoft.directory/userInfos/profile/read | User |
 | microsoft.directory/users/activateServicePlan | User |
 | microsoft.directory/users/allProperties/allTasks | Global Administrator |
-| microsoft.directory/users/allProperties/read | Global Reader |
+| microsoft.directory/users/allProperties/read | AI Administrator, Global Reader |
 | microsoft.directory/users/appRoleAssignments/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/assignLicense | Directory Writers, License Administrator, Partner Tier1 Support, Partner Tier2 Support, User Administrator |
 | microsoft.directory/users/authenticationMethods/basic/update | Authentication Administrator, Global Administrator, Guest User, Privileged Authentication Administrator, Restricted Guest User, User |

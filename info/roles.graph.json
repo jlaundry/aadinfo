@@ -32,6 +32,7 @@
             "microsoft.cloudPC/allEntities/allProperties/allTasks",
             "microsoft.commerce.billing/allEntities/allProperties/allTasks",
             "microsoft.commerce.billing/purchases/standard/read",
+            "microsoft.commerce.tenantRelationships/customerDelegatedAdminPrivileges/allProperties/allTasks",
             "microsoft.directory/accessReviews/allProperties/allTasks",
             "microsoft.directory/accessReviews/definitions/allProperties/allTasks",
             "microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks",
@@ -5791,6 +5792,32 @@
         }
       ],
       "templateId": "3f04f91a-4ad7-4bd3-bcfa-49882ea1a88a",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "securityAndCompliance",
+      "description": "Manage all aspects of granular delegated admin privileges (GDAP) relationships in a customer tenant.",
+      "displayName": "Customer Delegated Admin Relationship Administrator",
+      "id": "fc8ad4e2-40e4-4724-8317-bcda7503ecbf",
+      "inheritsPermissionsFrom": [],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('fc8ad4e2-40e4-4724-8317-bcda7503ecbf')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the Customer Delegated Admin Relationship Administrator role to users who need to do the following tasks:\n- Accept a granular delegated admin privileges (GDAP) relationship from a partner for their tenant.\n- List and view GDAP relationships with partners.\n- Terminate a GDAP relationship with a partner.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.commerce.tenantRelationships/customerDelegatedAdminPrivileges/allProperties/allTasks"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "fc8ad4e2-40e4-4724-8317-bcda7503ecbf",
       "version": "1"
     },
     {

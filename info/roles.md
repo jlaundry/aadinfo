@@ -1690,6 +1690,12 @@
 | Teams Telephony Administrator | microsoft.teams/callQuality/allProperties/read |
 | Teams Telephony Administrator | microsoft.teams/voice/allProperties/allTasks |
 | Tenant Creator | microsoft.directory/tenantManagement/tenants/create |
+| Tenant Governance Administrator | microsoft.directory/crossTenantAccessPolicy/basic/update |
+| Tenant Governance Administrator | microsoft.directory/crossTenantAccessPolicy/default/standard/read |
+| Tenant Governance Administrator | microsoft.directory/crossTenantAccessPolicy/partners/create |
+| Tenant Governance Administrator | microsoft.directory/crossTenantAccessPolicy/partners/delete |
+| Tenant Governance Administrator | microsoft.directory/crossTenantAccessPolicy/partners/standard/read |
+| Tenant Governance Administrator | microsoft.directory/crossTenantAccessPolicy/standard/read |
 | Usage Summary Reports Reader | microsoft.office365.network/performance/allProperties/read |
 | Usage Summary Reports Reader | microsoft.office365.usageReports/allEntities/standard/read |
 | Usage Summary Reports Reader | microsoft.office365.webPortal/allEntities/standard/read |
@@ -2113,21 +2119,21 @@
 | microsoft.directory/contracts/allProperties/allTasks | Global Administrator |
 | microsoft.directory/contracts/standard/read | Directory Readers, User |
 | microsoft.directory/crossTenantAccessPolicy/allowedCloudEndpoints/update | Global Administrator, Security Administrator, Teams Administrator |
-| microsoft.directory/crossTenantAccessPolicy/basic/update | Global Administrator, Security Administrator |
+| microsoft.directory/crossTenantAccessPolicy/basic/update | Global Administrator, Security Administrator, Tenant Governance Administrator |
 | microsoft.directory/crossTenantAccessPolicy/default/b2bCollaboration/update | Global Administrator, Security Administrator |
 | microsoft.directory/crossTenantAccessPolicy/default/b2bDirectConnect/update | Global Administrator, Security Administrator |
 | microsoft.directory/crossTenantAccessPolicy/default/crossCloudMeetings/update | Global Administrator, Security Administrator, Teams Administrator |
-| microsoft.directory/crossTenantAccessPolicy/default/standard/read | Global Administrator, Global Reader, Global Secure Access Administrator, Security Administrator, Teams Administrator |
+| microsoft.directory/crossTenantAccessPolicy/default/standard/read | Global Administrator, Global Reader, Global Secure Access Administrator, Security Administrator, Teams Administrator, Tenant Governance Administrator |
 | microsoft.directory/crossTenantAccessPolicy/default/tenantRestrictions/update | Global Administrator, Security Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/b2bCollaboration/update | Global Administrator, Security Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/b2bDirectConnect/update | Global Administrator, Security Administrator |
-| microsoft.directory/crossTenantAccessPolicy/partners/create | Global Administrator, Security Administrator, Teams Administrator |
+| microsoft.directory/crossTenantAccessPolicy/partners/create | Global Administrator, Security Administrator, Teams Administrator, Tenant Governance Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/crossCloudMeetings/update | Global Administrator, Security Administrator, Teams Administrator |
-| microsoft.directory/crossTenantAccessPolicy/partners/delete | Global Administrator, Security Administrator |
+| microsoft.directory/crossTenantAccessPolicy/partners/delete | Global Administrator, Security Administrator, Tenant Governance Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/basic/update | Global Administrator, Security Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/create | Global Administrator, Security Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/standard/read | Global Administrator, Global Reader, Security Administrator |
-| microsoft.directory/crossTenantAccessPolicy/partners/standard/read | Global Administrator, Global Reader, Global Secure Access Administrator, Security Administrator, Teams Administrator |
+| microsoft.directory/crossTenantAccessPolicy/partners/standard/read | Global Administrator, Global Reader, Global Secure Access Administrator, Security Administrator, Teams Administrator, Tenant Governance Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/basic/update | Global Administrator, Security Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/resetToDefaultSettings | Global Administrator, Security Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read | Global Administrator, Global Reader, Security Administrator, Security Reader |
@@ -2135,7 +2141,7 @@
 | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/resetToDefaultSettings | Global Administrator, Security Administrator |
 | microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read | Global Administrator, Global Reader, Security Administrator, Security Reader |
 | microsoft.directory/crossTenantAccessPolicy/partners/tenantRestrictions/update | Global Administrator, Security Administrator |
-| microsoft.directory/crossTenantAccessPolicy/standard/read | Global Administrator, Global Reader, Global Secure Access Administrator, Security Administrator, Teams Administrator |
+| microsoft.directory/crossTenantAccessPolicy/standard/read | Global Administrator, Global Reader, Global Secure Access Administrator, Security Administrator, Teams Administrator, Tenant Governance Administrator |
 | microsoft.directory/customAuthenticationExtensions/allProperties/allTasks | Application Administrator, Authentication Extensibility Administrator, Global Administrator |
 | microsoft.directory/customAuthenticationExtensions/allProperties/read | Global Reader |
 | microsoft.directory/customSecurityAttributeAuditLogs/allProperties/read | Attribute Log Administrator, Attribute Log Reader |

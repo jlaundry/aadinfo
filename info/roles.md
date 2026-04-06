@@ -305,6 +305,7 @@
 | Conditional Access Administrator | microsoft.directory/namedLocations/delete |
 | Conditional Access Administrator | microsoft.directory/namedLocations/standard/read |
 | Conditional Access Administrator | microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update |
+| Customer Delegated Admin Relationship Administrator | microsoft.commerce.tenantRelationships/customerDelegatedAdminPrivileges/allProperties/allTasks |
 | Customer LockBox Access Approver | microsoft.office365.lockbox/allEntities/allTasks |
 | Customer LockBox Access Approver | microsoft.office365.webPortal/allEntities/standard/read |
 | Desktop Analytics Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
@@ -520,6 +521,7 @@
 | Global Administrator | microsoft.cloudPC/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.commerce.billing/allEntities/allProperties/allTasks |
 | Global Administrator | microsoft.commerce.billing/purchases/standard/read |
+| Global Administrator | microsoft.commerce.tenantRelationships/customerDelegatedAdminPrivileges/allProperties/allTasks |
 | Global Administrator | microsoft.directory/accessReviews/allProperties/allTasks |
 | Global Administrator | microsoft.directory/accessReviews/definitions/allProperties/allTasks |
 | Global Administrator | microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks |
@@ -2001,6 +2003,7 @@
 | microsoft.commerce.billing/allEntities/allProperties/allTasks | Billing Administrator, Global Administrator |
 | microsoft.commerce.billing/allEntities/allProperties/read | Global Reader |
 | microsoft.commerce.billing/purchases/standard/read | Global Administrator, Global Reader, User Experience Success Manager |
+| microsoft.commerce.tenantRelationships/customerDelegatedAdminPrivileges/allProperties/allTasks | Customer Delegated Admin Relationship Administrator, Global Administrator |
 | microsoft.directory/accessReviews/allProperties/allTasks | Global Administrator, Identity Governance Administrator |
 | microsoft.directory/accessReviews/allProperties/read | Global Reader |
 | microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks | Identity Governance Administrator, User Administrator |

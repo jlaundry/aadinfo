@@ -966,6 +966,7 @@
 | Hybrid Identity Administrator | microsoft.directory/applications/basic/update |
 | Hybrid Identity Administrator | microsoft.directory/applications/create |
 | Hybrid Identity Administrator | microsoft.directory/applications/delete |
+| Hybrid Identity Administrator | microsoft.directory/applications/disablement/update |
 | Hybrid Identity Administrator | microsoft.directory/applications/notes/update |
 | Hybrid Identity Administrator | microsoft.directory/applications/owners/update |
 | Hybrid Identity Administrator | microsoft.directory/applications/permissions/update |
@@ -2051,7 +2052,7 @@
 | microsoft.directory/applications/createAsOwner | Application Developer, User |
 | microsoft.directory/applications/credentials/update | Application Administrator, Cloud Application Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/delete | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
-| microsoft.directory/applications/disablement/update | Application Administrator, Cloud Application Administrator, Global Administrator, User |
+| microsoft.directory/applications/disablement/update | Application Administrator, Cloud Application Administrator, Global Administrator, Hybrid Identity Administrator, User |
 | microsoft.directory/applications/extensionProperties/update | Application Administrator, Cloud Application Administrator, Directory Writers, User |
 | microsoft.directory/applications/notes/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/owners/limitedRead | Guest User, Restricted Guest User |

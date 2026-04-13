@@ -3853,6 +3853,72 @@
     },
     {
       "assignmentMode": "allowed",
+      "categories": "collaboration,identity",
+      "description": "Read all aspects of Microsoft 365 Copilot and AI-related enterprise services in Microsoft 365.",
+      "displayName": "AI Reader",
+      "id": "1fe13547-53f6-408d-ac04-7f8eed167b38",
+      "inheritsPermissionsFrom": [],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('1fe13547-53f6-408d-ac04-7f8eed167b38')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": true,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the AI Reader role to users who need to do the following tasks:\n* Read all aspects of Microsoft 365 Copilot\n* Read AI-related enterprise services, extensibility, and copilot agents\n* Read and configure Azure and Microsoft 365 service health dashboards\n* View usage reports, adoption insights, and organizational insight",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.azure.serviceHealth/allEntities/allTasks",
+            "microsoft.directory/administrativeUnits/members/read",
+            "microsoft.directory/administrativeUnits/standard/read",
+            "microsoft.directory/applicationPolicies/standard/read",
+            "microsoft.directory/applications/owners/read",
+            "microsoft.directory/applications/policies/read",
+            "microsoft.directory/applications/standard/read",
+            "microsoft.directory/contacts/memberOf/read",
+            "microsoft.directory/contacts/standard/read",
+            "microsoft.directory/contracts/standard/read",
+            "microsoft.directory/domains/standard/read",
+            "microsoft.directory/entitlementManagement/allProperties/read",
+            "microsoft.directory/groups/appRoleAssignments/read",
+            "microsoft.directory/groupSettings/standard/read",
+            "microsoft.directory/groupSettingTemplates/standard/read",
+            "microsoft.directory/groups/memberOf/read",
+            "microsoft.directory/groups/members/read",
+            "microsoft.directory/groups/owners/read",
+            "microsoft.directory/groups/settings/read",
+            "microsoft.directory/groups/standard/read",
+            "microsoft.directory/oAuth2PermissionGrants/standard/read",
+            "microsoft.directory/organization/standard/read",
+            "microsoft.directory/organization/trustedCAsForPasswordlessAuth/read",
+            "microsoft.directory/roleAssignments/standard/read",
+            "microsoft.directory/roleDefinitions/standard/read",
+            "microsoft.directory/servicePrincipals/appRoleAssignedTo/read",
+            "microsoft.directory/servicePrincipals/appRoleAssignments/read",
+            "microsoft.directory/servicePrincipals/memberOf/read",
+            "microsoft.directory/servicePrincipals/oAuth2PermissionGrants/read",
+            "microsoft.directory/servicePrincipals/ownedObjects/read",
+            "microsoft.directory/servicePrincipals/owners/read",
+            "microsoft.directory/servicePrincipals/policies/read",
+            "microsoft.directory/servicePrincipals/standard/read",
+            "microsoft.directory/subscribedSkus/standard/read",
+            "microsoft.directory/users/allProperties/read",
+            "microsoft.office365.copilot/allEntities/allProperties/read",
+            "microsoft.office365.messageCenter/messages/read",
+            "microsoft.office365.network/performance/allProperties/read",
+            "microsoft.office365.serviceHealth/allEntities/allTasks",
+            "microsoft.office365.usageReports/allEntities/allProperties/read",
+            "microsoft.office365.webPortal/allEntities/standard/read"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "1fe13547-53f6-408d-ac04-7f8eed167b38",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
       "categories": "identity",
       "description": "Define and manage the definition of custom security attributes.",
       "displayName": "Attribute Definition Administrator",
@@ -5691,12 +5757,13 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent identities, agent identity blueprints, agent identity blueprint principals, and agent users.\nAssign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage all aspects of agents in a tenant\n- Create, update, or delete agent users\n- Update properties for agent users\n- Enable or disable agent users\n- Permanently delete agent users\n- Restore deleted agent users\n- Invalidate refresh tokens for agent users\n- Revoke sign-in sessions for agent users\n- Manage identity lifecycle operations for agent users\n- Assign product licenses for agent users",
+      "richDescription": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent identities, agent identity blueprints, agent identity blueprint principals, and agent users.\nAssign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage all aspects of agents in a tenant\n- Create and delete agent identity blueprints\n- Read and update all properties of agent identity blueprints\n- Update agent identity blueprint app roles, audience, and basic settings\n- Update agent identity blueprint credentials, owners, and permissions\n- Update agent identity blueprint tags and verification settings\n- Create, update, or delete agent users\n- Update properties for agent users\n- Enable or disable agent users\n- Permanently delete agent users\n- Restore deleted agent users\n- Invalidate refresh tokens for agent users\n- Revoke sign-in sessions for agent users\n- Manage identity lifecycle operations for agent users\n- Assign product licenses for agent users",
       "rolePermissions": [
         {
           "allowedResourceActions": [
             "microsoft.azure.serviceHealth/allEntities/allTasks",
             "microsoft.azure.supportTickets/allEntities/allTasks",
+            "microsoft.directory/auditLogs/allProperties/read",
             "microsoft.directory/externalUserProfiles/standard/read",
             "microsoft.directory/groups/hiddenMembers/read",
             "microsoft.directory/groups.unified/createAsOwner",

@@ -3882,7 +3882,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Assign the AI Reader role to users who need to do the following tasks:\n* Read all aspects of Microsoft 365 Copilot\n* Read AI-related enterprise services, extensibility, and copilot agents\n* Read and configure Azure and Microsoft 365 service health dashboards\n* View usage reports, adoption insights, and organizational insight",
+      "richDescription": "Assign the AI Reader role to users who need to do the following tasks:\n* Read all aspects of Microsoft 365 Copilot\n* Read AI-related enterprise services, extensibility, and copilot agents\n* Read all properties of agent identities, agent identity blueprint principals, and agent identity blueprints\n* Read and configure Azure and Microsoft 365 service health dashboards\n* View usage reports, adoption insights, and organizational insight",
       "rolePermissions": [
         {
           "allowedResourceActions": [
@@ -5674,7 +5674,7 @@
     {
       "assignmentMode": "allowed",
       "categories": "identity",
-      "description": "Create an agent blueprint and its service principal in a tenant. User will be added as an owner of the agent blueprint and its service principal.",
+      "description": "Create an agent identity blueprint and its agent identity blueprint principal in a tenant. User will be added as an owner of the created agent identity blueprint and its agent identity blueprint principal.",
       "displayName": "Agent ID Developer",
       "id": "adb2368d-a9be-41b5-8667-d96778e081b0",
       "inheritsPermissionsFrom": [],
@@ -5685,7 +5685,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Assign the Agent ID Developer role to users who need to do the following tasks:\n- Create an agent blueprint and its service principal in a tenant. User will be added as an owner of the agent blueprint and its service principal.",
+      "richDescription": "Assign the Agent ID Developer role to users who need to do the following tasks:\n- Create an agent identity blueprint and its agent identity blueprint principal in a tenant. User will be added as an owner of the created agent identity blueprint and its agent identity blueprint principal.",
       "rolePermissions": [
         {
           "allowedResourceActions": [
@@ -5775,7 +5775,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent identities, agent identity blueprints, agent identity blueprint principals, and agent users.\nAssign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage all aspects of agents in a tenant\n- Create and delete agent identity blueprints\n- Read and update all properties of agent identity blueprints\n- Update agent identity blueprint app roles, audience, and basic settings\n- Update agent identity blueprint credentials, owners, and permissions\n- Update agent identity blueprint tags and verification settings\n- Create, update, or delete agent users\n- Update properties for agent users\n- Enable or disable agent users\n- Permanently delete agent users\n- Restore deleted agent users\n- Invalidate refresh tokens for agent users\n- Revoke sign-in sessions for agent users\n- Manage identity lifecycle operations for agent users\n- Assign product licenses for agent users",
+      "richDescription": "Assign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage all aspects of agents in a tenant\n- Create, read, update, and delete agent identities, agent identity blueprint principals, agent identity blueprints, and agent users\n- Enable or disable agent identities, agent identity blueprint principals, and agent users\n- Update owners, app role assignments, credentials, permissions, tags, and verification settings on agent resources\n- Permanently delete and restore deleted agent users\n- Update manager, sponsors, usage location, user principal name, and photo on agent users\n- Assign and reprocess product licenses for agent users\n- Read and update lifecycle information for agent users\n- Invalidate refresh tokens and revoke sign-in sessions for agent users\n- Read all properties of audit logs\n- Read standard properties of organization, policies, external user profiles, hidden group members, and bulk jobs for users\n- Create Microsoft 365 groups as owner\n- Read and configure Azure and Microsoft 365 Service Health\n- Create and manage Azure and Microsoft 365 support tickets",
       "rolePermissions": [
         {
           "allowedResourceActions": [

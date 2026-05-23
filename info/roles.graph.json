@@ -4116,7 +4116,7 @@
       "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('45d8d3c5-c802-45c6-b32a-1d70b5e1e86e')/inheritsPermissionsFrom",
       "isBuiltIn": true,
       "isEnabled": true,
-      "isPrivileged": false,
+      "isPrivileged": true,
       "resourceScopes": [
         "/"
       ],
@@ -5760,7 +5760,7 @@
     {
       "assignmentMode": "allowed",
       "categories": "identity",
-      "description": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent blueprints, agent service principals, agent identities, and agentic users.",
+      "description": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent blueprints, agent identity blueprint principals, agent identities, and agentic users.",
       "displayName": "Agent ID Administrator",
       "id": "db506228-d27e-4b7d-95e5-295956d6615f",
       "inheritsPermissionsFrom": [
@@ -5775,7 +5775,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Assign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage all aspects of agents in a tenant\n- Create, read, update, and delete agent identities, agent identity blueprint principals, agent identity blueprints, and agent users\n- Enable or disable agent identities, agent identity blueprint principals, and agent users\n- Update owners, app role assignments, credentials, permissions, tags, and verification settings on agent resources\n- Permanently delete and restore deleted agent users\n- Update manager, sponsors, usage location, user principal name, and photo on agent users\n- Assign and reprocess product licenses for agent users\n- Read and update lifecycle information for agent users\n- Invalidate refresh tokens and revoke sign-in sessions for agent users\n- Read all properties of audit logs\n- Read standard properties of organization, policies, external user profiles, hidden group members, and bulk jobs for users\n- Create Microsoft 365 groups as owner\n- Read and configure Azure and Microsoft 365 Service Health\n- Create and manage Azure and Microsoft 365 support tickets",
+      "richDescription": "Assign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage the full lifecycle of agent identities, agent identity blueprint principals, agent identity blueprints, and agent users in a tenant\n- Permanently delete and restore deleted agent identities, agent identity blueprint principals, agent identity blueprints, and agent users\n- Manage licenses, invalidate refresh tokens, and revoke sign-in sessions for agent users\n- Read all properties of audit logs and sign-in reports\n- Read standard properties of organization, policies, external user profiles, hidden group members, and bulk jobs for users\n- Create Microsoft 365 groups as owner\n- Read and configure Azure and Microsoft 365 service health and support tickets\n- Create and manage Azure and Microsoft 365 service health and support tickets",
       "rolePermissions": [
         {
           "allowedResourceActions": [
@@ -5804,6 +5804,7 @@
             "microsoft.directory/groups.unified/createAsOwner",
             "microsoft.directory/organization/standard/read",
             "microsoft.directory/policies/standard/read",
+            "microsoft.directory/signInReports/allProperties/read",
             "microsoft.office365.serviceHealth/allEntities/allTasks",
             "microsoft.office365.supportTickets/allEntities/allTasks"
           ],

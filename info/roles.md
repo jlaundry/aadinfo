@@ -101,6 +101,7 @@
 | Agent ID Administrator | microsoft.directory/groups/hiddenMembers/read |
 | Agent ID Administrator | microsoft.directory/organization/standard/read |
 | Agent ID Administrator | microsoft.directory/policies/standard/read |
+| Agent ID Administrator | microsoft.directory/signInReports/allProperties/read |
 | Agent ID Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Agent ID Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
 | Agent ID Developer | microsoft.directory/servicePrincipals/standard/read |
@@ -2504,7 +2505,7 @@
 | microsoft.directory/servicePrincipals/synchronizationJobs/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/synchronizationSchema/manage | Application Administrator, Cloud Application Administrator, Directory Writers, Hybrid Identity Administrator |
 | microsoft.directory/servicePrincipals/tag/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
-| microsoft.directory/signInReports/allProperties/read | Application Administrator, Cloud Application Administrator, Cloud Device Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Hybrid Identity Administrator, Reports Reader, Security Administrator, Security Operator, Security Reader, User |
+| microsoft.directory/signInReports/allProperties/read | Agent ID Administrator, Application Administrator, Cloud Application Administrator, Cloud Device Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Hybrid Identity Administrator, Reports Reader, Security Administrator, Security Operator, Security Reader, User |
 | microsoft.directory/subscribedSkus/allProperties/allTasks | Global Administrator |
 | microsoft.directory/subscribedSkus/allProperties/read | Global Reader |
 | microsoft.directory/subscribedSkus/standard/read | AI Administrator, AI Reader, Directory Readers, Dynamics 365 Business Central Administrator, Partner Tier2 Support, User |

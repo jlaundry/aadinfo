@@ -37,6 +37,35 @@
             "microsoft.directory/accessReviews/definitions/allProperties/allTasks",
             "microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks",
             "microsoft.directory/administrativeUnits/allProperties/allTasks",
+            "microsoft.directory/agentIdentities/appRoleAssignedTo/update",
+            "microsoft.directory/agentIdentities/authentication/update",
+            "microsoft.directory/agentIdentities/basic/update",
+            "microsoft.directory/agentIdentities/create",
+            "microsoft.directory/agentIdentities/delete",
+            "microsoft.directory/agentIdentities/disable",
+            "microsoft.directory/agentIdentities/enable",
+            "microsoft.directory/agentIdentities/owners/update",
+            "microsoft.directory/agentIdentities/tag/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/basic/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/create",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/delete",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/disable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/enable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/owners/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/tag/update",
+            "microsoft.directory/agentIdentityBlueprints/allProperties/update",
+            "microsoft.directory/agentIdentityBlueprints/appRoles/update",
+            "microsoft.directory/agentIdentityBlueprints/audience/update",
+            "microsoft.directory/agentIdentityBlueprints/authentication/update",
+            "microsoft.directory/agentIdentityBlueprints/basic/update",
+            "microsoft.directory/agentIdentityBlueprints/create",
+            "microsoft.directory/agentIdentityBlueprints/credentials/update",
+            "microsoft.directory/agentIdentityBlueprints/delete",
+            "microsoft.directory/agentIdentityBlueprints/owners/update",
+            "microsoft.directory/agentIdentityBlueprints/permissions/update",
+            "microsoft.directory/agentIdentityBlueprints/tag/update",
             "microsoft.directory/appConsent/appConsentRequests/allProperties/read",
             "microsoft.directory/applications/allProperties/allTasks",
             "microsoft.directory/applications/disablement/update",
@@ -122,6 +151,7 @@
             "microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks",
             "microsoft.directory/identityProtection/allProperties/allTasks",
             "microsoft.directory/lifecycleWorkflows/workflows/allProperties/allTasks",
+            "microsoft.directory/lockbox/requests/update",
             "microsoft.directory/loginOrganizationBranding/allProperties/allTasks",
             "microsoft.directory/multiTenantOrganization/basic/update",
             "microsoft.directory/multiTenantOrganization/create",
@@ -660,6 +690,11 @@
           "allowedResourceActions": [
             "microsoft.directory/administrativeUnits/members/read",
             "microsoft.directory/administrativeUnits/standard/read",
+            "microsoft.directory/agentIdentities/createAsOwner",
+            "microsoft.directory/agentIdentities/standard/read",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/createAsOwner",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/standard/read",
+            "microsoft.directory/agentIdentityBlueprints/standard/read",
             "microsoft.directory/applicationPolicies/createAsOwner",
             "microsoft.directory/applicationPolicies/standard/read",
             "microsoft.directory/applications/createAsOwner",
@@ -728,6 +763,32 @@
         },
         {
           "allowedResourceActions": [
+            "microsoft.directory/agentIdentities/appRoleAssignedTo/update",
+            "microsoft.directory/agentIdentities/authentication/update",
+            "microsoft.directory/agentIdentities/basic/update",
+            "microsoft.directory/agentIdentities/create",
+            "microsoft.directory/agentIdentities/delete",
+            "microsoft.directory/agentIdentities/disable",
+            "microsoft.directory/agentIdentities/enable",
+            "microsoft.directory/agentIdentities/owners/update",
+            "microsoft.directory/agentIdentities/tag/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/basic/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/create",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/delete",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/disable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/enable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/owners/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/tag/update",
+            "microsoft.directory/agentIdentityBlueprints/appRoles/update",
+            "microsoft.directory/agentIdentityBlueprints/audience/update",
+            "microsoft.directory/agentIdentityBlueprints/authentication/update",
+            "microsoft.directory/agentIdentityBlueprints/basic/update",
+            "microsoft.directory/agentIdentityBlueprints/credentials/update",
+            "microsoft.directory/agentIdentityBlueprints/owners/update",
+            "microsoft.directory/agentIdentityBlueprints/permissions/update",
+            "microsoft.directory/agentIdentityBlueprints/tag/update",
             "microsoft.directory/applications/appRoles/update",
             "microsoft.directory/applications/audience/update",
             "microsoft.directory/applications/authentication/update",
@@ -743,6 +804,12 @@
             "microsoft.directory/applications/tag/update",
             "microsoft.directory/applications/verification/update",
             "microsoft.directory/auditLogs/allProperties/read",
+            "microsoft.directory/deletedItems.agentIdentities/delete",
+            "microsoft.directory/deletedItems.agentIdentities/restore",
+            "microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/delete",
+            "microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/restore",
+            "microsoft.directory/deletedItems.agentIdentityBlueprints/delete",
+            "microsoft.directory/deletedItems.agentIdentityBlueprints/restore",
             "microsoft.directory/deletedItems.applications/delete",
             "microsoft.directory/deletedItems.applications/restore",
             "microsoft.directory/deletedItems.groups/restore",
@@ -2880,6 +2947,10 @@
             "microsoft.directory/privilegedIdentityManagement/allProperties/read",
             "microsoft.directory/provisioningLogs/allProperties/read",
             "microsoft.directory/signInReports/allProperties/read",
+            "microsoft.directory/users/disable",
+            "microsoft.directory/users/enable",
+            "microsoft.directory/users/invalidateAllRefreshTokens",
+            "microsoft.directory/users/password/update",
             "microsoft.intune/allEntities/read",
             "microsoft.office365.securityComplianceCenter/allEntities/allTasks",
             "microsoft.office365.supportTickets/allEntities/allTasks",
@@ -5689,6 +5760,7 @@
       "rolePermissions": [
         {
           "allowedResourceActions": [
+            "microsoft.directory/agentIdentityBlueprints/createAsOwner",
             "microsoft.directory/servicePrincipals/standard/read"
           ],
           "condition": null
@@ -5781,6 +5853,35 @@
           "allowedResourceActions": [
             "microsoft.azure.serviceHealth/allEntities/allTasks",
             "microsoft.azure.supportTickets/allEntities/allTasks",
+            "microsoft.directory/agentIdentities/appRoleAssignedTo/update",
+            "microsoft.directory/agentIdentities/authentication/update",
+            "microsoft.directory/agentIdentities/basic/update",
+            "microsoft.directory/agentIdentities/create",
+            "microsoft.directory/agentIdentities/delete",
+            "microsoft.directory/agentIdentities/disable",
+            "microsoft.directory/agentIdentities/enable",
+            "microsoft.directory/agentIdentities/owners/update",
+            "microsoft.directory/agentIdentities/tag/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/basic/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/create",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/delete",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/disable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/enable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/owners/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/tag/update",
+            "microsoft.directory/agentIdentityBlueprints/allProperties/update",
+            "microsoft.directory/agentIdentityBlueprints/appRoles/update",
+            "microsoft.directory/agentIdentityBlueprints/audience/update",
+            "microsoft.directory/agentIdentityBlueprints/authentication/update",
+            "microsoft.directory/agentIdentityBlueprints/basic/update",
+            "microsoft.directory/agentIdentityBlueprints/create",
+            "microsoft.directory/agentIdentityBlueprints/credentials/update",
+            "microsoft.directory/agentIdentityBlueprints/delete",
+            "microsoft.directory/agentIdentityBlueprints/owners/update",
+            "microsoft.directory/agentIdentityBlueprints/permissions/update",
+            "microsoft.directory/agentIdentityBlueprints/tag/update",
             "microsoft.directory/agentUsers/assignLicense",
             "microsoft.directory/agentUsers/basic/update",
             "microsoft.directory/agentUsers/create",
@@ -5799,6 +5900,12 @@
             "microsoft.directory/agentUsers/usageLocation/update",
             "microsoft.directory/agentUsers/userPrincipalName/update",
             "microsoft.directory/auditLogs/allProperties/read",
+            "microsoft.directory/deletedItems.agentIdentities/delete",
+            "microsoft.directory/deletedItems.agentIdentities/restore",
+            "microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/delete",
+            "microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/restore",
+            "microsoft.directory/deletedItems.agentIdentityBlueprints/delete",
+            "microsoft.directory/deletedItems.agentIdentityBlueprints/restore",
             "microsoft.directory/externalUserProfiles/standard/read",
             "microsoft.directory/groups/hiddenMembers/read",
             "microsoft.directory/groups.unified/createAsOwner",
@@ -6018,7 +6125,8 @@
             "microsoft.directory/crossTenantAccessPolicy/partners/create",
             "microsoft.directory/crossTenantAccessPolicy/partners/delete",
             "microsoft.directory/crossTenantAccessPolicy/partners/standard/read",
-            "microsoft.directory/crossTenantAccessPolicy/standard/read"
+            "microsoft.directory/crossTenantAccessPolicy/standard/read",
+            "microsoft.office365.webPortal/allEntities/standard/read"
           ],
           "condition": null
         }
@@ -6047,7 +6155,9 @@
       "richDescription": "Can read all aspects of tenant governance.",
       "rolePermissions": [
         {
-          "allowedResourceActions": [],
+          "allowedResourceActions": [
+            "microsoft.office365.webPortal/allEntities/standard/read"
+          ],
           "condition": null
         }
       ],
@@ -6075,7 +6185,9 @@
       "richDescription": "Can manage all aspects of tenant governance relationships, except accepting requests.",
       "rolePermissions": [
         {
-          "allowedResourceActions": [],
+          "allowedResourceActions": [
+            "microsoft.office365.webPortal/allEntities/standard/read"
+          ],
           "condition": null
         }
       ],
@@ -6103,11 +6215,43 @@
       "richDescription": "Can read governance relationship related data.",
       "rolePermissions": [
         {
-          "allowedResourceActions": [],
+          "allowedResourceActions": [
+            "microsoft.office365.webPortal/allEntities/standard/read"
+          ],
           "condition": null
         }
       ],
       "templateId": "124577f8-48ed-456a-839f-13b419002e33",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "identity",
+      "description": "Can approve customer lockbox requests for accessing customer data in Entra ID.",
+      "displayName": "Entra Customer Lockbox Approver",
+      "id": "d35481f7-cda1-4fa2-8344-5a21f7f3724d",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('d35481f7-cda1-4fa2-8344-5a21f7f3724d')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Users with this role can approve Customer Lockbox requests for accessing customer data in Microsoft Entra ID. This role grants the ability to review and approve or deny lockbox requests submitted by Microsoft support engineers who need temporary access to tenant data for troubleshooting purposes.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/lockbox/requests/update"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "d35481f7-cda1-4fa2-8344-5a21f7f3724d",
       "version": "1"
     }
   ]

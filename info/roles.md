@@ -78,6 +78,35 @@
 | AI Reader | microsoft.office365.webPortal/allEntities/standard/read |
 | Agent ID Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Agent ID Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Agent ID Administrator | microsoft.directory/agentIdentities/appRoleAssignedTo/update |
+| Agent ID Administrator | microsoft.directory/agentIdentities/authentication/update |
+| Agent ID Administrator | microsoft.directory/agentIdentities/basic/update |
+| Agent ID Administrator | microsoft.directory/agentIdentities/create |
+| Agent ID Administrator | microsoft.directory/agentIdentities/delete |
+| Agent ID Administrator | microsoft.directory/agentIdentities/disable |
+| Agent ID Administrator | microsoft.directory/agentIdentities/enable |
+| Agent ID Administrator | microsoft.directory/agentIdentities/owners/update |
+| Agent ID Administrator | microsoft.directory/agentIdentities/tag/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/basic/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/create |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/delete |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/disable |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/enable |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/allProperties/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/appRoles/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/audience/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/authentication/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/basic/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/create |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/credentials/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/delete |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/owners/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/permissions/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/tag/update |
 | Agent ID Administrator | microsoft.directory/agentUsers/assignLicense |
 | Agent ID Administrator | microsoft.directory/agentUsers/basic/update |
 | Agent ID Administrator | microsoft.directory/agentUsers/create |
@@ -96,6 +125,12 @@
 | Agent ID Administrator | microsoft.directory/agentUsers/usageLocation/update |
 | Agent ID Administrator | microsoft.directory/agentUsers/userPrincipalName/update |
 | Agent ID Administrator | microsoft.directory/auditLogs/allProperties/read |
+| Agent ID Administrator | microsoft.directory/deletedItems.agentIdentities/delete |
+| Agent ID Administrator | microsoft.directory/deletedItems.agentIdentities/restore |
+| Agent ID Administrator | microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/delete |
+| Agent ID Administrator | microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/restore |
+| Agent ID Administrator | microsoft.directory/deletedItems.agentIdentityBlueprints/delete |
+| Agent ID Administrator | microsoft.directory/deletedItems.agentIdentityBlueprints/restore |
 | Agent ID Administrator | microsoft.directory/externalUserProfiles/standard/read |
 | Agent ID Administrator | microsoft.directory/groups.unified/createAsOwner |
 | Agent ID Administrator | microsoft.directory/groups/hiddenMembers/read |
@@ -104,6 +139,7 @@
 | Agent ID Administrator | microsoft.directory/signInReports/allProperties/read |
 | Agent ID Administrator | microsoft.office365.serviceHealth/allEntities/allTasks |
 | Agent ID Administrator | microsoft.office365.supportTickets/allEntities/allTasks |
+| Agent ID Developer | microsoft.directory/agentIdentityBlueprints/createAsOwner |
 | Agent ID Developer | microsoft.directory/servicePrincipals/standard/read |
 | Agent Registry Administrator | microsoft.agentRegistry/allEntities/allProperties/allTasks |
 | Application Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
@@ -535,6 +571,7 @@
 | Entra Backup Reader | microsoft.directory/backup/preview/cancel |
 | Entra Backup Reader | microsoft.directory/backup/preview/create |
 | Entra Backup Reader | microsoft.directory/backup/standard/read |
+| Entra Customer Lockbox Approver | microsoft.directory/lockbox/requests/update |
 | Exchange Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Exchange Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
 | Exchange Administrator | microsoft.backup/exchangeProtectionPolicies/allProperties/allTasks |
@@ -605,6 +642,35 @@
 | Global Administrator | microsoft.directory/accessReviews/definitions/allProperties/allTasks |
 | Global Administrator | microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks |
 | Global Administrator | microsoft.directory/administrativeUnits/allProperties/allTasks |
+| Global Administrator | microsoft.directory/agentIdentities/appRoleAssignedTo/update |
+| Global Administrator | microsoft.directory/agentIdentities/authentication/update |
+| Global Administrator | microsoft.directory/agentIdentities/basic/update |
+| Global Administrator | microsoft.directory/agentIdentities/create |
+| Global Administrator | microsoft.directory/agentIdentities/delete |
+| Global Administrator | microsoft.directory/agentIdentities/disable |
+| Global Administrator | microsoft.directory/agentIdentities/enable |
+| Global Administrator | microsoft.directory/agentIdentities/owners/update |
+| Global Administrator | microsoft.directory/agentIdentities/tag/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/basic/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/create |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/delete |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/disable |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/enable |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/allProperties/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/appRoles/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/audience/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/authentication/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/basic/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/create |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/credentials/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/delete |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/owners/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/permissions/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/tag/update |
 | Global Administrator | microsoft.directory/appConsent/appConsentRequests/allProperties/read |
 | Global Administrator | microsoft.directory/applicationTemplates/instantiate |
 | Global Administrator | microsoft.directory/applications/allProperties/allTasks |
@@ -690,6 +756,7 @@
 | Global Administrator | microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks |
 | Global Administrator | microsoft.directory/identityProtection/allProperties/allTasks |
 | Global Administrator | microsoft.directory/lifecycleWorkflows/workflows/allProperties/allTasks |
+| Global Administrator | microsoft.directory/lockbox/requests/update |
 | Global Administrator | microsoft.directory/loginOrganizationBranding/allProperties/allTasks |
 | Global Administrator | microsoft.directory/multiTenantOrganization/basic/update |
 | Global Administrator | microsoft.directory/multiTenantOrganization/create |
@@ -1568,6 +1635,10 @@
 | Security Operator | microsoft.directory/privilegedIdentityManagement/allProperties/read |
 | Security Operator | microsoft.directory/provisioningLogs/allProperties/read |
 | Security Operator | microsoft.directory/signInReports/allProperties/read |
+| Security Operator | microsoft.directory/users/disable |
+| Security Operator | microsoft.directory/users/enable |
+| Security Operator | microsoft.directory/users/invalidateAllRefreshTokens |
+| Security Operator | microsoft.directory/users/password/update |
 | Security Operator | microsoft.intune/allEntities/read |
 | Security Operator | microsoft.office365.securityComplianceCenter/allEntities/allTasks |
 | Security Operator | microsoft.office365.supportTickets/allEntities/allTasks |
@@ -1778,11 +1849,20 @@
 | Tenant Governance Administrator | microsoft.directory/crossTenantAccessPolicy/partners/delete |
 | Tenant Governance Administrator | microsoft.directory/crossTenantAccessPolicy/partners/standard/read |
 | Tenant Governance Administrator | microsoft.directory/crossTenantAccessPolicy/standard/read |
+| Tenant Governance Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Tenant Governance Reader | microsoft.office365.webPortal/allEntities/standard/read |
+| Tenant Governance Relationship Administrator | microsoft.office365.webPortal/allEntities/standard/read |
+| Tenant Governance Relationship Reader | microsoft.office365.webPortal/allEntities/standard/read |
 | Usage Summary Reports Reader | microsoft.office365.network/performance/allProperties/read |
 | Usage Summary Reports Reader | microsoft.office365.usageReports/allEntities/standard/read |
 | Usage Summary Reports Reader | microsoft.office365.webPortal/allEntities/standard/read |
 | User | microsoft.directory/administrativeUnits/members/read |
 | User | microsoft.directory/administrativeUnits/standard/read |
+| User | microsoft.directory/agentIdentities/createAsOwner |
+| User | microsoft.directory/agentIdentities/standard/read |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/createAsOwner |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/standard/read |
+| User | microsoft.directory/agentIdentityBlueprints/standard/read |
 | User | microsoft.directory/applicationPolicies/createAsOwner |
 | User | microsoft.directory/applicationPolicies/standard/read |
 | User | microsoft.directory/applications/createAsOwner |
@@ -1846,6 +1926,32 @@
 | User | microsoft.directory/users/sponsorOf/read |
 | User | microsoft.directory/users/sponsors/read |
 | User | microsoft.directory/users/standard/read |
+| User | microsoft.directory/agentIdentities/appRoleAssignedTo/update |
+| User | microsoft.directory/agentIdentities/authentication/update |
+| User | microsoft.directory/agentIdentities/basic/update |
+| User | microsoft.directory/agentIdentities/create |
+| User | microsoft.directory/agentIdentities/delete |
+| User | microsoft.directory/agentIdentities/disable |
+| User | microsoft.directory/agentIdentities/enable |
+| User | microsoft.directory/agentIdentities/owners/update |
+| User | microsoft.directory/agentIdentities/tag/update |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/basic/update |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/create |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/delete |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/disable |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/enable |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update |
+| User | microsoft.directory/agentIdentityBlueprints/appRoles/update |
+| User | microsoft.directory/agentIdentityBlueprints/audience/update |
+| User | microsoft.directory/agentIdentityBlueprints/authentication/update |
+| User | microsoft.directory/agentIdentityBlueprints/basic/update |
+| User | microsoft.directory/agentIdentityBlueprints/credentials/update |
+| User | microsoft.directory/agentIdentityBlueprints/owners/update |
+| User | microsoft.directory/agentIdentityBlueprints/permissions/update |
+| User | microsoft.directory/agentIdentityBlueprints/tag/update |
 | User | microsoft.directory/applications/appRoles/update |
 | User | microsoft.directory/applications/audience/update |
 | User | microsoft.directory/applications/authentication/update |
@@ -1861,6 +1967,12 @@
 | User | microsoft.directory/applications/tag/update |
 | User | microsoft.directory/applications/verification/update |
 | User | microsoft.directory/auditLogs/allProperties/read |
+| User | microsoft.directory/deletedItems.agentIdentities/delete |
+| User | microsoft.directory/deletedItems.agentIdentities/restore |
+| User | microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/delete |
+| User | microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/restore |
+| User | microsoft.directory/deletedItems.agentIdentityBlueprints/delete |
+| User | microsoft.directory/deletedItems.agentIdentityBlueprints/restore |
 | User | microsoft.directory/deletedItems.applications/delete |
 | User | microsoft.directory/deletedItems.applications/restore |
 | User | microsoft.directory/deletedItems.groups/restore |
@@ -2106,6 +2218,41 @@
 | microsoft.directory/administrativeUnits/allProperties/read | Global Reader |
 | microsoft.directory/administrativeUnits/members/read | AI Reader, Directory Readers, User |
 | microsoft.directory/administrativeUnits/standard/read | AI Reader, Directory Readers, User |
+| microsoft.directory/agentIdentities/appRoleAssignedTo/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentities/authentication/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentities/basic/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentities/create | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentities/createAsOwner | User |
+| microsoft.directory/agentIdentities/delete | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentities/disable | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentities/enable | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentities/owners/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentities/standard/read | User |
+| microsoft.directory/agentIdentities/tag/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/basic/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/create | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/createAsOwner | User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/delete | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/disable | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/enable | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/owners/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/standard/read | User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/tag/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprints/allProperties/update | Agent ID Administrator, Global Administrator |
+| microsoft.directory/agentIdentityBlueprints/appRoles/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprints/audience/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprints/authentication/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprints/basic/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprints/create | Agent ID Administrator, Global Administrator |
+| microsoft.directory/agentIdentityBlueprints/createAsOwner | Agent ID Developer |
+| microsoft.directory/agentIdentityBlueprints/credentials/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprints/delete | Agent ID Administrator, Global Administrator |
+| microsoft.directory/agentIdentityBlueprints/owners/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprints/permissions/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprints/standard/read | User |
+| microsoft.directory/agentIdentityBlueprints/tag/update | Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentUsers/assignLicense | AI Administrator, Agent ID Administrator |
 | microsoft.directory/agentUsers/basic/update | AI Administrator, Agent ID Administrator |
 | microsoft.directory/agentUsers/create | AI Administrator, Agent ID Administrator |
@@ -2247,6 +2394,12 @@
 | microsoft.directory/customSecurityAttributeAuditLogs/allProperties/read | Attribute Log Administrator, Attribute Log Reader |
 | microsoft.directory/customSecurityAttributeDefinitions/allProperties/allTasks | Attribute Definition Administrator |
 | microsoft.directory/customSecurityAttributeDefinitions/allProperties/read | Attribute Assignment Administrator, Attribute Assignment Reader, Attribute Definition Reader |
+| microsoft.directory/deletedItems.agentIdentities/delete | Agent ID Administrator, User |
+| microsoft.directory/deletedItems.agentIdentities/restore | Agent ID Administrator, User |
+| microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/delete | Agent ID Administrator, User |
+| microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/restore | Agent ID Administrator, User |
+| microsoft.directory/deletedItems.agentIdentityBlueprints/delete | Agent ID Administrator, User |
+| microsoft.directory/deletedItems.agentIdentityBlueprints/restore | Agent ID Administrator, User |
 | microsoft.directory/deletedItems.applications/delete | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
 | microsoft.directory/deletedItems.applications/restore | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
 | microsoft.directory/deletedItems.devices/delete | Cloud Device Administrator, Intune Administrator, Windows 365 Administrator |
@@ -2378,6 +2531,7 @@
 | microsoft.directory/identityProviders/allProperties/allTasks | External Identity Provider Administrator |
 | microsoft.directory/lifecycleWorkflows/workflows/allProperties/allTasks | Global Administrator, Lifecycle Workflows Administrator |
 | microsoft.directory/lifecycleWorkflows/workflows/allProperties/read | Global Reader |
+| microsoft.directory/lockbox/requests/update | Entra Customer Lockbox Approver, Global Administrator |
 | microsoft.directory/loginOrganizationBranding/allProperties/allTasks | Global Administrator, Organizational Branding Administrator |
 | microsoft.directory/loginOrganizationBranding/allProperties/read | Global Reader |
 | microsoft.directory/multiTenantOrganization/basic/update | Global Administrator, Security Administrator |
@@ -2544,12 +2698,12 @@
 | microsoft.directory/users/delete | Authentication Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
 | microsoft.directory/users/deviceForResourceAccount/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/directReports/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
-| microsoft.directory/users/disable | Authentication Administrator, Directory Writers, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
+| microsoft.directory/users/disable | Authentication Administrator, Directory Writers, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, Security Operator, User Administrator |
 | microsoft.directory/users/eligibleMemberOf/read | Guest User, Restricted Guest User |
-| microsoft.directory/users/enable | Authentication Administrator, Directory Writers, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
+| microsoft.directory/users/enable | Authentication Administrator, Directory Writers, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, Security Operator, User Administrator |
 | microsoft.directory/users/guestBasicProfile/limitedRead | Guest User |
 | microsoft.directory/users/identities/update | User |
-| microsoft.directory/users/invalidateAllRefreshTokens | Authentication Administrator, Directory Writers, Helpdesk Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User, User Administrator |
+| microsoft.directory/users/invalidateAllRefreshTokens | Authentication Administrator, Directory Writers, Helpdesk Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, Security Operator, User, User Administrator |
 | microsoft.directory/users/inviteGuest | Directory Writers, Guest Inviter, Guest User, User, User Administrator |
 | microsoft.directory/users/invitedBy/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User |
 | microsoft.directory/users/licenseDetails/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
@@ -2561,7 +2715,7 @@
 | microsoft.directory/users/oAuth2PermissionGrants/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/ownedDevices/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/ownedObjects/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
-| microsoft.directory/users/password/update | Authentication Administrator, Guest User, Helpdesk Administrator, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, Privileged Authentication Administrator, Restricted Guest User, User Administrator |
+| microsoft.directory/users/password/update | Authentication Administrator, Guest User, Helpdesk Administrator, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, Privileged Authentication Administrator, Restricted Guest User, Security Operator, User Administrator |
 | microsoft.directory/users/pendingMemberOf/read | Guest User, Restricted Guest User |
 | microsoft.directory/users/photo/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/photo/update | Directory Writers, Intune Administrator, Partner Tier1 Support, Partner Tier2 Support, User Administrator |
@@ -2656,7 +2810,7 @@
 | microsoft.office365.usageReports/allEntities/allProperties/read | AI Administrator, AI Reader, Dragon Administrator, Exchange Administrator, Exchange Backup Administrator, Global Administrator, Global Reader, Microsoft 365 Backup Administrator, Reports Reader, SharePoint Administrator, SharePoint Advanced Management Administrator, SharePoint Backup Administrator, SharePoint Embedded Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Telephony Administrator, Viva Glint Tenant Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
 | microsoft.office365.usageReports/allEntities/standard/read | Organizational Messages Writer, Usage Summary Reports Reader, User Experience Success Manager |
 | microsoft.office365.userCommunication/allEntities/allTasks | Global Administrator, Office Apps Administrator |
-| microsoft.office365.webPortal/allEntities/standard/read | AI Administrator, AI Reader, Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud App Security Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Customer Delegated Admin Relationship Administrator, Customer LockBox Access Approver, Domain Name Administrator, Dragon Administrator, Dynamics 365 Administrator, Dynamics 365 Business Central Administrator, Edge Administrator, Exchange Administrator, Exchange Backup Administrator, Fabric Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, License Administrator, Message Center Privacy Reader, Message Center Reader, Microsoft 365 Backup Administrator, Microsoft 365 Migration Administrator, Microsoft Graph Data Connect Administrator, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Network Administrator, Office Apps Administrator, Organizational Data Source Administrator, Organizational Messages Approver, Organizational Messages Writer, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, People Administrator, Power Platform Administrator, Privileged Authentication Administrator, Privileged Role Administrator, Reports Reader, Search Administrator, Search Editor, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, SharePoint Advanced Management Administrator, SharePoint Backup Administrator, SharePoint Embedded Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Devices Administrator, Teams External Collaboration Administrator, Teams Reader, Teams Telephony Administrator, Usage Summary Reports Reader, User Administrator, User Experience Success Manager, Virtual Visits Administrator, Viva Glint Tenant Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
+| microsoft.office365.webPortal/allEntities/standard/read | AI Administrator, AI Reader, Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud App Security Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Customer Delegated Admin Relationship Administrator, Customer LockBox Access Approver, Domain Name Administrator, Dragon Administrator, Dynamics 365 Administrator, Dynamics 365 Business Central Administrator, Edge Administrator, Exchange Administrator, Exchange Backup Administrator, Fabric Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, License Administrator, Message Center Privacy Reader, Message Center Reader, Microsoft 365 Backup Administrator, Microsoft 365 Migration Administrator, Microsoft Graph Data Connect Administrator, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Network Administrator, Office Apps Administrator, Organizational Data Source Administrator, Organizational Messages Approver, Organizational Messages Writer, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, People Administrator, Power Platform Administrator, Privileged Authentication Administrator, Privileged Role Administrator, Reports Reader, Search Administrator, Search Editor, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, SharePoint Advanced Management Administrator, SharePoint Backup Administrator, SharePoint Embedded Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Devices Administrator, Teams External Collaboration Administrator, Teams Reader, Teams Telephony Administrator, Tenant Governance Administrator, Tenant Governance Reader, Tenant Governance Relationship Administrator, Tenant Governance Relationship Reader, Usage Summary Reports Reader, User Administrator, User Experience Success Manager, Virtual Visits Administrator, Viva Glint Tenant Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
 | microsoft.office365.yammer/allEntities/allProperties/allTasks | Global Administrator, Yammer Administrator |
 | microsoft.office365.yammer/allEntities/allProperties/read | Global Reader |
 | microsoft.people/users/photo/read | Global Administrator, People Administrator |

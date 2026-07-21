@@ -209,6 +209,11 @@
             "microsoft.directory/servicePrincipals/synchronization/standard/read",
             "microsoft.directory/signInReports/allProperties/read",
             "microsoft.directory/subscribedSkus/allProperties/allTasks",
+            "microsoft.directory/tenantGovernance/policyTemplates/allProperties/update",
+            "microsoft.directory/tenantGovernance/policyTemplates/create",
+            "microsoft.directory/tenantGovernance/relationships/create",
+            "microsoft.directory/tenantGovernance/requests/allProperties/update",
+            "microsoft.directory/tenantGovernance/requests/create",
             "microsoft.directory/tenantManagement/tenants/create",
             "microsoft.directory/users/allProperties/allTasks",
             "microsoft.directory/users/authenticationMethods/basic/update",
@@ -3904,12 +3909,45 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Assign the AI Administrator role to users who need to do the following tasks:\n* Manage all aspects of Microsoft 365 Copilot\n* Manage AI-related enterprise services, extensibility, and copilot agents from the Integrated apps page in the Microsoft 365 admin center\n* Approve and publish line-of-business copilot agents\n* Allow users to install an app or install an app for users in the organization if the app does not require permission\n* Read and configure Azure and Microsoft 365 service health dashboards\n* View usage reports, adoption insights, and organizational insight\n* Create and manage support tickets in Azure and the Microsoft 365 admin center",
+      "richDescription": "Assign the AI Administrator role to users who need to do the following tasks:\n* Manage all aspects of Microsoft 365 Copilot\n* Manage AI-related enterprise services, extensibility, and copilot agents from the Integrated apps page in the Microsoft 365 admin center\n* Manage admin consent request policies in Microsoft Entra ID\n* Approve and publish line-of-business copilot agents\n* Allow users to install an app or install an app for users in the organization if the app does not require permission\n* Read and configure Azure and Microsoft 365 service health dashboards\n* View usage reports, adoption insights, and organizational insight\n* Create and manage support tickets in Azure and the Microsoft 365 admin center\n* Manage the full lifecycle of agent identities, agent identity blueprints, agent identity blueprint principals, and agent users including restoration of deleted items",
       "rolePermissions": [
         {
           "allowedResourceActions": [
             "microsoft.azure.serviceHealth/allEntities/allTasks",
             "microsoft.azure.supportTickets/allEntities/allTasks",
+            "microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks",
+            "microsoft.directory/agentIdentities/allProperties/read",
+            "microsoft.directory/agentIdentities/appRoleAssignedTo/update",
+            "microsoft.directory/agentIdentities/authentication/update",
+            "microsoft.directory/agentIdentities/basic/update",
+            "microsoft.directory/agentIdentities/create",
+            "microsoft.directory/agentIdentities/delete",
+            "microsoft.directory/agentIdentities/disable",
+            "microsoft.directory/agentIdentities/enable",
+            "microsoft.directory/agentIdentities/owners/update",
+            "microsoft.directory/agentIdentities/tag/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/basic/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/create",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/delete",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/disable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/enable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/owners/update",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/tag/update",
+            "microsoft.directory/agentIdentityBlueprints/allProperties/read",
+            "microsoft.directory/agentIdentityBlueprints/allProperties/update",
+            "microsoft.directory/agentIdentityBlueprints/appRoles/update",
+            "microsoft.directory/agentIdentityBlueprints/audience/update",
+            "microsoft.directory/agentIdentityBlueprints/authentication/update",
+            "microsoft.directory/agentIdentityBlueprints/basic/update",
+            "microsoft.directory/agentIdentityBlueprints/create",
+            "microsoft.directory/agentIdentityBlueprints/credentials/update",
+            "microsoft.directory/agentIdentityBlueprints/delete",
+            "microsoft.directory/agentIdentityBlueprints/owners/update",
+            "microsoft.directory/agentIdentityBlueprints/permissions/update",
+            "microsoft.directory/agentIdentityBlueprints/tag/update",
             "microsoft.directory/agentUsers/assignLicense",
             "microsoft.directory/agentUsers/basic/update",
             "microsoft.directory/agentUsers/create",
@@ -3927,6 +3965,12 @@
             "microsoft.directory/agentUsers/sponsors/update",
             "microsoft.directory/agentUsers/usageLocation/update",
             "microsoft.directory/agentUsers/userPrincipalName/update",
+            "microsoft.directory/deletedItems.agentIdentities/delete",
+            "microsoft.directory/deletedItems.agentIdentities/restore",
+            "microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/delete",
+            "microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/restore",
+            "microsoft.directory/deletedItems.agentIdentityBlueprints/delete",
+            "microsoft.directory/deletedItems.agentIdentityBlueprints/restore",
             "microsoft.directory/entitlementManagement/allProperties/read",
             "microsoft.directory/subscribedSkus/standard/read",
             "microsoft.directory/users/allProperties/read",
@@ -3959,11 +4003,12 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Assign the AI Reader role to users who need to do the following tasks:\n* Read all aspects of Microsoft 365 Copilot\n* Read AI-related enterprise services, extensibility, and copilot agents\n* Read all properties of agent identities, agent identity blueprint principals, and agent identity blueprints\n* Read and configure Azure and Microsoft 365 service health dashboards\n* View usage reports, adoption insights, and organizational insight",
+      "richDescription": "Assign the AI Reader role to users who need to do the following tasks:\n* Read all aspects of Microsoft 365 Copilot\n* Read AI-related enterprise services, extensibility, and copilot agents\n* Read information for directory objects including applications, users, groups, agent identities, agent identity blueprints, agent identity blueprint principals, and agent users\n* Read and configure Azure and Microsoft 365 service health dashboards",
       "rolePermissions": [
         {
           "allowedResourceActions": [
             "microsoft.azure.serviceHealth/allEntities/allTasks",
+            "microsoft.directory/adminConsentRequestPolicy/allProperties/read",
             "microsoft.directory/administrativeUnits/members/read",
             "microsoft.directory/administrativeUnits/standard/read",
             "microsoft.directory/agentIdentities/allProperties/read",
@@ -6123,7 +6168,7 @@
       "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('1981f584-96e9-4a6f-95b0-f522373f8fae')/inheritsPermissionsFrom",
       "isBuiltIn": true,
       "isEnabled": true,
-      "isPrivileged": false,
+      "isPrivileged": true,
       "resourceScopes": [
         "/"
       ],
@@ -6137,6 +6182,11 @@
             "microsoft.directory/crossTenantAccessPolicy/partners/delete",
             "microsoft.directory/crossTenantAccessPolicy/partners/standard/read",
             "microsoft.directory/crossTenantAccessPolicy/standard/read",
+            "microsoft.directory/tenantGovernance/policyTemplates/allProperties/update",
+            "microsoft.directory/tenantGovernance/policyTemplates/create",
+            "microsoft.directory/tenantGovernance/relationships/create",
+            "microsoft.directory/tenantGovernance/requests/allProperties/update",
+            "microsoft.directory/tenantGovernance/requests/create",
             "microsoft.office365.webPortal/allEntities/standard/read"
           ],
           "condition": null
@@ -6197,6 +6247,10 @@
       "rolePermissions": [
         {
           "allowedResourceActions": [
+            "microsoft.directory/tenantGovernance/policyTemplates/allProperties/update",
+            "microsoft.directory/tenantGovernance/policyTemplates/create",
+            "microsoft.directory/tenantGovernance/relationships/create",
+            "microsoft.directory/tenantGovernance/requests/create",
             "microsoft.office365.webPortal/allEntities/standard/read"
           ],
           "condition": null
@@ -6263,6 +6317,39 @@
         }
       ],
       "templateId": "d35481f7-cda1-4fa2-8344-5a21f7f3724d",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "securityAndCompliance",
+      "description": "Perform identity containment actions for SOC incident response, including disabling users, revoking sessions, and resetting passwords.",
+      "displayName": "Entra SOC Identity Responder",
+      "id": "58f930cc-fcf4-4152-852c-1d7dbf502139",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('58f930cc-fcf4-4152-852c-1d7dbf502139')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": true,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Assign the Entra SOC Identity Responder role to users who need to do the following tasks:\n- Disable and enable user accounts during active security incidents\n- Revoke active sign-in sessions for compromised users by invalidating their refresh tokens\n- Reset passwords for compromised user accounts\nThis role is designed for Security Operations Center (SOC) analysts who perform identity\ncontainment actions from the Microsoft Defender portal. You can scope assignments to an\nadministrative unit for geographic or organizational segmentation.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/users/disable",
+            "microsoft.directory/users/enable",
+            "microsoft.directory/users/invalidateAllRefreshTokens",
+            "microsoft.directory/users/password/update"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "58f930cc-fcf4-4152-852c-1d7dbf502139",
       "version": "1"
     }
   ]

@@ -37,6 +37,9 @@
 | AI Reader | microsoft.azure.serviceHealth/allEntities/allTasks |
 | AI Reader | microsoft.directory/administrativeUnits/members/read |
 | AI Reader | microsoft.directory/administrativeUnits/standard/read |
+| AI Reader | microsoft.directory/agentIdentities/allProperties/read |
+| AI Reader | microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read |
+| AI Reader | microsoft.directory/agentIdentityBlueprints/allProperties/read |
 | AI Reader | microsoft.directory/agentUsers/lifeCycleInfo/read |
 | AI Reader | microsoft.directory/applicationPolicies/standard/read |
 | AI Reader | microsoft.directory/applications/owners/read |
@@ -74,10 +77,10 @@
 | AI Reader | microsoft.office365.messageCenter/messages/read |
 | AI Reader | microsoft.office365.network/performance/allProperties/read |
 | AI Reader | microsoft.office365.serviceHealth/allEntities/allTasks |
-| AI Reader | microsoft.office365.usageReports/allEntities/allProperties/read |
 | AI Reader | microsoft.office365.webPortal/allEntities/standard/read |
 | Agent ID Administrator | microsoft.azure.serviceHealth/allEntities/allTasks |
 | Agent ID Administrator | microsoft.azure.supportTickets/allEntities/allTasks |
+| Agent ID Administrator | microsoft.directory/agentIdentities/allProperties/read |
 | Agent ID Administrator | microsoft.directory/agentIdentities/appRoleAssignedTo/update |
 | Agent ID Administrator | microsoft.directory/agentIdentities/authentication/update |
 | Agent ID Administrator | microsoft.directory/agentIdentities/basic/update |
@@ -87,6 +90,7 @@
 | Agent ID Administrator | microsoft.directory/agentIdentities/enable |
 | Agent ID Administrator | microsoft.directory/agentIdentities/owners/update |
 | Agent ID Administrator | microsoft.directory/agentIdentities/tag/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/basic/update |
@@ -96,6 +100,7 @@
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/enable |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/allProperties/read |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/allProperties/update |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/appRoles/update |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/audience/update |
@@ -642,6 +647,7 @@
 | Global Administrator | microsoft.directory/accessReviews/definitions/allProperties/allTasks |
 | Global Administrator | microsoft.directory/adminConsentRequestPolicy/allProperties/allTasks |
 | Global Administrator | microsoft.directory/administrativeUnits/allProperties/allTasks |
+| Global Administrator | microsoft.directory/agentIdentities/allProperties/read |
 | Global Administrator | microsoft.directory/agentIdentities/appRoleAssignedTo/update |
 | Global Administrator | microsoft.directory/agentIdentities/authentication/update |
 | Global Administrator | microsoft.directory/agentIdentities/basic/update |
@@ -651,6 +657,7 @@
 | Global Administrator | microsoft.directory/agentIdentities/enable |
 | Global Administrator | microsoft.directory/agentIdentities/owners/update |
 | Global Administrator | microsoft.directory/agentIdentities/tag/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read |
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update |
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update |
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/basic/update |
@@ -660,6 +667,7 @@
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/enable |
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update |
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update |
+| Global Administrator | microsoft.directory/agentIdentityBlueprints/allProperties/read |
 | Global Administrator | microsoft.directory/agentIdentityBlueprints/allProperties/update |
 | Global Administrator | microsoft.directory/agentIdentityBlueprints/appRoles/update |
 | Global Administrator | microsoft.directory/agentIdentityBlueprints/audience/update |
@@ -892,6 +900,9 @@
 | Global Reader | microsoft.directory/accessReviews/definitions/allProperties/read |
 | Global Reader | microsoft.directory/adminConsentRequestPolicy/allProperties/read |
 | Global Reader | microsoft.directory/administrativeUnits/allProperties/read |
+| Global Reader | microsoft.directory/agentIdentities/allProperties/read |
+| Global Reader | microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read |
+| Global Reader | microsoft.directory/agentIdentityBlueprints/allProperties/read |
 | Global Reader | microsoft.directory/appConsent/appConsentRequests/allProperties/read |
 | Global Reader | microsoft.directory/applications/allProperties/read |
 | Global Reader | microsoft.directory/applications/synchronization/standard/read |
@@ -2218,6 +2229,7 @@
 | microsoft.directory/administrativeUnits/allProperties/read | Global Reader |
 | microsoft.directory/administrativeUnits/members/read | AI Reader, Directory Readers, User |
 | microsoft.directory/administrativeUnits/standard/read | AI Reader, Directory Readers, User |
+| microsoft.directory/agentIdentities/allProperties/read | AI Reader, Agent ID Administrator, Global Administrator, Global Reader |
 | microsoft.directory/agentIdentities/appRoleAssignedTo/update | Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentities/authentication/update | Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentities/basic/update | Agent ID Administrator, Global Administrator, User |
@@ -2229,6 +2241,7 @@
 | microsoft.directory/agentIdentities/owners/update | Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentities/standard/read | User |
 | microsoft.directory/agentIdentities/tag/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read | AI Reader, Agent ID Administrator, Global Administrator, Global Reader |
 | microsoft.directory/agentIdentityBlueprintPrincipals/appRoleAssignedTo/update | Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprintPrincipals/authentication/update | Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprintPrincipals/basic/update | Agent ID Administrator, Global Administrator, User |
@@ -2240,6 +2253,7 @@
 | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update | Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprintPrincipals/standard/read | User |
 | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update | Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprints/allProperties/read | AI Reader, Agent ID Administrator, Global Administrator, Global Reader |
 | microsoft.directory/agentIdentityBlueprints/allProperties/update | Agent ID Administrator, Global Administrator |
 | microsoft.directory/agentIdentityBlueprints/appRoles/update | Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprints/audience/update | Agent ID Administrator, Global Administrator, User |
@@ -2807,7 +2821,7 @@
 | microsoft.office365.sharePointAdvancedManagement/allEntities/allProperties/allTasks | Global Administrator, SharePoint Advanced Management Administrator |
 | microsoft.office365.skypeForBusiness/allEntities/allTasks | Global Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Telephony Administrator |
 | microsoft.office365.supportTickets/allEntities/allTasks | AI Administrator, Agent ID Administrator, Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Domain Name Administrator, Dragon Administrator, Dynamics 365 Administrator, Edge Administrator, Exchange Administrator, Exchange Backup Administrator, Fabric Administrator, Global Administrator, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, Microsoft 365 Backup Administrator, Microsoft 365 Migration Administrator, Microsoft Graph Data Connect Administrator, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Office Apps Administrator, Organizational Data Source Administrator, Partner Tier1 Support, Partner Tier2 Support, Power Platform Administrator, Privileged Authentication Administrator, Search Administrator, Security Administrator, Security Operator, Service Support Administrator, SharePoint Administrator, SharePoint Advanced Management Administrator, SharePoint Backup Administrator, SharePoint Embedded Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Telephony Administrator, User Administrator, Viva Glint Tenant Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
-| microsoft.office365.usageReports/allEntities/allProperties/read | AI Administrator, AI Reader, Dragon Administrator, Exchange Administrator, Exchange Backup Administrator, Global Administrator, Global Reader, Microsoft 365 Backup Administrator, Reports Reader, SharePoint Administrator, SharePoint Advanced Management Administrator, SharePoint Backup Administrator, SharePoint Embedded Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Telephony Administrator, Viva Glint Tenant Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
+| microsoft.office365.usageReports/allEntities/allProperties/read | AI Administrator, Dragon Administrator, Exchange Administrator, Exchange Backup Administrator, Global Administrator, Global Reader, Microsoft 365 Backup Administrator, Reports Reader, SharePoint Administrator, SharePoint Advanced Management Administrator, SharePoint Backup Administrator, SharePoint Embedded Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Telephony Administrator, Viva Glint Tenant Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |
 | microsoft.office365.usageReports/allEntities/standard/read | Organizational Messages Writer, Usage Summary Reports Reader, User Experience Success Manager |
 | microsoft.office365.userCommunication/allEntities/allTasks | Global Administrator, Office Apps Administrator |
 | microsoft.office365.webPortal/allEntities/standard/read | AI Administrator, AI Reader, Application Administrator, Authentication Administrator, Azure Information Protection Administrator, Billing Administrator, Cloud App Security Administrator, Cloud Application Administrator, Compliance Administrator, Compliance Data Administrator, Customer Delegated Admin Relationship Administrator, Customer LockBox Access Approver, Domain Name Administrator, Dragon Administrator, Dynamics 365 Administrator, Dynamics 365 Business Central Administrator, Edge Administrator, Exchange Administrator, Exchange Backup Administrator, Fabric Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Groups Administrator, Helpdesk Administrator, Hybrid Identity Administrator, Insights Administrator, Insights Analyst, Intune Administrator, Kaizala Administrator, Knowledge Administrator, Knowledge Manager, License Administrator, Message Center Privacy Reader, Message Center Reader, Microsoft 365 Backup Administrator, Microsoft 365 Migration Administrator, Microsoft Graph Data Connect Administrator, Microsoft Hardware Warranty Administrator, Microsoft Hardware Warranty Specialist, Network Administrator, Office Apps Administrator, Organizational Data Source Administrator, Organizational Messages Approver, Organizational Messages Writer, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, People Administrator, Power Platform Administrator, Privileged Authentication Administrator, Privileged Role Administrator, Reports Reader, Search Administrator, Search Editor, Security Administrator, Security Reader, Service Support Administrator, SharePoint Administrator, SharePoint Advanced Management Administrator, SharePoint Backup Administrator, SharePoint Embedded Administrator, Skype for Business Administrator, Teams Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Devices Administrator, Teams External Collaboration Administrator, Teams Reader, Teams Telephony Administrator, Tenant Governance Administrator, Tenant Governance Reader, Tenant Governance Relationship Administrator, Tenant Governance Relationship Reader, Usage Summary Reports Reader, User Administrator, User Experience Success Manager, Virtual Visits Administrator, Viva Glint Tenant Administrator, Viva Goals Administrator, Viva Pulse Administrator, Windows 365 Administrator, Yammer Administrator |

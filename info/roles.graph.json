@@ -4051,6 +4051,7 @@
             "microsoft.office365.messageCenter/messages/read",
             "microsoft.office365.network/performance/allProperties/read",
             "microsoft.office365.serviceHealth/allEntities/allTasks",
+            "microsoft.office365.usageReports/allEntities/allProperties/read",
             "microsoft.office365.webPortal/allEntities/standard/read"
           ],
           "condition": null
@@ -6138,7 +6139,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Assign the Entra Backup Administrator role to users who need to do the following tasks:\n- List all the snapshots in a tenant  \n- Create a difference report (preview job) of a backup in the past and optionally include scoping filters\n- Compare states of changed directory objects that are in backup and recovery scope \n- Filter directory objects with supported scoping filters \n- Read status of a job \n- List all the jobs including preview and recovery jobs \n- Trigger recovery jobs and optionally include scoping filters",
+      "richDescription": "Assign the Entra Backup Administrator role to users who need to do the following tasks:\n- List all the snapshots in a tenant  \n- Create a difference report (preview job) of a backup in the past and optionally include scoping filters\n- Compare states of changed directory objects that are in backup and recovery scope \n- Filter directory objects with supported scoping filters \n- Read status of a job \n- List all the jobs including preview and recovery jobs \n- Trigger recovery jobs and optionally include scoping filters\n- Enable or disable hard deletion protection on users, groups, applications, and service principals",
       "rolePermissions": [
         {
           "allowedResourceActions": [
@@ -6182,6 +6183,7 @@
             "microsoft.directory/crossTenantAccessPolicy/partners/delete",
             "microsoft.directory/crossTenantAccessPolicy/partners/standard/read",
             "microsoft.directory/crossTenantAccessPolicy/standard/read",
+            "microsoft.directory/signInReports/allProperties/read",
             "microsoft.directory/tenantGovernance/policyTemplates/allProperties/update",
             "microsoft.directory/tenantGovernance/policyTemplates/create",
             "microsoft.directory/tenantGovernance/relationships/create",
@@ -6217,6 +6219,7 @@
       "rolePermissions": [
         {
           "allowedResourceActions": [
+            "microsoft.directory/signInReports/allProperties/read",
             "microsoft.office365.webPortal/allEntities/standard/read"
           ],
           "condition": null
@@ -6247,6 +6250,7 @@
       "rolePermissions": [
         {
           "allowedResourceActions": [
+            "microsoft.directory/signInReports/allProperties/read",
             "microsoft.directory/tenantGovernance/policyTemplates/allProperties/update",
             "microsoft.directory/tenantGovernance/policyTemplates/create",
             "microsoft.directory/tenantGovernance/relationships/create",

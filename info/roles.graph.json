@@ -2949,7 +2949,7 @@
     {
       "assignmentMode": "allowed",
       "categories": "securityAndCompliance",
-      "description": "Creates and manages security events.",
+      "description": "Create and manage security events and perform identity containment actions during security incidents.",
       "displayName": "Security Operator",
       "id": "5f2222b1-57c3-48ba-8ad5-d4759f1fde6f",
       "inheritsPermissionsFrom": [
@@ -2964,7 +2964,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Users with this role can manage alerts and have global read-only access on security-related feature, including all information in Microsoft 365 security center, Microsoft Entra ID Protection, Privileged Identity Management.",
+      "richDescription": "Users with this role can manage alerts, perform identity containment actions during security incidents, and have global read-only access on security-related feature, including all information in Microsoft Defender portal, Microsoft Entra ID Protection, Privileged Identity Management, and Microsoft Purview portal.",
       "rolePermissions": [
         {
           "allowedResourceActions": [
@@ -3997,6 +3997,7 @@
             "microsoft.directory/deletedItems.agentIdentityBlueprints/delete",
             "microsoft.directory/deletedItems.agentIdentityBlueprints/restore",
             "microsoft.directory/entitlementManagement/allProperties/read",
+            "microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks",
             "microsoft.directory/subscribedSkus/standard/read",
             "microsoft.directory/users/allProperties/read",
             "microsoft.office365.copilot/allEntities/allProperties/allTasks",
@@ -6184,7 +6185,7 @@
     {
       "assignmentMode": "allowed",
       "categories": "identity",
-      "description": "Manage all capabilities in the Microsoft Entra Tenant Governance service.",
+      "description": "Manage Tenant Governance, service principals, application role assignments, and permission grants through the approved Tenant Governance application.",
       "displayName": "Tenant Governance Administrator",
       "id": "1981f584-96e9-4a6f-95b0-f522373f8fae",
       "inheritsPermissionsFrom": [
@@ -6199,7 +6200,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Can manage all aspects of tenant governance.",
+      "richDescription": "Can manage all aspects of tenant governance, including provisioning first-party and third-party service principals, managing\napplication role assignments, and granting delegated permissions through the approved Tenant Governance application.",
       "rolePermissions": [
         {
           "allowedResourceActions": [

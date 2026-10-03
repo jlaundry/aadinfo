@@ -264,6 +264,21 @@
 | Application Developer | microsoft.directory/applications/createAsOwner |
 | Application Developer | microsoft.directory/oAuth2PermissionGrants/createAsOwner |
 | Application Developer | microsoft.directory/servicePrincipals/createAsOwner |
+| Application Developer | microsoft.directory/applications/appRoles/update |
+| Application Developer | microsoft.directory/applications/audience/update |
+| Application Developer | microsoft.directory/applications/authentication/update |
+| Application Developer | microsoft.directory/applications/basic/update |
+| Application Developer | microsoft.directory/applications/credentials/update |
+| Application Developer | microsoft.directory/applications/delete |
+| Application Developer | microsoft.directory/applications/disablement/update |
+| Application Developer | microsoft.directory/applications/extensionProperties/update |
+| Application Developer | microsoft.directory/applications/notes/update |
+| Application Developer | microsoft.directory/applications/owners/update |
+| Application Developer | microsoft.directory/applications/permissions/update |
+| Application Developer | microsoft.directory/applications/policies/update |
+| Application Developer | microsoft.directory/applications/tag/update |
+| Application Developer | microsoft.directory/applications/verification/update |
+| Application Developer | microsoft.directory/deletedItems.applications/delete |
 | Attack Payload Author | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/allTasks |
 | Attack Payload Author | microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read |
 | Attack Simulation Administrator | microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/allTasks |
@@ -1680,6 +1695,10 @@
 | Security Administrator | microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update |
 | Security Administrator | microsoft.directory/servicePrincipals/policies/update |
 | Security Administrator | microsoft.directory/signInReports/allProperties/read |
+| Security Administrator | microsoft.directory/users/disable |
+| Security Administrator | microsoft.directory/users/enable |
+| Security Administrator | microsoft.directory/users/invalidateAllRefreshTokens |
+| Security Administrator | microsoft.directory/users/password/update |
 | Security Administrator | microsoft.networkAccess/allEntities/allProperties/allTasks |
 | Security Administrator | microsoft.office365.protectionCenter/allEntities/basic/update |
 | Security Administrator | microsoft.office365.protectionCenter/allEntities/standard/read |
@@ -2118,7 +2137,6 @@
 | User Administrator | microsoft.directory/contacts/delete |
 | User Administrator | microsoft.directory/deletedItems.groups/restore |
 | User Administrator | microsoft.directory/deletedItems.users/restore |
-| User Administrator | microsoft.directory/entitlementManagement/allProperties/allTasks |
 | User Administrator | microsoft.directory/groups.unified/assignedLabels/update |
 | User Administrator | microsoft.directory/groups/assignLicense |
 | User Administrator | microsoft.directory/groups/basic/update |
@@ -2361,34 +2379,34 @@
 | microsoft.directory/applicationTemplates/instantiate | Application Administrator, Cloud Application Administrator, Global Administrator, Hybrid Identity Administrator |
 | microsoft.directory/applications/allProperties/allTasks | Global Administrator |
 | microsoft.directory/applications/allProperties/read | Global Reader |
-| microsoft.directory/applications/appRoles/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/appRoles/update | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/applicationProxy/read | Application Administrator, Global Secure Access Administrator |
 | microsoft.directory/applications/applicationProxy/update | Application Administrator |
 | microsoft.directory/applications/applicationProxyAuthentication/update | Application Administrator |
 | microsoft.directory/applications/applicationProxySslCertificate/update | Application Administrator |
 | microsoft.directory/applications/applicationProxyUrlSettings/update | Application Administrator |
-| microsoft.directory/applications/audience/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/authentication/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/basic/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/audience/update | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/authentication/update | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/basic/update | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/create | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator |
 | microsoft.directory/applications/createAsOwner | Application Developer, User |
-| microsoft.directory/applications/credentials/update | Application Administrator, Cloud Application Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/delete | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
-| microsoft.directory/applications/disablement/update | Application Administrator, Cloud Application Administrator, Global Administrator, Hybrid Identity Administrator, User |
-| microsoft.directory/applications/extensionProperties/update | Application Administrator, Cloud Application Administrator, Directory Writers, User |
-| microsoft.directory/applications/notes/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/credentials/update | Application Administrator, Application Developer, Cloud Application Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/delete | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/applications/disablement/update | Application Administrator, Application Developer, Cloud Application Administrator, Global Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/applications/extensionProperties/update | Application Administrator, Application Developer, Cloud Application Administrator, Directory Writers, User |
+| microsoft.directory/applications/notes/update | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/owners/limitedRead | Guest User, Restricted Guest User |
 | microsoft.directory/applications/owners/read | AI Reader, Directory Readers, Global Secure Access Administrator, User |
-| microsoft.directory/applications/owners/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/permissions/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/owners/update | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/permissions/update | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
 | microsoft.directory/applications/policies/limitedRead | Guest User, Restricted Guest User |
 | microsoft.directory/applications/policies/read | AI Reader, Directory Readers, Global Secure Access Administrator, User |
-| microsoft.directory/applications/policies/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, Security Administrator, User |
+| microsoft.directory/applications/policies/update | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, Security Administrator, User |
 | microsoft.directory/applications/standard/limitedRead | Guest User, Restricted Guest User |
 | microsoft.directory/applications/standard/read | AI Reader, Directory Readers, Global Secure Access Administrator, User |
 | microsoft.directory/applications/synchronization/standard/read | Application Administrator, Cloud Application Administrator, Global Administrator, Global Reader, Hybrid Identity Administrator |
-| microsoft.directory/applications/tag/update | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
-| microsoft.directory/applications/verification/update | Application Administrator, Cloud Application Administrator, User |
+| microsoft.directory/applications/tag/update | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, Partner Tier1 Support, Partner Tier2 Support, User |
+| microsoft.directory/applications/verification/update | Application Administrator, Application Developer, Cloud Application Administrator, User |
 | microsoft.directory/attributeSets/allProperties/allTasks | Attribute Definition Administrator |
 | microsoft.directory/attributeSets/allProperties/read | Attribute Assignment Administrator, Attribute Assignment Reader, Attribute Definition Reader |
 | microsoft.directory/auditLogs/allProperties/read | Agent ID Administrator, Application Administrator, Cloud Application Administrator, Cloud Device Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Hybrid Identity Administrator, Reports Reader, Security Administrator, Security Operator, Security Reader, User |
@@ -2479,7 +2497,7 @@
 | microsoft.directory/deletedItems.agentIdentityBlueprintPrincipals/restore | AI Administrator, Agent ID Administrator, User |
 | microsoft.directory/deletedItems.agentIdentityBlueprints/delete | AI Administrator, Agent ID Administrator, User |
 | microsoft.directory/deletedItems.agentIdentityBlueprints/restore | AI Administrator, Agent ID Administrator, User |
-| microsoft.directory/deletedItems.applications/delete | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
+| microsoft.directory/deletedItems.applications/delete | Application Administrator, Application Developer, Cloud Application Administrator, Hybrid Identity Administrator, User |
 | microsoft.directory/deletedItems.applications/restore | Application Administrator, Cloud Application Administrator, Hybrid Identity Administrator, User |
 | microsoft.directory/deletedItems.devices/delete | Cloud Device Administrator, Intune Administrator, Windows 365 Administrator |
 | microsoft.directory/deletedItems.devices/restore | Cloud Device Administrator, Intune Administrator, Windows 365 Administrator |
@@ -2534,7 +2552,7 @@
 | microsoft.directory/domains/federationConfiguration/delete | Global Administrator, Hybrid Identity Administrator, Security Administrator |
 | microsoft.directory/domains/federationConfiguration/standard/read | Global Administrator, Global Reader, Hybrid Identity Administrator, Security Administrator, Security Reader |
 | microsoft.directory/domains/standard/read | AI Reader, Directory Readers, Dynamics 365 Business Central Administrator, Guest User, Restricted Guest User, User |
-| microsoft.directory/entitlementManagement/allProperties/allTasks | Global Administrator, Identity Governance Administrator, User Administrator |
+| microsoft.directory/entitlementManagement/allProperties/allTasks | Global Administrator, Identity Governance Administrator |
 | microsoft.directory/entitlementManagement/allProperties/read | AI Administrator, AI Reader, Compliance Administrator, Global Reader, Security Administrator, Security Reader |
 | microsoft.directory/externalUserProfiles/basic/update | Extended Directory User Administrator, Global Administrator, Teams Administrator |
 | microsoft.directory/externalUserProfiles/delete | Extended Directory User Administrator, Global Administrator, Teams Administrator |
@@ -2783,12 +2801,12 @@
 | microsoft.directory/users/delete | Authentication Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, User Administrator |
 | microsoft.directory/users/deviceForResourceAccount/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/directReports/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
-| microsoft.directory/users/disable | Authentication Administrator, Directory Writers, Entra SOC Identity Responder, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, Security Operator, User Administrator |
+| microsoft.directory/users/disable | Authentication Administrator, Directory Writers, Entra SOC Identity Responder, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, Security Administrator, Security Operator, User Administrator |
 | microsoft.directory/users/eligibleMemberOf/read | Guest User, Restricted Guest User |
-| microsoft.directory/users/enable | Authentication Administrator, Directory Writers, Entra SOC Identity Responder, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, Security Operator, User Administrator |
+| microsoft.directory/users/enable | Authentication Administrator, Directory Writers, Entra SOC Identity Responder, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, Security Administrator, Security Operator, User Administrator |
 | microsoft.directory/users/guestBasicProfile/limitedRead | Guest User |
 | microsoft.directory/users/identities/update | User |
-| microsoft.directory/users/invalidateAllRefreshTokens | Authentication Administrator, Directory Writers, Entra SOC Identity Responder, Helpdesk Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, Security Operator, User, User Administrator |
+| microsoft.directory/users/invalidateAllRefreshTokens | Authentication Administrator, Directory Writers, Entra SOC Identity Responder, Helpdesk Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Authentication Administrator, Security Administrator, Security Operator, User, User Administrator |
 | microsoft.directory/users/inviteGuest | Directory Writers, Guest Inviter, Guest User, User, User Administrator |
 | microsoft.directory/users/invitedBy/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User |
 | microsoft.directory/users/licenseDetails/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
@@ -2800,7 +2818,7 @@
 | microsoft.directory/users/oAuth2PermissionGrants/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/ownedDevices/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/ownedObjects/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
-| microsoft.directory/users/password/update | Authentication Administrator, Entra SOC Identity Responder, Guest User, Helpdesk Administrator, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, Privileged Authentication Administrator, Restricted Guest User, Security Operator, User Administrator |
+| microsoft.directory/users/password/update | Authentication Administrator, Entra SOC Identity Responder, Guest User, Helpdesk Administrator, Partner Tier1 Support, Partner Tier2 Support, Password Administrator, Privileged Authentication Administrator, Restricted Guest User, Security Administrator, Security Operator, User Administrator |
 | microsoft.directory/users/pendingMemberOf/read | Guest User, Restricted Guest User |
 | microsoft.directory/users/photo/read | Directory Readers, Guest Inviter, Guest User, Restricted Guest User, User |
 | microsoft.directory/users/photo/update | Directory Writers, Intune Administrator, Partner Tier1 Support, Partner Tier2 Support, User Administrator |

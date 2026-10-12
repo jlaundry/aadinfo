@@ -63,6 +63,7 @@
 | AI Administrator | microsoft.directory/deletedItems.agentIdentityBlueprints/delete |
 | AI Administrator | microsoft.directory/deletedItems.agentIdentityBlueprints/restore |
 | AI Administrator | microsoft.directory/entitlementManagement/allProperties/read |
+| AI Administrator | microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks |
 | AI Administrator | microsoft.directory/subscribedSkus/standard/read |
 | AI Administrator | microsoft.directory/users/allProperties/read |
 | AI Administrator | microsoft.office365.copilot/allEntities/allProperties/allTasks |
@@ -2645,7 +2646,7 @@
 | microsoft.directory/namedLocations/create | Conditional Access Administrator, Global Administrator, Security Administrator |
 | microsoft.directory/namedLocations/delete | Conditional Access Administrator, Global Administrator, Security Administrator |
 | microsoft.directory/namedLocations/standard/read | Conditional Access Administrator, Global Administrator, Global Reader, Global Secure Access Administrator, Security Administrator, Security Reader |
-| microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks | Application Administrator, Cloud Application Administrator, Global Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Role Administrator, User Administrator |
+| microsoft.directory/oAuth2PermissionGrants/allProperties/allTasks | AI Administrator, Application Administrator, Cloud Application Administrator, Global Administrator, Partner Tier1 Support, Partner Tier2 Support, Privileged Role Administrator, User Administrator |
 | microsoft.directory/oAuth2PermissionGrants/allProperties/read | Global Reader |
 | microsoft.directory/oAuth2PermissionGrants/basic/update | Directory Writers |
 | microsoft.directory/oAuth2PermissionGrants/create | Directory Writers |

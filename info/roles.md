@@ -477,6 +477,9 @@
 | Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read |
 | Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/standard/read |
 | Conditional Access Administrator | microsoft.directory/conditionalAccessPolicies/tenantDefault/update |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicyPlans/basic/update |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicyPlans/create |
+| Conditional Access Administrator | microsoft.directory/conditionalAccessPolicyPlans/delete |
 | Conditional Access Administrator | microsoft.directory/namedLocations/basic/update |
 | Conditional Access Administrator | microsoft.directory/namedLocations/create |
 | Conditional Access Administrator | microsoft.directory/namedLocations/delete |
@@ -759,6 +762,9 @@
 | Global Administrator | microsoft.directory/bulkJobs/standard/read |
 | Global Administrator | microsoft.directory/cloudAppSecurity/allProperties/allTasks |
 | Global Administrator | microsoft.directory/conditionalAccessPolicies/allProperties/allTasks |
+| Global Administrator | microsoft.directory/conditionalAccessPolicyPlans/basic/update |
+| Global Administrator | microsoft.directory/conditionalAccessPolicyPlans/create |
+| Global Administrator | microsoft.directory/conditionalAccessPolicyPlans/delete |
 | Global Administrator | microsoft.directory/connectorGroups/allProperties/read |
 | Global Administrator | microsoft.directory/connectorGroups/allProperties/update |
 | Global Administrator | microsoft.directory/connectorGroups/create |
@@ -1639,6 +1645,9 @@
 | Security Administrator | microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read |
 | Security Administrator | microsoft.directory/conditionalAccessPolicies/standard/read |
 | Security Administrator | microsoft.directory/conditionalAccessPolicies/tenantDefault/update |
+| Security Administrator | microsoft.directory/conditionalAccessPolicyPlans/basic/update |
+| Security Administrator | microsoft.directory/conditionalAccessPolicyPlans/create |
+| Security Administrator | microsoft.directory/conditionalAccessPolicyPlans/delete |
 | Security Administrator | microsoft.directory/crossTenantAccessPolicy/allowedCloudEndpoints/update |
 | Security Administrator | microsoft.directory/crossTenantAccessPolicy/basic/update |
 | Security Administrator | microsoft.directory/crossTenantAccessPolicy/default/b2bCollaboration/update |
@@ -2448,6 +2457,9 @@
 | microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read | Conditional Access Administrator, Security Administrator, Security Reader |
 | microsoft.directory/conditionalAccessPolicies/standard/read | Conditional Access Administrator, Global Secure Access Administrator, Security Administrator, Security Reader |
 | microsoft.directory/conditionalAccessPolicies/tenantDefault/update | Conditional Access Administrator, Security Administrator |
+| microsoft.directory/conditionalAccessPolicyPlans/basic/update | Conditional Access Administrator, Global Administrator, Security Administrator |
+| microsoft.directory/conditionalAccessPolicyPlans/create | Conditional Access Administrator, Global Administrator, Security Administrator |
+| microsoft.directory/conditionalAccessPolicyPlans/delete | Conditional Access Administrator, Global Administrator, Security Administrator |
 | microsoft.directory/connectorGroups/allProperties/read | Application Administrator, Global Administrator, Global Reader, Global Secure Access Administrator |
 | microsoft.directory/connectorGroups/allProperties/update | Application Administrator, Global Administrator |
 | microsoft.directory/connectorGroups/create | Application Administrator, Global Administrator |

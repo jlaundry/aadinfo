@@ -56,6 +56,7 @@
             "microsoft.directory/agentIdentityBlueprintPrincipals/delete",
             "microsoft.directory/agentIdentityBlueprintPrincipals/disable",
             "microsoft.directory/agentIdentityBlueprintPrincipals/enable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/idJagConfiguration/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/owners/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/tag/update",
             "microsoft.directory/agentIdentityBlueprints/allProperties/read",
@@ -713,6 +714,7 @@
             "microsoft.directory/agentIdentities/standard/read",
             "microsoft.directory/agentIdentityBlueprintPrincipals/createAsOwner",
             "microsoft.directory/agentIdentityBlueprintPrincipals/standard/read",
+            "microsoft.directory/agentIdentityBlueprints/createAsOwner",
             "microsoft.directory/agentIdentityBlueprints/standard/read",
             "microsoft.directory/applicationPolicies/createAsOwner",
             "microsoft.directory/applicationPolicies/standard/read",
@@ -798,6 +800,7 @@
             "microsoft.directory/agentIdentityBlueprintPrincipals/delete",
             "microsoft.directory/agentIdentityBlueprintPrincipals/disable",
             "microsoft.directory/agentIdentityBlueprintPrincipals/enable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/idJagConfiguration/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/owners/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/tag/update",
             "microsoft.directory/agentIdentityBlueprints/appRoles/update",
@@ -4036,6 +4039,7 @@
             "microsoft.directory/agentIdentities/delete",
             "microsoft.directory/agentIdentities/disable",
             "microsoft.directory/agentIdentities/enable",
+            "microsoft.directory/agentIdentities/idJagConfiguration/update",
             "microsoft.directory/agentIdentities/owners/update",
             "microsoft.directory/agentIdentities/tag/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read",
@@ -4046,6 +4050,7 @@
             "microsoft.directory/agentIdentityBlueprintPrincipals/delete",
             "microsoft.directory/agentIdentityBlueprintPrincipals/disable",
             "microsoft.directory/agentIdentityBlueprintPrincipals/enable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/idJagConfiguration/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/owners/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/tag/update",
             "microsoft.directory/agentIdentityBlueprints/allProperties/read",
@@ -6070,7 +6075,7 @@
       "resourceScopes": [
         "/"
       ],
-      "richDescription": "Assign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage the full lifecycle of agent identities, agent identity blueprint principals, agent identity blueprints, and agent users in a tenant\n- Permanently delete and restore deleted agent identities, agent identity blueprint principals, agent identity blueprints, and agent users\n- Manage licenses, invalidate refresh tokens, and revoke sign-in sessions for agent users\n- Read all properties of audit logs and sign-in reports\n- Read standard properties of organization, policies, external user profiles, hidden group members, and bulk jobs for users\n- Create Microsoft 365 groups as owner\n- Read and configure Azure and Microsoft 365 service health and support tickets\n- Create and manage Azure and Microsoft 365 service health and support tickets",
+      "richDescription": "Assign the Agent ID Administrator role to users who need to do the following tasks:\n- Manage the full lifecycle of agent identities, agent identity blueprint principals, agent identity blueprints, and agent users in a tenant\n- Convert eligible applications to agent identity blueprints\n- Roll back eligible, previously converted agent identity blueprints to applications\n- Permanently delete and restore deleted agent identities, agent identity blueprint principals, agent identity blueprints, and agent users\n- Manage licenses, invalidate refresh tokens, and revoke sign-in sessions for agent users\n- Read all properties of audit logs and sign-in reports\n- Read standard properties of organization, policies, external user profiles, hidden group members, and bulk jobs for users\n- Create Microsoft 365 groups as owner\n- Read and configure Azure and Microsoft 365 service health and support tickets\n- Create and manage Azure and Microsoft 365 service health and support tickets",
       "rolePermissions": [
         {
           "allowedResourceActions": [
@@ -6084,6 +6089,7 @@
             "microsoft.directory/agentIdentities/delete",
             "microsoft.directory/agentIdentities/disable",
             "microsoft.directory/agentIdentities/enable",
+            "microsoft.directory/agentIdentities/idJagConfiguration/update",
             "microsoft.directory/agentIdentities/owners/update",
             "microsoft.directory/agentIdentities/tag/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read",
@@ -6094,6 +6100,7 @@
             "microsoft.directory/agentIdentityBlueprintPrincipals/delete",
             "microsoft.directory/agentIdentityBlueprintPrincipals/disable",
             "microsoft.directory/agentIdentityBlueprintPrincipals/enable",
+            "microsoft.directory/agentIdentityBlueprintPrincipals/idJagConfiguration/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/owners/update",
             "microsoft.directory/agentIdentityBlueprintPrincipals/tag/update",
             "microsoft.directory/agentIdentityBlueprints/allProperties/read",
@@ -6232,6 +6239,114 @@
         }
       ],
       "templateId": "3f04f91a-4ad7-4bd3-bcfa-49882ea1a88a",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "securityAndCompliance",
+      "deletedDateTime": null,
+      "description": "Users in this role have full permissions to create, read, update, delete, and evaluate resource policies, their assignments, and the tenant-wide resource policy configuration in Microsoft Graph. This role is intended for senior and compliance administrators who are responsible for the entire lifecycle of resource access policies. Assigning this role grants comprehensive control over how resource policies are defined and enforced across the organization.",
+      "displayName": "Resource Policy Administrator",
+      "id": "c0c46a03-c257-4f91-ab71-3c7e59c89d97",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('c0c46a03-c257-4f91-ab71-3c7e59c89d97')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Users in this role have full permissions to create, read, update, delete, and evaluate resource policies and their assignments in Microsoft Graph. This role is intended for senior and compliance administrators who are responsible for the entire lifecycle of resource policies. Assigning this role grants comprehensive control over how resource policies are defined and enforced across the organization.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/resourcePolicy/assignments/basic/update",
+            "microsoft.directory/resourcePolicy/assignments/create",
+            "microsoft.directory/resourcePolicy/assignments/delete",
+            "microsoft.directory/resourcePolicy/assignments/standard/read",
+            "microsoft.directory/resourcePolicy/configuration/basic/update",
+            "microsoft.directory/resourcePolicy/configuration/standard/read",
+            "microsoft.directory/resourcePolicy/definitions/basic/update",
+            "microsoft.directory/resourcePolicy/definitions/create",
+            "microsoft.directory/resourcePolicy/definitions/delete",
+            "microsoft.directory/resourcePolicy/definitions/standard/read",
+            "microsoft.directory/resourcePolicy/evaluateAssignedPolicies",
+            "microsoft.directory/resourcePolicy/evaluatePolicy"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "c0c46a03-c257-4f91-ab71-3c7e59c89d97",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "readOnly,securityAndCompliance",
+      "deletedDateTime": null,
+      "description": "Users in this role have read-only access to resource policy definitions, assignments, and the tenant-wide resource policy configuration in Microsoft Graph. They can also evaluate policies to understand their impact, making this role ideal for audit, compliance, and support personnel who need to validate and troubleshoot policies without the ability to modify them.",
+      "displayName": "Resource Policy Reader",
+      "id": "311877b7-9a2e-4337-81c2-068a250eaa22",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('311877b7-9a2e-4337-81c2-068a250eaa22')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Users in this role have read-only access to resource policy definitions and assignments in Microsoft Graph. They can also evaluate policies to understand their impact, making this role ideal for audit, compliance, and support personnel who need to validate and troubleshoot policies without the ability to modify them.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/resourcePolicy/assignments/standard/read",
+            "microsoft.directory/resourcePolicy/configuration/standard/read",
+            "microsoft.directory/resourcePolicy/definitions/standard/read",
+            "microsoft.directory/resourcePolicy/evaluateAssignedPolicies",
+            "microsoft.directory/resourcePolicy/evaluatePolicy"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "311877b7-9a2e-4337-81c2-068a250eaa22",
+      "version": "1"
+    },
+    {
+      "assignmentMode": "allowed",
+      "categories": "readOnly,securityAndCompliance",
+      "deletedDateTime": null,
+      "description": "Users in this role can evaluate resource policies to understand their impact and outcome. This role does not grant any read or write access to the policy definitions or assignments themselves, making it ideal for developers, testers, and automated tools that need to perform policy validation as part of a development or CI/CD pipeline.",
+      "displayName": "Resource Policy Evaluator",
+      "id": "1dae4b79-8aea-40ab-9ad0-30d3ab1fa9c1",
+      "inheritsPermissionsFrom": [
+        {
+          "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+        }
+      ],
+      "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('1dae4b79-8aea-40ab-9ad0-30d3ab1fa9c1')/inheritsPermissionsFrom",
+      "isBuiltIn": true,
+      "isEnabled": true,
+      "isPrivileged": false,
+      "resourceScopes": [
+        "/"
+      ],
+      "richDescription": "Users in this role can evaluate resource policies to understand their impact and outcome. This role does not grant any read or write access to the policy definitions or assignments themselves, making it ideal for developers, testers, and automated tools that need to perform policy validation as part of a development or CI/CD pipeline.",
+      "rolePermissions": [
+        {
+          "allowedResourceActions": [
+            "microsoft.directory/resourcePolicy/evaluatePolicy"
+          ],
+          "condition": null
+        }
+      ],
+      "templateId": "1dae4b79-8aea-40ab-9ad0-30d3ab1fa9c1",
       "version": "1"
     },
     {

@@ -15,6 +15,7 @@
 | AI Administrator | microsoft.directory/agentIdentities/delete |
 | AI Administrator | microsoft.directory/agentIdentities/disable |
 | AI Administrator | microsoft.directory/agentIdentities/enable |
+| AI Administrator | microsoft.directory/agentIdentities/idJagConfiguration/update |
 | AI Administrator | microsoft.directory/agentIdentities/owners/update |
 | AI Administrator | microsoft.directory/agentIdentities/tag/update |
 | AI Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read |
@@ -25,6 +26,7 @@
 | AI Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/delete |
 | AI Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/disable |
 | AI Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/enable |
+| AI Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/idJagConfiguration/update |
 | AI Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update |
 | AI Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update |
 | AI Administrator | microsoft.directory/agentIdentityBlueprints/allProperties/read |
@@ -130,6 +132,7 @@
 | Agent ID Administrator | microsoft.directory/agentIdentities/delete |
 | Agent ID Administrator | microsoft.directory/agentIdentities/disable |
 | Agent ID Administrator | microsoft.directory/agentIdentities/enable |
+| Agent ID Administrator | microsoft.directory/agentIdentities/idJagConfiguration/update |
 | Agent ID Administrator | microsoft.directory/agentIdentities/owners/update |
 | Agent ID Administrator | microsoft.directory/agentIdentities/tag/update |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/allProperties/read |
@@ -140,6 +143,7 @@
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/delete |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/disable |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/enable |
+| Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/idJagConfiguration/update |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update |
 | Agent ID Administrator | microsoft.directory/agentIdentityBlueprints/allProperties/read |
@@ -730,6 +734,7 @@
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/delete |
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/disable |
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/enable |
+| Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/idJagConfiguration/update |
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update |
 | Global Administrator | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update |
 | Global Administrator | microsoft.directory/agentIdentityBlueprints/allProperties/read |
@@ -1581,6 +1586,24 @@
 | Reports Reader | microsoft.office365.network/performance/allProperties/read |
 | Reports Reader | microsoft.office365.usageReports/allEntities/allProperties/read |
 | Reports Reader | microsoft.office365.webPortal/allEntities/standard/read |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/assignments/basic/update |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/assignments/create |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/assignments/delete |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/assignments/standard/read |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/configuration/basic/update |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/configuration/standard/read |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/definitions/basic/update |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/definitions/create |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/definitions/delete |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/definitions/standard/read |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/evaluateAssignedPolicies |
+| Resource Policy Administrator | microsoft.directory/resourcePolicy/evaluatePolicy |
+| Resource Policy Evaluator | microsoft.directory/resourcePolicy/evaluatePolicy |
+| Resource Policy Reader | microsoft.directory/resourcePolicy/assignments/standard/read |
+| Resource Policy Reader | microsoft.directory/resourcePolicy/configuration/standard/read |
+| Resource Policy Reader | microsoft.directory/resourcePolicy/definitions/standard/read |
+| Resource Policy Reader | microsoft.directory/resourcePolicy/evaluateAssignedPolicies |
+| Resource Policy Reader | microsoft.directory/resourcePolicy/evaluatePolicy |
 | Restricted Guest User | microsoft.directory/applications/owners/limitedRead |
 | Restricted Guest User | microsoft.directory/applications/policies/limitedRead |
 | Restricted Guest User | microsoft.directory/applications/standard/limitedRead |
@@ -1967,6 +1990,7 @@
 | User | microsoft.directory/agentIdentities/standard/read |
 | User | microsoft.directory/agentIdentityBlueprintPrincipals/createAsOwner |
 | User | microsoft.directory/agentIdentityBlueprintPrincipals/standard/read |
+| User | microsoft.directory/agentIdentityBlueprints/createAsOwner |
 | User | microsoft.directory/agentIdentityBlueprints/standard/read |
 | User | microsoft.directory/applicationPolicies/createAsOwner |
 | User | microsoft.directory/applicationPolicies/standard/read |
@@ -2047,6 +2071,7 @@
 | User | microsoft.directory/agentIdentityBlueprintPrincipals/delete |
 | User | microsoft.directory/agentIdentityBlueprintPrincipals/disable |
 | User | microsoft.directory/agentIdentityBlueprintPrincipals/enable |
+| User | microsoft.directory/agentIdentityBlueprintPrincipals/idJagConfiguration/update |
 | User | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update |
 | User | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update |
 | User | microsoft.directory/agentIdentityBlueprints/appRoles/update |
@@ -2331,6 +2356,7 @@
 | microsoft.directory/agentIdentities/delete | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentities/disable | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentities/enable | AI Administrator, Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentities/idJagConfiguration/update | AI Administrator, Agent ID Administrator |
 | microsoft.directory/agentIdentities/owners/update | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentities/standard/read | User |
 | microsoft.directory/agentIdentities/tag/update | AI Administrator, Agent ID Administrator, Global Administrator, User |
@@ -2343,6 +2369,7 @@
 | microsoft.directory/agentIdentityBlueprintPrincipals/delete | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprintPrincipals/disable | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprintPrincipals/enable | AI Administrator, Agent ID Administrator, Global Administrator, User |
+| microsoft.directory/agentIdentityBlueprintPrincipals/idJagConfiguration/update | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprintPrincipals/owners/update | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprintPrincipals/standard/read | User |
 | microsoft.directory/agentIdentityBlueprintPrincipals/tag/update | AI Administrator, Agent ID Administrator, Global Administrator, User |
@@ -2353,7 +2380,7 @@
 | microsoft.directory/agentIdentityBlueprints/authentication/update | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprints/basic/update | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprints/create | AI Administrator, Agent ID Administrator, Global Administrator |
-| microsoft.directory/agentIdentityBlueprints/createAsOwner | Agent ID Developer |
+| microsoft.directory/agentIdentityBlueprints/createAsOwner | Agent ID Developer, User |
 | microsoft.directory/agentIdentityBlueprints/credentials/update | AI Administrator, Agent ID Administrator, Global Administrator, User |
 | microsoft.directory/agentIdentityBlueprints/delete | AI Administrator, Agent ID Administrator, Global Administrator |
 | microsoft.directory/agentIdentityBlueprints/owners/update | AI Administrator, Agent ID Administrator, Global Administrator, User |
@@ -2702,6 +2729,18 @@
 | microsoft.directory/privilegedIdentityManagement/allProperties/read | Global Administrator, Global Reader, Security Administrator, Security Operator, Security Reader |
 | microsoft.directory/provisioningLogs/allProperties/read | Application Administrator, Cloud Application Administrator, Global Administrator, Global Reader, Hybrid Identity Administrator, Reports Reader, Security Administrator, Security Operator, Security Reader, User |
 | microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update | Conditional Access Administrator, Global Administrator, Security Administrator |
+| microsoft.directory/resourcePolicy/assignments/basic/update | Resource Policy Administrator |
+| microsoft.directory/resourcePolicy/assignments/create | Resource Policy Administrator |
+| microsoft.directory/resourcePolicy/assignments/delete | Resource Policy Administrator |
+| microsoft.directory/resourcePolicy/assignments/standard/read | Resource Policy Administrator, Resource Policy Reader |
+| microsoft.directory/resourcePolicy/configuration/basic/update | Resource Policy Administrator |
+| microsoft.directory/resourcePolicy/configuration/standard/read | Resource Policy Administrator, Resource Policy Reader |
+| microsoft.directory/resourcePolicy/definitions/basic/update | Resource Policy Administrator |
+| microsoft.directory/resourcePolicy/definitions/create | Resource Policy Administrator |
+| microsoft.directory/resourcePolicy/definitions/delete | Resource Policy Administrator |
+| microsoft.directory/resourcePolicy/definitions/standard/read | Resource Policy Administrator, Resource Policy Reader |
+| microsoft.directory/resourcePolicy/evaluateAssignedPolicies | Resource Policy Administrator, Resource Policy Reader |
+| microsoft.directory/resourcePolicy/evaluatePolicy | Resource Policy Administrator, Resource Policy Evaluator, Resource Policy Reader |
 | microsoft.directory/roleAssignments/allProperties/allTasks | Global Administrator, Partner Tier2 Support, Privileged Role Administrator |
 | microsoft.directory/roleAssignments/allProperties/read | Global Reader |
 | microsoft.directory/roleAssignments/standard/read | AI Reader, Directory Readers, User |
